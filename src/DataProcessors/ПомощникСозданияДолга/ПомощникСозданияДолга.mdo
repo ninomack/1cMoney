@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a379e751-e933-4b4f-8338-6673a720e270">
+  <producedTypes>
+    <objectType typeId="39e1a7de-7662-49d7-bfc1-8d2fc19e0f07" valueTypeId="b22cf2b3-0de4-497f-b983-43c1946c9efe"/>
+    <managerType typeId="2d62908a-8f01-471a-b84d-bc6f09adba4d" valueTypeId="caeed2de-db8b-49d8-98ee-0516fdaecefc"/>
+  </producedTypes>
+  <name>ПомощникСозданияДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник создания долга</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникСозданияДолга.Form.Форма</defaultForm>
+  <forms uuid="e33069a0-48a6-480e-b1e3-602d03449092">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

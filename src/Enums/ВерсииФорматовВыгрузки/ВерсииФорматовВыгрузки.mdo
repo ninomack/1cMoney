@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2e1f2bf-bef1-4821-ac01-45ed79983be3">
+  <producedTypes>
+    <refType typeId="33b8f205-ddb7-4190-ab5c-aa8261cd12e3" valueTypeId="561d2ceb-aadc-42ba-81b3-4860e7deb827"/>
+    <listType typeId="5ebf5708-6c83-4a04-b132-7afcd389ae0c" valueTypeId="ab0d4b41-c8ef-4365-a0c2-fbd33224e515"/>
+    <managerType typeId="3d565f17-bde5-40f0-824e-d7e55db9a524" valueTypeId="d7e21996-4b83-4257-a0ae-4656b4e9fbb3"/>
+  </producedTypes>
+  <name>ВерсииФорматовВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии форматов выгрузки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e0fd314-d1c8-47d7-bfe7-7029ae1952c8">
+    <name>Версия200</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da060a2e-bcbd-4fd9-92bb-5489a9a2a6ef">
+    <name>Версия201</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.01</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="377011da-809d-46f7-bcb9-6da241514b85">
+    <name>Версия201алко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.01 для деклараций по алкоголю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54a1b292-0603-4151-b75f-c735f4d95943">
+    <name>Версия300</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 3.00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a7c16b2-877c-4eb2-b4ca-d2bae8aa98a0">
+    <name>Версия300алко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 3.00 для деклараций по алкоголю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b85d6a2e-c995-4418-a774-584956592418">
+    <name>Версия301алко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 3.01 для деклараций по алкоголю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="020a032e-b6e3-45ac-a855-c32dff729d81">
+    <name>Версия302алко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 3.02 для деклараций по алкоголю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88f409c9-a8e8-4dc6-b4a9-e664b9a60a64">
+    <name>Версия400</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 4.00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7be724b0-e8bf-4d96-8a68-7da384aa3eb2">
+    <name>Версия401алко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 4.01 для деклараций по алкоголю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6e33a57-b558-457d-b7fc-f50aaca02be6">
+    <name>Версия500</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 5.00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05e1abb5-d13e-4dcb-bd5b-f839f6f5c1cf">
+    <name>Версия700ПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 7.00 ПФР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6fa63e9-967f-42b8-87ac-c617ef0f0492">
+    <name>ВерсияФСГС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ФСГС</value>
+    </synonym>
+    <comment>Для статотчетности</comment>
+  </enumValues>
+  <enumValues uuid="eceafe2e-6559-45c9-887c-02e5e813fafc">
+    <name>ВерсияФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ФСС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="616bee7d-f2c3-4c65-b8a9-8e2e526a1e1f">
+    <name>ВерсияРПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия РПН</value>
+    </synonym>
+    <comment>Для отчетов в Росприроднадзор</comment>
+  </enumValues>
+  <enumValues uuid="1638394a-be86-4fcd-a7eb-2456d2732b48">
+    <name>ВерсияБанкРоссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия Банк России</value>
+    </synonym>
+    <comment>Для отчетов в Банк России</comment>
+  </enumValues>
+  <enumValues uuid="5eab5216-5033-4196-ba0a-9552be89aab2">
+    <name>ВерсияПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ПФР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71e1efb5-9c86-4fe2-b927-42112eb2bce8">
+    <name>ВерсияМинобороны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия Министерство Обороны</value>
+    </synonym>
+    <comment>Для отчетов в Министерство Обороны</comment>
+  </enumValues>
+</mdclass:Enum>

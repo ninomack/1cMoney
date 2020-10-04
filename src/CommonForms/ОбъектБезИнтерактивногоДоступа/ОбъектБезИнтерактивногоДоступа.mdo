@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e27439-ef78-4ec9-9450-72eb4d7568e5">
+  <name>ОбъектБезИнтерактивногоДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект без интерактивного доступа</value>
+  </synonym>
+  <comment>Собщение пользователю о невозможности интерактивной работы с выбранным объектом метаданных</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <explanation>
+    <key>ru</key>
+    <value>Форма с сообщением пользователю</value>
+  </explanation>
+</mdclass:CommonForm>

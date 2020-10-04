@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f62986eb-d46e-4461-a7c2-9605940caeca">
+  <producedTypes>
+    <objectType typeId="7519c7e1-1f51-4020-85c9-69df9966efc3" valueTypeId="09113b31-273b-4416-a2c8-bbf09c91daf2"/>
+    <managerType typeId="1143580f-5bfb-4964-b121-e538b22d210c" valueTypeId="792f18f6-c8f0-422f-8c50-db7e913eaf6a"/>
+  </producedTypes>
+  <name>НастройкаИОбслуживание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка и обслуживание</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаИОбслуживание.Form.НастройкаИОбслуживание</defaultForm>
+  <forms uuid="eac0b1c2-a164-4090-9f8d-0ca7707a9f33">
+    <name>НастройкаИОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка и обслуживание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3290e1bf-c2d0-4fb9-9a0a-7e237f68fdc1">
+    <name>НастройкиПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1d6a5d67-ca31-4919-b127-3d4dfe87c2b1">
+    <name>НастройкаИОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка и обслуживание</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

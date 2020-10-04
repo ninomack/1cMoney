@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="352ce527-260e-4a2b-8c91-cdd133bf635b">
+  <name>ВерсияНачалаОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия начала обновления</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

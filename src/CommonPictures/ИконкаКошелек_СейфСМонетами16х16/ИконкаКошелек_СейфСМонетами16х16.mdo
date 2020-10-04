@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce68c3b-84d8-432e-98c7-33a6137a28fe">
+  <name>ИконкаКошелек_СейфСМонетами16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сейф (с монетами)</value>
+  </synonym>
+</mdclass:CommonPicture>

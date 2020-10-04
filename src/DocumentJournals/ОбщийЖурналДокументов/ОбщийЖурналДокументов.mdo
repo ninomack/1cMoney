@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fa11519-0d0e-4b60-a4bf-ab30ff9fa751">
+  <producedTypes>
+    <selectionType typeId="b2a20940-6a15-4c5d-98dd-95df70184e68" valueTypeId="c2b79ac9-0049-4123-972f-4f43412d29e1"/>
+    <listType typeId="f2b8a1ce-feda-466d-bbb4-93e9cad03980" valueTypeId="0eddf155-18f8-4d93-9db6-e90c775a2d3b"/>
+    <managerType typeId="c380c1b6-4e63-4826-8ae5-9bfec412a28a" valueTypeId="5f137aa8-0c55-4884-90c3-2403638f1d04"/>
+  </producedTypes>
+  <name>ОбщийЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал операций</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ОбщийЖурналДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.МыДалиВДолг</registeredDocuments>
+  <registeredDocuments>Document.Доход</registeredDocuments>
+  <registeredDocuments>Document.ОбменВалюты</registeredDocuments>
+  <registeredDocuments>Document.Перемещение</registeredDocuments>
+  <registeredDocuments>Document.Расход</registeredDocuments>
+  <registeredDocuments>Document.УниверсальнаяОперация</registeredDocuments>
+  <registeredDocuments>Document.ВводИзменениеОстатка</registeredDocuments>
+  <registeredDocuments>Document.НамВернулиДолг</registeredDocuments>
+  <registeredDocuments>Document.МыВернулиДолг</registeredDocuments>
+  <registeredDocuments>Document.МыВзялиВДолг</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип операции</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на операцию</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата, время</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДФ='дд.ММ.гггг (ЧЧ:мм)'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ='дд.ММ.гггг (ЧЧ:мм)'</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учтено</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="766f17fb-6f40-4ce2-8eb7-d8677363d152">
+    <name>СуммаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <references>Document.ВводИзменениеОстатка.Attribute.СуммаДохода</references>
+    <references>Document.Расход.Attribute.СтоимостьИмущества</references>
+    <references>Document.Доход.Attribute.СуммаОперации</references>
+    <references>Document.УниверсальнаяОперация.Attribute.СуммаДоходовОперации</references>
+    <references>Document.Перемещение.Attribute.ПолученоСУчетомРасходов</references>
+    <references>Document.ОбменВалюты.Attribute.ПолученоСУчетомКомиссии</references>
+    <references>Document.НамВернулиДолг.Attribute.ВсегоСуммаПоступления</references>
+    <references>Document.МыВзялиВДолг.Attribute.СуммаПолучено</references>
+  </columns>
+  <columns uuid="234edee6-205a-4777-879e-dccd6d27a89c">
+    <name>ВалютаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта поступления</value>
+    </synonym>
+    <references>Document.ВводИзменениеОстатка.Attribute.ВалютаОперации</references>
+    <references>Document.Расход.Attribute.ВалютаОперации</references>
+    <references>Document.Перемещение.Attribute.ВалютаОперации</references>
+    <references>Document.Доход.Attribute.ВалютаОперации</references>
+    <references>Document.УниверсальнаяОперация.Attribute.ВалютаДоходовОперации</references>
+    <references>Document.ОбменВалюты.Attribute.ВалютаПоступления</references>
+    <references>Document.НамВернулиДолг.Attribute.ВалютаПолучено</references>
+    <references>Document.МыВзялиВДолг.Attribute.ВалютаПолучено</references>
+  </columns>
+  <columns uuid="dc38d151-439a-4624-b570-f782ecdae45c">
+    <name>СуммаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+    <references>Document.Расход.Attribute.СуммаОплаты</references>
+    <references>Document.УниверсальнаяОперация.Attribute.СуммаРасходовОперации</references>
+    <references>Document.ВводИзменениеОстатка.Attribute.СуммаРасхода</references>
+    <references>Document.Перемещение.Attribute.СписаноСУчетомРасходов</references>
+    <references>Document.ОбменВалюты.Attribute.СписаноСУчетомКомиссии</references>
+    <references>Document.МыВернулиДолг.Attribute.СуммаОперации</references>
+    <references>Document.МыДалиВДолг.Attribute.ВсегоРасход</references>
+    <references>Document.МыВзялиВДолг.Attribute.СуммаДополнительныхРасходов</references>
+    <references>Document.НамВернулиДолг.Attribute.СуммаДополнительныхРасходов</references>
+  </columns>
+  <columns uuid="e9f0a939-1cbe-40f6-998e-2133dbfe58a8">
+    <name>ВалютаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта списания</value>
+    </synonym>
+    <references>Document.ВводИзменениеОстатка.Attribute.ВалютаОперации</references>
+    <references>Document.ОбменВалюты.Attribute.ВалютаСписания</references>
+    <references>Document.Расход.Attribute.ВалютаОперации</references>
+    <references>Document.Перемещение.Attribute.ВалютаОперации</references>
+    <references>Document.УниверсальнаяОперация.Attribute.ВалютаРасходовОперации</references>
+    <references>Document.МыВзялиВДолг.Attribute.ВалютаПолучено</references>
+    <references>Document.МыВернулиДолг.Attribute.ВалютаКошелька</references>
+    <references>Document.МыДалиВДолг.Attribute.ВалютаВыдано</references>
+    <references>Document.НамВернулиДолг.Attribute.ВалютаПолучено</references>
+  </columns>
+  <columns uuid="13ea0e84-0190-43e1-b89d-d24a3fb5ab33">
+    <name>ОписаниеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание операции</value>
+    </synonym>
+    <references>Document.МыДалиВДолг.Attribute.ОписаниеОперации</references>
+    <references>Document.Доход.Attribute.ОписаниеОперации</references>
+    <references>Document.ОбменВалюты.Attribute.ОписаниеОперации</references>
+    <references>Document.Перемещение.Attribute.ОписаниеОперации</references>
+    <references>Document.Расход.Attribute.ОписаниеОперации</references>
+    <references>Document.УниверсальнаяОперация.Attribute.ОписаниеОперации</references>
+    <references>Document.НамВернулиДолг.Attribute.ОписаниеОперации</references>
+    <references>Document.ВводИзменениеОстатка.Attribute.ОписаниеОперации</references>
+    <references>Document.МыВернулиДолг.Attribute.ОписаниеОперации</references>
+    <references>Document.МыВзялиВДолг.Attribute.ОписаниеОперации</references>
+  </columns>
+  <columns uuid="b73b4b87-55a3-4c20-a631-2b9c5b0c07e2">
+    <name>ЭтоШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это шаблон</value>
+    </synonym>
+    <references>Document.МыДалиВДолг.Attribute.ЭтоШаблон</references>
+    <references>Document.Доход.Attribute.ЭтоШаблон</references>
+    <references>Document.ВводИзменениеОстатка.Attribute.ЭтоШаблон</references>
+    <references>Document.ОбменВалюты.Attribute.ЭтоШаблон</references>
+    <references>Document.Перемещение.Attribute.ЭтоШаблон</references>
+    <references>Document.Расход.Attribute.ЭтоШаблон</references>
+    <references>Document.УниверсальнаяОперация.Attribute.ЭтоШаблон</references>
+    <references>Document.НамВернулиДолг.Attribute.ЭтоШаблон</references>
+    <references>Document.МыВернулиДолг.Attribute.ЭтоШаблон</references>
+    <references>Document.МыВзялиВДолг.Attribute.ЭтоШаблон</references>
+  </columns>
+  <columns uuid="2564a1be-84d9-46c4-8b8a-6ba387f97c7f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ВводИзменениеОстатка.Attribute.Комментарий</references>
+    <references>Document.МыДалиВДолг.Attribute.Комментарий</references>
+    <references>Document.НамВернулиДолг.Attribute.Комментарий</references>
+    <references>Document.ОбменВалюты.Attribute.Комментарий</references>
+    <references>Document.Расход.Attribute.Комментарий</references>
+    <references>Document.Перемещение.Attribute.Комментарий</references>
+    <references>Document.Доход.Attribute.Комментарий</references>
+    <references>Document.МыВернулиДолг.Attribute.Комментарий</references>
+    <references>Document.МыВзялиВДолг.Attribute.Комментарий</references>
+    <references>Document.УниверсальнаяОперация.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="e35aa369-f9bc-4c26-ae02-4084fa2f5fde">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <references>Document.ВводИзменениеОстатка.Attribute.Пользователь</references>
+    <references>Document.МыДалиВДолг.Attribute.Пользователь</references>
+    <references>Document.НамВернулиДолг.Attribute.Пользователь</references>
+    <references>Document.ОбменВалюты.Attribute.Пользователь</references>
+    <references>Document.Расход.Attribute.Пользователь</references>
+    <references>Document.Перемещение.Attribute.Пользователь</references>
+    <references>Document.Доход.Attribute.Пользователь</references>
+    <references>Document.МыВернулиДолг.Attribute.Пользователь</references>
+    <references>Document.МыВзялиВДолг.Attribute.Пользователь</references>
+    <references>Document.УниверсальнаяОперация.Attribute.Пользователь</references>
+  </columns>
+  <forms uuid="82c382df-1f95-48cf-b31f-a8e5f1a4b13c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e30dc8b9-6c9a-453c-9ad0-8efe121a5257">
+    <name>ФормаВыбораШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора шаблона</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a820c66-b889-4809-8261-34230668f4db">
+    <name>ФормаСпискаШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка шаблонов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8191b8f-edaa-4435-97bc-a968fb704323">
+    <name>ФормаВыбораОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора операции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

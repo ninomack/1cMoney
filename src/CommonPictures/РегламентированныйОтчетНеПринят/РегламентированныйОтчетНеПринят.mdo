@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc0ab884-3525-48fc-a75a-74553ccc5935">
+  <name>РегламентированныйОтчетНеПринят</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный отчет не принят</value>
+  </synonym>
+</mdclass:CommonPicture>

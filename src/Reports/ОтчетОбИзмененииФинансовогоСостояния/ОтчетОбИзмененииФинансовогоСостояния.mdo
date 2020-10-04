@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7259faad-8948-4516-a984-0079b3d63f3d">
+  <producedTypes>
+    <objectType typeId="ad368892-2352-40b9-9dc3-9f862f8b6580" valueTypeId="648567c6-bbbf-465b-9c30-bc135e6a9cbe"/>
+    <managerType typeId="0c33b4a6-6df5-4667-8ab5-3dcb3ff0f8ac" valueTypeId="25c357a0-50f0-43d4-8885-26b9e6796d09"/>
+  </producedTypes>
+  <name>ОтчетОбИзмененииФинансовогоСостояния</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об изменении финансового состояния</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетОбИзмененииФинансовогоСостояния.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="263a9527-861f-4681-ae1a-1e68024d0ae2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="26ccf83b-1b0d-4f5c-9f1c-7a7f1e22da67">
+    <name>ИзмененияФинансовогоСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения финансового состояния</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

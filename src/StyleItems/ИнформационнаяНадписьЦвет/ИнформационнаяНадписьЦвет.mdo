@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84359ab1-c270-4b0a-a317-b9605faa5a67">
+  <name>ИнформационнаяНадписьЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационная надпись цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>125</red>
+      <green>120</green>
+      <blue>100</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

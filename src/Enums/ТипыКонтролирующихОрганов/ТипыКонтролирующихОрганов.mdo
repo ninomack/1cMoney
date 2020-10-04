@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342786d0-647c-4a33-9151-666806465def">
+  <producedTypes>
+    <refType typeId="fdb03a81-ef31-4071-8f83-2e21733073ce" valueTypeId="c55ae976-9d5d-459f-b1e2-eda64a88efbc"/>
+    <listType typeId="c988995d-fa1b-4297-afd6-7c63cc836d4a" valueTypeId="94effc1f-cda5-410e-b587-13084cecc7d4"/>
+    <managerType typeId="16700e9a-eea7-475d-b569-7e3db6aab4d8" valueTypeId="cf35122c-92b5-4429-b178-35cee36577c0"/>
+  </producedTypes>
+  <name>ТипыКонтролирующихОрганов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контролирующих органов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1df2a339-002a-44cd-9ebc-5e8ecd2b685f">
+    <name>ФНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФНС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5b8cad5-91b2-4d36-8276-d78329930270">
+    <name>ПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b19784d-9636-4cd1-b0bf-969c3c8cc632">
+    <name>ФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФСС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a6cddf5-172c-464b-a0a9-c3c102675125">
+    <name>ФСГС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Росстат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a88efcb-f38b-46df-981f-c254bbff3c71">
+    <name>ФСРАР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Росалкогольрегулирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a911f094-1ab7-4993-82b4-d38f9afc8642">
+    <name>РПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Росприроднадзор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="967c1c9e-8da1-42dc-8d02-ebb8f89835f9">
+    <name>БанкРоссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк России</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6ba07f6-ab0a-44bc-a6bc-b198cd2ad755">
+    <name>ФТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f70d368-4c8e-4c3b-b039-3b8939f7b363">
+    <name>Роструд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роструд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93208b88-f4b8-437a-a86f-d25e830bfa60">
+    <name>Минобороны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минобороны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bd932be-1fbe-4f2e-bd0d-d47591cb1273">
+    <name>ФАС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФАС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b42adc-24dc-41ba-842f-a96f4613c053">
+  <producedTypes>
+    <refType typeId="2fe6f88b-61d0-46fd-8f1c-616283594757" valueTypeId="4d8daa3e-e555-4581-837d-747cc2ce0e09"/>
+    <listType typeId="178c89b2-1f3e-4296-8e84-401f2df28bf2" valueTypeId="27ec5eca-cff2-439d-b526-53dafbd8fcb7"/>
+    <managerType typeId="f78c5464-a80e-4faa-9d15-b24ea9ce6e65" valueTypeId="09ed06ea-d406-45f3-97d3-360eaf4ad6e5"/>
+  </producedTypes>
+  <name>ТипыСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы счетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d0ddd3e-7ac9-44a3-825e-a3b50df8673f">
+    <name>Наличность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="654e01d2-d946-498a-aea8-4eba3de884e7">
+    <name>БанковскаяКартаДебетовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебетовая банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55e8efda-52fe-457b-a1ff-10b2657c6ac8">
+    <name>БанковскаяКартаКредитная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93eaea42-e460-450b-bf43-85eda4648b85">
+    <name>БанковскаяКартаУниверсальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальная банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d82b583-a113-4164-8ae3-88fc39693b41">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9ea305c-112d-4548-9536-2ab911b0b353">
+    <name>ЭлектронныйКошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный кошелек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29af07d3-b717-400a-bb96-7f9f3f73cbaf">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

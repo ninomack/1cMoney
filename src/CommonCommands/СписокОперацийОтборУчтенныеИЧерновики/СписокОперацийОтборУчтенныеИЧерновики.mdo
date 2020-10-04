@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e1b8c3-f21f-48d4-92f0-d525253c5744">
+  <name>СписокОперацийОтборУчтенныеИЧерновики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учтенные и черновики</value>
+  </synonym>
+  <group>CommandGroup.ОтборОперацийПоСостоянию</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

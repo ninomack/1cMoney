@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57caae93-5537-4498-9c72-80b5f560ed1e">
+  <producedTypes>
+    <objectType typeId="3a31b79c-e95b-45a4-8741-7cee430f21f4" valueTypeId="bc63d351-3c17-492f-a886-c64c5dcbc96f"/>
+    <managerType typeId="ce153394-9699-418c-a1a5-dfc240ea95e5" valueTypeId="811e6109-41cc-493b-ae57-3a5a794492fa"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаОблачныйФайловыйСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт обмена сообщений облачный файловый сервис</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаОблачныйФайловыйСервис.Form.Форма</defaultForm>
+  <attributes uuid="6ade3157-999c-4cf9-b191-dc038b428b6d">
+    <name>КаталогОбменаИнформацией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог обмена информацией</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="26398e5c-d3b8-41d3-a8b8-9a25d70e0b23">
+    <name>Провайдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провайдер</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПровайдеровREST</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df72119b-2f7e-4069-9d89-4e8c914a02f3">
+    <name>ШаблонИмениФайлаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон имени файла сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2e6dd2d-44e7-46b5-b9b7-446872c6fc94">
+    <name>ИспользоватьВременныйКаталогДляОтправкиИПриемаСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать временный каталог для отправки и приема сообщений</value>
+    </synonym>
+    <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="896f0d4b-1518-4ceb-aad6-de0b3396c98d">
+    <name>СвойстваАккаунта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства аккаунта</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d6c25ee-2e02-40ac-83ba-db3e123558d2">
+    <name>СвойстваПровайдера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства провайдера</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="389766dd-5ced-4495-84b0-504207af6780">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d830eabe-7917-4510-aa5c-a8bc9615f50a">
+  <name>ШаблоныОперацийИКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны операций и календарь</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПлановыеОперации</content>
+  <content>CommonModule.ПлановыеОперацииКлиентСервер</content>
+  <content>InformationRegister.Расписания</content>
+  <content>InformationRegister.ДатыРасписаний</content>
+  <content>AccumulationRegister.ОборотыПлановыхОпераций</content>
+  <content>98326607-5656-45be-b54a-fc874c448057</content>
+  <content>5000a52d-7b7b-49b3-8551-12c65a1fcb49</content>
+  <content>DataProcessor.ПлановыеОперации</content>
+  <content>CommonForm.РедакторГрафикаПогашенияДолга</content>
+  <content>CommonForm.РедакторРасписания</content>
+  <content>CommonModule.ПлановыеОперацииКлиент</content>
+  <content>CommonCommand.СоздатьШаблонОперации</content>
+  <content>Enum.СпособыПогашенияКредита</content>
+  <content>InformationRegister.ОперацииШаблонов</content>
+  <content>Enum.СпособыПовторовСобытий</content>
+  <content>CommonModule.ПлановыеОперацииВызовСервера</content>
+  <content>CommonForm.ВыборШаблонаОперации</content>
+  <content>CommonCommand.ОткрытьРазделКалендарь</content>
+  <content>CommonCommand.ОткрытьШаблоныОпераций</content>
+  <content>41404f49-4deb-4228-9850-5b29f214640c</content>
+  <content>EventSubscription.ЗаписьШаблоновИПлановыхОпераций</content>
+  <content>1517ed48-54dd-45a6-9a32-e1c6fa463216</content>
+  <content>CommonPicture.ОперацияПросрочена</content>
+  <content>CommonPicture.ОперацияПропущена</content>
+  <content>CommonPicture.ОперацияВыполнена</content>
+  <content>CommonPicture.ОперацияЗапланирована</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

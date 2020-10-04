@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdd89780-8976-4df2-830d-95d3c11aa05b">
+  <name>СервисыХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы хранения файлов</value>
+  </synonym>
+  <content>CommonModule.ПарсерJSON</content>
+  <content>53d0a0a9-94bc-46cd-b028-03db0dca6cc0</content>
+  <content>f43b6915-4121-41a6-8e0e-3972871ebca1</content>
+  <content>DataProcessor.МониторСинхронизацииСМобильнымиУстройствами</content>
+  <content>9728923c-47f5-4a66-8a85-56c0cad545db</content>
+  <content>CommonModule.RESTКлиент</content>
+  <content>a907dcac-44f2-4df5-82a6-a519b3df07c8</content>
+  <content>CommonModule.УведомленияКлиент</content>
+  <content>Catalog.ТранспортыОбменаДанными</content>
+  <content>CommonModule.ОбменМобильноеПриложение</content>
+  <content>SessionParameter.АвторизацияREST</content>
+  <content>Enum.ТипыПровайдеровREST</content>
+  <content>CommonModule.УправлениеАвторизациямиСервер</content>
+  <content>367e4c1c-3c65-4445-817b-371b33ad2898</content>
+  <content>Constant.ИндивидуальныеНастройкиОбменаREST</content>
+  <content>Enum.ВидыТранспортаСообщенийОбмена</content>
+  <content>d04038cc-0b02-46ad-8b9f-f84d1f944632</content>
+  <content>CommonModule.RESTКлиентСервер</content>
+  <content>CommonModule.RESTВызовСервера</content>
+  <content>CommonModule.RESTGoogleКлиентСервер</content>
+  <content>CommonModule.RESTDropboxКлиентСервер</content>
+  <content>CommonModule.RESTЯндексКлиентСервер</content>
+  <content>CommonForm.АвторизацияOAUTH</content>
+  <content>CommonPicture.СинхронизацияGoogleDrive16</content>
+  <content>CommonPicture.СинхронизацияGoogleDrive48</content>
+  <content>CommonPicture.СинхронизацияЯндексДиск48</content>
+  <content>CommonPicture.СинхронизацияЯндексДиск16</content>
+  <content>CommonPicture.СинхронизацияDropBox16</content>
+  <content>CommonPicture.СинхронизацияDropBox48</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаОблачныйФайловыйСервис</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

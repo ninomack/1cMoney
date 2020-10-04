@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e9530af-cc7a-4b3c-9e04-78f54e366d46">
+  <name>СписокОперацийУчесть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учесть</value>
+  </synonym>
+  <comment>Проводит выделенные в списке документы, исключая помеченные на удаление</comment>
+  <group>CommandGroup.КомандыСпискаОпераций</group>
+  <commandParameterType/>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <modifiesData>true</modifiesData>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Учесть выделенные операции (кроме помеченных на удаление)</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Post</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

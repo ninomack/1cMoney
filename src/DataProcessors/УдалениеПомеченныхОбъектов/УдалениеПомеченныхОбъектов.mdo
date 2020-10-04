@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6600a758-2e5b-48a8-9c31-224142201147">
+  <producedTypes>
+    <objectType typeId="48f2d477-07e3-4679-a119-ed4b775d72e1" valueTypeId="6b1cff24-0dec-45fb-b34c-493bb3ee90f8"/>
+    <managerType typeId="80afe340-a6ac-460c-a4d1-67d64069616c" valueTypeId="b2d4a5b3-bd94-4b32-acfb-ddd62593cc3f"/>
+  </producedTypes>
+  <name>УдалениеПомеченныхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление помеченных объектов</value>
+  </synonym>
+  <comment>Поиск и удаление объектов, помеченных на удаление</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеПомеченныхОбъектов.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Поиск и удаление объектов, предварительно помеченных на удаление</value>
+  </explanation>
+  <forms uuid="bd1cf7ef-f3e2-4441-836b-16f2cc227aa9">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e62e60ea-9f0c-4a7e-869f-4639f31f826c">
+    <name>УдалениеПомеченныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление помеченных объектов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск и удаление объектов, предварительно помеченных на удаление</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

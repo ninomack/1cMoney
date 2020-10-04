@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13f43721-5839-4235-aabe-c69d618d747d">
+  <producedTypes>
+    <managerType typeId="09e5b609-0472-4c41-869f-3c4fcaa5001b" valueTypeId="a5481ff9-2893-45a6-b2d4-9cfb1760b3fb"/>
+    <valueManagerType typeId="68dac839-7557-4aac-81eb-1782d01ae0ca" valueTypeId="d877d7f5-2244-4860-bbad-04a02f233707"/>
+    <valueKeyType typeId="22b00a1b-63ef-543e-87a9-48cf7698ba57" valueTypeId="af2249ed-1ee3-5705-98c7-d07883051d62"/>
+  </producedTypes>
+  <name>КоличественноЦеновойУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественно-ценовой учет</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

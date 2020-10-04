@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e475db6b-a1ee-493a-ab36-c3eba532d798">
+  <producedTypes>
+    <objectType typeId="649413a2-a62f-46fa-a56a-7c24869e76f4" valueTypeId="633d5113-5265-46a6-9164-246cb0c07bc0"/>
+    <refType typeId="3908cf65-5bfc-4fd0-82c3-7bbfe9d672a3" valueTypeId="c9204ccf-a20c-4802-bd04-1c6ab4d6ac20"/>
+    <selectionType typeId="4c680dbe-e9c1-4418-ab61-e1b0672baf2d" valueTypeId="62f70001-1b8e-4324-b9f1-9f2bec748faf"/>
+    <listType typeId="fea0179d-d1ba-410a-a63f-3bd753c03227" valueTypeId="ac0a0e4c-516e-4818-8634-781e732e1f31"/>
+    <managerType typeId="b7547598-dc7e-4973-9c00-b417b08a47f0" valueTypeId="bc04d741-a14b-40b5-88ab-4748faf04b53"/>
+    <containerType typeId="87813113-8fff-4cdd-8b03-504d83ca98b3" valueTypeId="5c5284d5-48db-4fd6-8bd8-62874cb8b66f"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов учета</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид субконто</value>
+  </objectPresentation>
+  <type>
+    <types>CatalogRef.ЗначенияСубконтоАналитика</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>CatalogRef.Долги</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="82b6556b-85ef-45d6-b769-4dc674a39d12">
+      <name>Аналитика</name>
+      <description>Аналитика</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоАналитика</types>
+      </type>
+    </items>
+    <items id="e74cc865-dc30-4650-9792-f5984504280a">
+      <name>Долги</name>
+      <description>Долги</description>
+      <code>000000008</code>
+      <type>
+        <types>CatalogRef.Долги</types>
+      </type>
+    </items>
+    <items id="3395c1f3-4c65-476e-b92c-6539c90bf22c">
+      <name>Имущество</name>
+      <description>Имущество</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Имущество</types>
+      </type>
+    </items>
+    <items id="618e887f-5c48-4413-9efb-2cdcd58d9c83">
+      <name>КошелькиИСчета</name>
+      <description>Кошельки и счета</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+    </items>
+    <items id="323c5861-0dc0-4c3b-bc94-54b0e490879c">
+      <name>СтатьиДоходовРасходов</name>
+      <description>Статьи доходов расходов</description>
+      <code>000000006</code>
+      <type>
+        <types>CatalogRef.СтатьиРасходов</types>
+        <types>CatalogRef.СтатьиДоходов</types>
+      </type>
+    </items>
+    <items id="9ae1c2f8-60aa-4708-9019-45e3d6115d47">
+      <name>ФинансовыеЦели</name>
+      <description>Финансовые цели</description>
+      <code>000000007</code>
+      <type>
+        <types>CatalogRef.ФинансовыеЦели</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

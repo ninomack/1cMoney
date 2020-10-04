@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="379f9dfd-5f0d-40f0-9a36-33d903adba10">
+  <name>ПереместитьВВерхВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переместить в верх все</value>
+  </synonym>
+</mdclass:CommonPicture>

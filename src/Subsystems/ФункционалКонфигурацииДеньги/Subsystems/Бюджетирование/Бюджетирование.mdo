@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab97db52-0741-4c5b-ad49-35562204d02b">
+  <name>Бюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ВариантыБюджетов</content>
+  <content>AccumulationRegister.ОборотыПлановыхОпераций</content>
+  <content>Constant.ОсновнойВариантБюджета</content>
+  <content>Enum.СтороныРазделовУчета</content>
+  <content>DataProcessor.РазделБюджет</content>
+  <content>CommonPicture.Бюджет48</content>
+  <content>DataProcessor.ПлановыеОперации</content>
+  <content>Constant.ПределПланирования</content>
+  <content>Catalog.ГрафыБюджета</content>
+  <content>Enum.ТипыБюджетныхПоказателей</content>
+  <content>Enum.ПериодичностьПланирования</content>
+  <content>CommonForm.ПараметрыБюджетирования</content>
+  <content>CommonCommand.ОткрытьРазделБюджет</content>
+  <content>InformationRegister.СоставСтатейБюджета</content>
+  <content>AccumulationRegister.ФактическиеОборотыБюджета</content>
+  <content>InformationRegister.КлючиСтатей</content>
+  <content>CommonForm.ВыборПериодовБюджета</content>
+  <content>Report.ОтчетПоБюджету</content>
+  <content>StyleItem.БюджетФонДоходов</content>
+  <content>StyleItem.БюджетФонРасходов</content>
+  <content>StyleItem.ВыборСтандартногоПериодаФонКнопки</content>
+  <content>CommonPicture.БюджетОтметкаФакта</content>
+  <content>InformationRegister.ПоказателиБюджета</content>
+  <content>DefinedType.СтатьяБюджета</content>
+  <content>CommonModule.БюджетированиеВызовСервера</content>
+  <content>CommonModule.БюджетированиеКлиентСервер</content>
+  <content>CommonModule.БюджетированиеСервер</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

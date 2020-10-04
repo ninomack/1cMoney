@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a1d7c1f-46be-46a8-a5ca-c92c30a60394">
+  <name>ПлатежиВБюджетКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежи в бюджет клиент сервер</value>
+  </synonym>
+  <comment>модуль из подсистемы БП</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

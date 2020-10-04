@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="329a962e-6794-48d4-8246-99b2e15b78e7">
+  <name>ВспомогательныйФункционал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательный функционал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.ВыборСтандартногоПериода</content>
+  <content>InformationRegister.ОбъектыОпераций</content>
+  <content>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</content>
+  <content>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</content>
+  <content>CommonPicture.Настройки48</content>
+  <content>SessionParameter.ВерсияНачалаОбновления</content>
+  <content>CommonTemplate.ИнструкцияКакВыполнитьУстановкуОбновленияВручную</content>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+  <content>DataProcessor.ОбзорОсновныхВозможностей</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыДеньги</content>
+  <content>CommonModule.ДеньгиВызовСервераПовтИсп</content>
+  <content>CommonForm.РедакторАналитикиСтатьи</content>
+  <content>DataProcessor.НастройкиПользователяПерсональные</content>
+  <content>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведенияДеньги</content>
+  <content>CommonCommand.СписокПользователей</content>
+  <content>CommonModule.ОбслуживаниеСправочниковКлиент</content>
+  <content>CommonModule.ОбслуживаниеСправочниковВызовСервера</content>
+  <content>CommonModule.ОбслуживаниеСправочников</content>
+  <content>CommonModule.ОбслуживаниеДокументовВызовСервера</content>
+  <content>CommonModule.ОбслуживаниеДокументов</content>
+  <content>InformationRegister.СтатистикаСправочников</content>
+  <content>InformationRegister.ОбработанныеЗначенияСправочников</content>
+  <content>Constant.УдалитьНомерВерсииКонфигурации</content>
+  <content>CommonModule.ПользовательскиеНастройкиДеньгиСервер</content>
+  <content>CommandGroup.ПанельДействийАдминистрирование</content>
+  <content>CommandGroup.ПанельДействийИнтеграция</content>
+  <content>Constant.СостояниеПомощникаНачалаРаботы</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

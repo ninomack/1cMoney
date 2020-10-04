@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef0aa8a-79ee-4afa-baa8-dd02cdd68807">
+  <name>ГруппаКомандОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа команд отчеты</value>
+  </synonym>
+</mdclass:CommonPicture>

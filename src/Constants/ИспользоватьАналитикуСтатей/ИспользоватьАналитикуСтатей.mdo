@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6597372d-a0f3-4ce7-b2e1-e22a75d0346e">
+  <producedTypes>
+    <managerType typeId="3f49ace9-c6d1-4294-8ef6-868e73eb815d" valueTypeId="97ff7f7b-39ab-41db-9946-7f4067557d30"/>
+    <valueManagerType typeId="cf774bc9-366a-42e0-b4e3-c1f5ba9d43cf" valueTypeId="af628fec-22cb-4175-a08d-1ff1456f6d0e"/>
+    <valueKeyType typeId="9a55d323-7a72-5b8d-b994-d3c78a7a1dbf" valueTypeId="a3afb38f-8a75-5648-9790-656a0ccfebe5"/>
+  </producedTypes>
+  <name>ИспользоватьАналитикуСтатей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать аналитику статей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

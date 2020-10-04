@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69eb4658-92ad-4e1c-8437-02e60443f7d5">
+  <producedTypes>
+    <refType typeId="7735d351-43db-4b0d-9d66-797192aef9fe" valueTypeId="092014d1-9100-4a99-9d7d-90f242a1b53f"/>
+    <listType typeId="d3a189ac-3e05-4c4c-8452-d7d4122455bf" valueTypeId="69da00e3-61ec-46be-aef9-419af77ccbde"/>
+    <managerType typeId="ff9c115c-37eb-464d-8ed3-38f83c32a997" valueTypeId="5e720c67-08b2-4978-9196-3158b01ecca9"/>
+  </producedTypes>
+  <name>ВариантыПериодичности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты периодичности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="cbce60ea-7e17-4d5d-aaa3-9dfc9a938cd9">
+    <name>Однократно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62bbc871-106f-4414-831c-869a5dc22c07">
+    <name>Ежедневно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежедневно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69811b57-cab6-4e77-b0be-5c5b3fa954a1">
+    <name>Еженедельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05cb4492-f536-45f1-8398-1269ebe16dca">
+    <name>Ежемесячно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d99c223-25b7-4255-84f1-a442ed60e130">
+    <name>Ежеквартально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежеквартально</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3df7b2ea-a580-4e50-9ac2-562811ec0477">
+    <name>Ежегодно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06a42a94-a690-4136-b033-e4ca41acd887">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

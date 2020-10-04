@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c3fadfe-8fb7-439c-8aa1-1017164acd5a">
+  <producedTypes>
+    <refType typeId="8aa9b835-1589-4be5-a2ab-b348c0b7d60d" valueTypeId="2c5fd853-61de-4f3e-b48a-920fe6cf4126"/>
+    <listType typeId="8b208e87-025a-41eb-87b3-899dffaa597f" valueTypeId="def19eae-051a-40fd-8f82-27e78dd893b2"/>
+    <managerType typeId="198f30df-98e7-4141-bf8f-51430d5f65cb" valueTypeId="989fa15f-b37f-4c3e-b08e-2b67bcb2ee3c"/>
+  </producedTypes>
+  <name>ВариантыОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2c09a77-ef32-4a16-ae1b-fff7797d4c2d">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdf1db13-e4c8-49bb-a5b0-63881423b95b">
+    <name>ВнешняяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6915ec0e-4e4b-431f-b06c-9b10d2bee27c">
+    <name>ВнешнийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний отчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70db0799-a000-429c-961a-62a03db56dcc">
+    <name>ВстроеннаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенная обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b03090b-5e28-421d-85e9-5782c1a74cd1">
+    <name>ВстроенныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный отчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25d924b8-7d49-49c1-8558-b3737a0789b0">
+    <name>Ярлык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ярлык</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

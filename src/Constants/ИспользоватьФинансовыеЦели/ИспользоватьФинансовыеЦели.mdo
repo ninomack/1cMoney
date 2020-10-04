@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f7b98af-f31a-49e1-847c-f0b65f454f14">
+  <producedTypes>
+    <managerType typeId="3096bfa3-2960-490e-b66b-dbf7cfdf5c6f" valueTypeId="ed45ebd1-6bab-440b-8190-a9080680d43a"/>
+    <valueManagerType typeId="ebaa60ce-34aa-43c5-9c92-52df761d3428" valueTypeId="1da6a0b1-da1b-4357-909a-ba42f9ae7652"/>
+    <valueKeyType typeId="c93308d7-855f-5d0d-a8f0-dc6d94f69e44" valueTypeId="5cdd157e-0665-5b09-81f9-04662f114a11"/>
+  </producedTypes>
+  <name>ИспользоватьФинансовыеЦели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать финансовые цели</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c80efd31-2552-4448-ac6d-0dff9520ff75">
+  <name>ИконкаУстановитьВремяТроеточие16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить время (с троеточием)</value>
+  </synonym>
+</mdclass:CommonPicture>

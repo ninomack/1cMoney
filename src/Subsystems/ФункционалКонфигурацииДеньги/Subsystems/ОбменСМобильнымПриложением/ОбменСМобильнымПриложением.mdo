@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="948ebe97-2d42-426a-9235-5ce9d46b6d1f">
+  <name>ОбменСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным приложением</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExchangePlan.МобильноеПриложение</content>
+  <content>WebService.MobileService</content>
+  <content>EventSubscription.МобильноеПриложениеЗарегистрироватьУдаление</content>
+  <content>EventSubscription.МобильноеПриложениеЗарегистрироватьИзменение</content>
+  <content>EventSubscription.МобильноеПриложениеЗарегистрироватьИзменениеДокумента</content>
+  <content>Constant.ПараметрыЦентральнойБазыМобильныхПриложений</content>
+  <content>Enum.СценарииОбменаСМобильнымПриложением</content>
+  <content>XDTOPackage.MobileConfig</content>
+  <content>SessionParameter.СостояниеСинхронизацииСМобильнымПриложением</content>
+  <content>DataProcessor.МониторСинхронизацииСМобильнымиУстройствами</content>
+  <content>CommonModule.ОбменМобильноеПриложение</content>
+  <content>CommonModule.ОбменМобильноеПриложениеВызовСервера</content>
+  <content>CommonModule.ОбменМобильноеПриложениеВызовСервераПовтИсп</content>
+  <content>EventSubscription.МобильноеПриложениеЗарегистрироватьИзменениеКонстанты</content>
+  <content>CommonPicture.МобильноеПриложениеДеньги</content>
+  <content>CommonPicture.ИконкаВопрос16х16</content>
+  <content>Catalog.ТранспортыОбменаДанными</content>
+  <content>CommonPicture.МобильноеПриложение48</content>
+  <content>CommonPicture.СинхронизацияНастройка48</content>
+  <content>CommonPicture.СинхронизацияЭлектроннаяПочта48</content>
+  <content>CommonPicture.СинхронизацияКаталог48</content>
+  <content>InformationRegister.ИзмененияОбъектовВоВнешнихПрограммах</content>
+  <content>InformationRegister.КонтрольОбменаДанными</content>
+  <content>CommonPicture.СинхронизацияДомашняяСеть16</content>
+  <content>CommonPicture.СинхронизацияДомашняяСеть48</content>
+  <content>CommonPicture.СинхронизацияИдетОбмен16</content>
+  <content>CommonPicture.СинхронизацияИдетОбмен48</content>
+  <content>CommonPicture.Синхронизация16</content>
+  <content>CommonPicture.Синхронизация48</content>
+  <content>CommonPicture.СинхронизацияОтправкаДанных16</content>
+  <content>CommonPicture.СинхронизацияОтправкаДанных48</content>
+  <content>CommonPicture.СинхронизацияОшибкаОтправкаДанных16</content>
+  <content>CommonPicture.СинхронизацияОшибкаОтправкаДанных48</content>
+  <content>CommonPicture.СинхронизацияПолучениеДанных16</content>
+  <content>CommonPicture.СинхронизацияПолучениеДанных48</content>
+  <content>CommonPicture.СинхронизацияОшибкаПолученияДанных16</content>
+  <content>CommonPicture.СинхронизацияОшибка16</content>
+  <content>CommonPicture.СинхронизацияОшибкаПолученияДанных48</content>
+  <content>CommonPicture.СинхронизацияОшибка48</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаОблачныйФайловыйСервис</content>
+  <content>InformationRegister.КонтрольТранспортовОбмена</content>
+  <content>CommonPicture.СинхронизацияНетОбмена48</content>
+  <content>CommonPicture.СинхронизацияНетОбмена16</content>
+  <content>Enum.СпособыОтбораЭлементовСинхронизации</content>
+  <content>FunctionalOption.ДеньгиИспользуетсяОбменСМобильными</content>
+  <content>EventSubscription.МобильноеПриложениеЗарегистрироватьИзменениеРегистра</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

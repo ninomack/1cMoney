@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faa2189d-9451-48f3-87e2-13be01422eba">
+  <name>Конференция1СДеньги8</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конференция 1С:Деньги 8</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

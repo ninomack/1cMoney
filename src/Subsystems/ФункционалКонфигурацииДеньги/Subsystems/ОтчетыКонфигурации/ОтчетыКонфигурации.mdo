@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2103924d-1a33-4cad-9406-bd879c5deffb">
+  <name>ОтчетыКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты конфигурации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Report.СтруктураРасходов</content>
+  <content>CommonPicture.ПанельНастроек</content>
+  <content>Report.СтруктураДоходов</content>
+  <content>Report.ДинамикаДоходовИРасходов</content>
+  <content>Report.ОтчетОбИзмененииФинансовогоСостояния</content>
+  <content>Report.ОтчетПоДолгам</content>
+  <content>Report.ОтчетПоИмуществу</content>
+  <content>Report.СверкаСВыпискойБанка</content>
+  <content>Report.ОтчетПоФинансовымЦелям</content>
+  <content>Report.СравнениеДоходовИРасходовЗа2Периода</content>
+  <content>CommonPicture.ОтчетСГистограммой48</content>
+  <content>CommonPicture.ОтчетСКруговойДиаграммой48</content>
+  <content>Report.ОтчетПоКошелькам</content>
+  <content>SessionParameter.ПараметрыПереходаПоНавигационнойСсылке</content>
+  <content>SessionParameter.ВалютаОтчетов</content>
+  <content>Report.ОтчетПоПоступлениямДенег</content>
+  <content>Report.ОтчетПоСписаниямДенег</content>
+  <content>Enum.ВидыРасходов</content>
+  <content>Report.ОтчетПоСкидкам</content>
+  <content>CommandGroup.ПанельДействийОтчетыАналитические</content>
+  <content>CommandGroup.ПанельДействийОтчетыПоОстаткам</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

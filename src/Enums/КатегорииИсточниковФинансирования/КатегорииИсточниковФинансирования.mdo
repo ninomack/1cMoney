@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60fa8354-7843-43d4-9d86-886895fc9c38">
+  <producedTypes>
+    <refType typeId="f91999ad-6018-4885-9690-6e74c4bff688" valueTypeId="85a2d06a-67dd-4ef3-b2c5-00ef2b31d425"/>
+    <listType typeId="7a08420f-dd2d-4d7c-a523-abbf88c39e45" valueTypeId="5d058d15-b93f-4485-a2b4-5de36ffb191b"/>
+    <managerType typeId="3a4ea6da-bb32-43b7-b002-dd38ff76a00a" valueTypeId="dc59c509-66c3-4958-a6d9-7254117e4fa8"/>
+  </producedTypes>
+  <name>КатегорииИсточниковФинансирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории источников финансирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41865103-cdaa-4fa8-958c-b65c15357aa6">
+    <name>НакопленияНаКонкретныеЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопления с указанием цели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9d29c49-40aa-4c7d-aaa6-95282f30ffd2">
+    <name>НакопленияБезКонкретнойЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопления без конкретной цели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be545317-a104-47ff-ab4f-5fe0be85c49f">
+    <name>СвободныеДеньги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободные деньги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9bee9f7-9481-4816-896a-19cd36851f14">
+    <name>ДоступныеКредитныеЛимиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные кредитные лимиты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

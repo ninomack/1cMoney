@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ea75414-3919-438e-af0a-9a18e0043381">
+  <producedTypes>
+    <managerType typeId="1fb1cd85-222e-4980-8aa4-a55235c8b61d" valueTypeId="84041381-0de3-467e-bc6d-bd9e099024b5"/>
+    <valueManagerType typeId="0722c0fc-9400-45e3-98f7-f82b92862172" valueTypeId="208b2aa8-db90-4851-842a-1d1b2b8cbcf5"/>
+    <valueKeyType typeId="ef29b743-6755-532c-ae9b-c3ee008657d4" valueTypeId="d3a055d0-f6ff-51e2-9dbb-97a89f06e521"/>
+  </producedTypes>
+  <name>ПределПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предел планирования</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

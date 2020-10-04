@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7155a46-e0f9-466c-a429-7b12cf268f36">
+  <producedTypes>
+    <selectionType typeId="f7221908-fa81-4700-8e61-5c0e4cb5edf6" valueTypeId="b2711985-d1fb-4573-8c1a-37ef872ec73a"/>
+    <listType typeId="35295c1e-7961-4e97-9f82-c25b5dc70395" valueTypeId="55bf0555-60b2-4b2b-ac38-099f9e13c8c0"/>
+    <managerType typeId="f8e3fa14-42b4-4494-9d8f-94df73e29ad2" valueTypeId="f76d8c16-491f-4804-b827-744917441b6c"/>
+    <recordSetType typeId="56d0d670-7abf-4add-af4e-baa57b06fd7d" valueTypeId="ae7cf67f-ac08-4ae7-ba74-196a5a61ac6b"/>
+    <recordKeyType typeId="54fd9bb6-201c-47b2-afdc-e22f1510c012" valueTypeId="64d30825-f0b7-4675-bf29-d2dc92404146"/>
+    <recordType typeId="c666fa41-a9c7-4b25-92ed-a63b4438c3b1" valueTypeId="622c4fd6-e193-4953-9667-cf5740bc399c"/>
+  </producedTypes>
+  <name>ИспользованиеСуммФинансовыхЦелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование сумм финансовых целей</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="85b7f6db-6fe8-44bb-8db5-4a4a8d6d90ee">
+    <name>ИспользованоНакоплений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано накоплений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d9ac6c86-c32c-45c8-a83f-ef447eb8e065">
+    <name>ИспользованоСвободныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано свободных средств</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a964b8d4-3adb-4191-a009-cf655d34a038">
+    <name>ФинансоваяЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансовая цель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="58b1f7c1-d394-480b-a38b-490576e5d3e0">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

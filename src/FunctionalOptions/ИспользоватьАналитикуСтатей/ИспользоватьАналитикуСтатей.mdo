@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f99877d4-add4-475e-9546-baca86e44b13">
+  <name>ИспользоватьАналитикуСтатей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать аналитику статей</value>
+  </synonym>
+  <location>Constant.ИспользоватьАналитикуСтатей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

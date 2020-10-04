@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2145277-6a2e-4013-9f3d-918bf7236758">
+  <producedTypes>
+    <managerType typeId="aee3d463-a0fe-438c-893e-9d3df95a43e8" valueTypeId="14eec36a-84f8-42b5-8d1d-ec7625b34fe0"/>
+    <valueManagerType typeId="edd1cba2-8a78-4f1d-8a08-c330e18c53e4" valueTypeId="fa45d364-1e13-4b8b-b866-65c18322fe6f"/>
+    <valueKeyType typeId="a17127ac-0db5-5f1d-b02b-a8b70694899d" valueTypeId="8b951cef-696c-56e3-8679-e20883c59241"/>
+  </producedTypes>
+  <name>ПараметрыПоддержкиПользователейДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры поддержки пользователей деньги</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

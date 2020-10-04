@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="672ef7eb-4963-4248-a321-63b5f6afe547">
+  <name>ДеньгиСинхронизацияНеИспользуется</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги синхронизация не используется</value>
+  </synonym>
+  <location>Constant.ДеньгиСинхронизацияНеИспользуется</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

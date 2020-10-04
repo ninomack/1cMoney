@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fb19785-652e-445c-a429-dbce2fda197c">
+  <producedTypes>
+    <objectType typeId="cddc2978-f892-4284-8276-9a98a69e5ca6" valueTypeId="0946fee9-f03a-47c0-b6d3-e4a103882b1a"/>
+    <managerType typeId="d562a42d-5e34-4c86-8d6b-446984c13113" valueTypeId="cb9c73ea-d379-4518-9fa8-434ab3c2a49b"/>
+  </producedTypes>
+  <name>ОтчетПоДолгам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по долгам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоДолгам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="d21622b4-ad19-4b13-956d-a6ce1960d971">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="ba24666d-3cf4-4c4f-91a2-5711cb52d560">
+    <name>СверкаПоДолгам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка по долгам</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="73b385e1-754d-4b02-8105-5f7e04eda6e4">
+    <name>РасчетыПоДолгамКонтакта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по долгам контакта</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Контакты</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="beeb0f4a-1381-4e3b-8629-288d59558947">
+    <name>РасчетыПоДолгу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по долгу</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Долги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4d74a83-4daa-4d38-b556-aaad2c7b34e7">
+  <producedTypes>
+    <managerType typeId="3f621026-e2c4-47c4-8963-707c2fc4e2ce" valueTypeId="885ad353-79b0-43c0-a4ef-e2455dfb9775"/>
+    <valueManagerType typeId="5d0cbbb8-af42-4a43-8061-5aac6dfebe3f" valueTypeId="d110250e-bc77-45e6-af0e-13120035f75e"/>
+    <valueKeyType typeId="9eac094d-9d48-5ccb-91ca-002e36f9370b" valueTypeId="410c02d3-8a2b-53e1-a825-0de668dc2593"/>
+  </producedTypes>
+  <name>ПараметрыЦентральнойБазыМобильныхПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры центральной базы мобильных приложений</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

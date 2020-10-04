@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="656a6589-cbeb-4f9c-bae9-af09d75b53e2">
+  <name>ИконкаПеремоткаВперед16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка &quot;перемотка вперед&quot; 16х16</value>
+  </synonym>
+</mdclass:CommonPicture>

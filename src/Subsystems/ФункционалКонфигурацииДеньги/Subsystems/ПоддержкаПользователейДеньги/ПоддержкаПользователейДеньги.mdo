@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92dd918f-6b01-444f-8d77-9fda1683c1bd">
+  <name>ПоддержкаПользователейДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка пользователей конфигурации деньги</value>
+  </synonym>
+  <content>CommonModule.ПоддержкаПользователейДеньги</content>
+  <content>Constant.ПараметрыПоддержкиПользователейДеньги</content>
+  <content>CommonCommand.СообщитьВСлужбуПоддержки</content>
+  <content>CommonForm.СообщениеОбОшибке</content>
+  <content>CommonForm.ОтправкаСообщенияВСлужбуПоддержки</content>
+  <content>CommonModule.ПоддержкаПользователейДеньгиКлиент</content>
+  <content>CommonModule.ПоддержкаПользователейДеньгиКлиентСервер</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

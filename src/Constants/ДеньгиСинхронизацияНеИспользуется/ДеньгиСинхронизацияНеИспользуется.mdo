@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdadfe8f-a4d9-4a98-aef9-3389f1cd0231">
+  <producedTypes>
+    <managerType typeId="3dcbe1da-570b-4749-a84b-766b74108d04" valueTypeId="e63110d2-edd9-481f-8540-052af7b5cfd0"/>
+    <valueManagerType typeId="b1aa4233-da9c-4805-9082-873fcb5e4346" valueTypeId="178075de-377b-433e-a4f1-efb411628abd"/>
+    <valueKeyType typeId="b42e5530-0af4-4183-8c65-d8ef68c69a6a" valueTypeId="16060c31-7751-4238-98a8-439c5913f7c8"/>
+  </producedTypes>
+  <name>ДеньгиСинхронизацияНеИспользуется</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги синхронизация не используется</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

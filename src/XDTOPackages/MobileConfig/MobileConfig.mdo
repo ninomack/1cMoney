@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ace0d46-c7ab-41cf-bd7a-cd8c96ed715e">
+  <name>MobileConfig</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile config</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/Money/MobileConfig</namespace>
+</mdclass:XDTOPackage>

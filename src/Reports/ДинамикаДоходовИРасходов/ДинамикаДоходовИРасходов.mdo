@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df0a22aa-c8a8-4309-9596-d33b4626fc12">
+  <producedTypes>
+    <objectType typeId="29a27b21-19af-4610-a7a8-2749905e4da4" valueTypeId="7e325ce4-0663-43a1-aa0d-f8f41f314d65"/>
+    <managerType typeId="7ddcb586-7153-4f82-b047-e0b9348f237e" valueTypeId="471cd36b-3b48-4533-8401-661e3c8cd69c"/>
+  </producedTypes>
+  <name>ДинамикаДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика доходов и расходов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ДинамикаДоходовИРасходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="34913d70-868c-4d5a-bb43-71a365e865d2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="f21e20b2-6592-43b8-b6e7-05af6a9574e9">
+    <name>ДинамикаДоходовИРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамика доходов и расходов</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6adce5-d861-4c55-939d-fdd3ea0fdd6a">
+  <name>ИспользоватьДополнительныеРеквизитыИСведенияДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты и сведения деньги</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеРеквизитыИСведения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Контакты.Attribute.НаборСвойств</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.ДополнительныеРеквизиты</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+</mdclass:FunctionalOption>

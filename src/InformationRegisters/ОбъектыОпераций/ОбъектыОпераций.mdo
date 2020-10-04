@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1d57420-3800-46be-8a42-c7c59fd3f0fa">
+  <producedTypes>
+    <selectionType typeId="e34e82df-584b-49d2-b287-eb050b43d4a3" valueTypeId="9716a7cd-6cb4-44cb-b139-8ff5cc70dc31"/>
+    <listType typeId="6730eb5f-4077-4088-b233-d2405fb303e6" valueTypeId="d0538d8c-aa8d-4307-98e8-15bac5ba794c"/>
+    <managerType typeId="6a1051cc-994e-41f6-9581-f9cd9fb78f1a" valueTypeId="097e2590-abed-4c1c-a2c3-2cfa59ff70c4"/>
+    <recordSetType typeId="d396f35e-d60e-4215-849b-2996800a3c7b" valueTypeId="6b664552-31cd-4cc7-a8cc-88ed4794f535"/>
+    <recordKeyType typeId="e6141f12-e1c4-4c59-af79-3f57156c9ed6" valueTypeId="821e7b5b-a7e3-43e7-8081-0d4ff3abf6da"/>
+    <recordType typeId="9428700b-7ecc-463c-9b46-b4c8736ebf32" valueTypeId="ed99a22e-417c-4041-ab0a-d3aa42fd1847"/>
+    <recordManagerType typeId="a5789bac-9a7e-4a53-ba23-08829a644681" valueTypeId="4fcedf0e-2cd7-42d6-9b6d-c829c9bd98ee"/>
+  </producedTypes>
+  <name>ОбъектыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты операций</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a1d6f758-f834-4e15-9f61-c1c2ab002c31">
+    <name>СуммаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма поступления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c899ce5-cad8-44a3-a881-654c5d4f0fb7">
+    <name>СуммаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма списания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8e4a5b60-50f7-4105-a109-6643219957b0">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9773eb2f-b820-4cf5-af64-8f73f11420e4">
+    <name>РазделУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.РазделыУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47264a44-9622-4e6b-9c57-96d5d2ceec0a">
+    <name>ПредметУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет учета</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконто</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ebb1c41d-3ddc-4a26-bf10-d67d95a246e5">
+    <name>ФинансоваяЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансовая цель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="073cb7e0-7ed1-4c96-8924-2608c51d3945">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c20c41fb-a771-427c-affd-40b0375c37c7">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="12959785-7769-430f-b102-ca21c35397d0">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыБюджетныхПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa593147-fc80-45f1-a002-e41ab549d5e4">
+    <name>ЭтоШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это шаблон</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

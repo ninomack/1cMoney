@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a767c71c-5391-498a-8452-a252b719509f">
+  <producedTypes>
+    <objectType typeId="00e1c309-707c-454f-96e4-1da2de6780bb" valueTypeId="e31032d9-3fd6-41f1-9e66-0d5088836265"/>
+    <managerType typeId="d4c1f1e6-262e-457d-b129-ce5dda4c9a03" valueTypeId="9a121b78-b5d0-4064-89ec-e62d59f1f40f"/>
+  </producedTypes>
+  <name>ОтчетПоПоступлениямДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по полученным деньгам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоПоступлениямДенег.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="d17a08fe-2b0b-47d1-a1c1-bd01555be6d5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7a96b6e8-771f-474c-bd90-f3068616ffb9">
+    <name>ПолученныеДеньги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные деньги</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="5258e388-7079-4b2d-aef1-2d684049357d">
+    <name>ПоступленияВКошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступления в кошелек</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.КошелькиИСчета</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

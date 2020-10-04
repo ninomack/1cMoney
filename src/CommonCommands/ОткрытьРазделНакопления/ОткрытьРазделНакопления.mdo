@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5721d0c9-9efc-452c-87c7-ad2da32fe519">
+  <name>ОткрытьРазделНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накопления</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Накопления48</picture>
+  </picture>
+  <shortcut>Ctrl+Shift+4</shortcut>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:CommonCommand>

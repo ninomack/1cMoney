@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6857108-5f31-4194-908f-99eee48f70bc">
+  <name>ОтчетностьНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчетность НДФЛ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonPicture.ОтборПоСтатусамНеУстановлен</content>
+  <content>CommonPicture.ОтборПоСтатусуВКонверте</content>
+  <content>CommonPicture.ОтборПоСтатусуВРаботе</content>
+  <content>CommonPicture.ОтборПоСтатусуДоставлен</content>
+  <content>CommonPicture.ОтборПоСтатусуНеПринят</content>
+  <content>CommonPicture.ОтборПоСтатусуОтправлен</content>
+  <content>CommonPicture.ОтборПоСтатусуПодготовлен</content>
+  <content>CommonPicture.ОтборПоСтатусуСдан</content>
+  <content>CommonPicture.РегламентированныйОтчетВКонверте</content>
+  <content>CommonPicture.РегламентированныйОтчетВРаботе</content>
+  <content>CommonPicture.РегламентированныйОтчетДоставлен</content>
+  <content>CommonPicture.РегламентированныйОтчетНеПринят</content>
+  <content>CommonPicture.РегламентированныйОтчетОтправлен</content>
+  <content>CommonPicture.РегламентированныйОтчетПодготовлен</content>
+  <content>CommonPicture.РегламентированныйОтчетСдан</content>
+  <content>Document.ВыгрузкаРегламентированныхОтчетов</content>
+  <content>Enum.ВерсииФорматовВыгрузки</content>
+  <content>Enum.ПорядкиОкругленияОтчетности</content>
+  <content>Enum.СтатусыПроверкиЭЦП</content>
+  <content>Enum.СтатусыРегламентированныхОтчетов</content>
+  <content>InformationRegister.ШаблоныПечатиМашиночитаемыхФорм</content>
+  <content>Document.РегламентированныйОтчет</content>
+  <content>Enum.ВидыОтчетности</content>
+  <content>DataProcessor.ПомощникЗаполнения3НДФЛ</content>
+  <content>Enum.ВычетыФизическихЛиц</content>
+  <content>Enum.ИсточникиДоходовФизическихЛиц</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

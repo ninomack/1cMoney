@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8b752fe-eb72-49bb-af98-33fa610b406d">
+  <producedTypes>
+    <refType typeId="bcb5e65b-fc24-423e-acb7-7a1983bb50ae" valueTypeId="96d5f834-05de-4aa3-a70e-12bade5c8418"/>
+    <listType typeId="b28d8f8d-d290-4e85-9c68-e0d51c3a24de" valueTypeId="f6152592-a7bb-4596-a8b7-bcc202921361"/>
+    <managerType typeId="4e6cbe64-51ea-4e63-9495-38083530bef8" valueTypeId="8bd42133-8e85-47dd-b68a-2fd4ed576f2a"/>
+  </producedTypes>
+  <name>ВариантыПовторенийВМесяце</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты повторений в месяце</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c645da4b-ad82-4c24-a66f-7401cfc8b183">
+    <name>КаждыйКалендарныйДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждый календарный день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa0565da-06b3-4aa9-bf87-bb8a70415578">
+    <name>КаждуюНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждую неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e86b17d-8b7f-4ea1-a50a-df926d74059d">
+    <name>КаждоеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждое число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6e945fc-26d0-4f10-abd8-3779c1acea4e">
+    <name>ВУказанныеЧисла</name>
+    <synonym>
+      <key>ru</key>
+      <value>В указанные числа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

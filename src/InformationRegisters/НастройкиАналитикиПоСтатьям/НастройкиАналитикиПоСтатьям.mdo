@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a8292e2-1a17-45c9-affa-d50c3f2c3f52">
+  <producedTypes>
+    <selectionType typeId="9382fcea-47b7-4356-a4fb-fbc5f9ea79aa" valueTypeId="268c7832-d505-4a2f-bbb2-7b46eeea8678"/>
+    <listType typeId="1bab8e8d-0f61-47ec-984d-90ff6696c28d" valueTypeId="942b4c08-3f38-4126-be33-1a599f8010dd"/>
+    <managerType typeId="2439bcfd-4b2d-4042-a8c9-f5badc4833f3" valueTypeId="b48419ec-6414-4511-abb0-633677b22027"/>
+    <recordSetType typeId="c9a835c9-c838-465d-8c62-4555447a05a6" valueTypeId="a9dcd116-2f0f-4182-a947-c3a8ee7509e2"/>
+    <recordKeyType typeId="ef940f4d-e39d-4365-bbef-74a6da5f500e" valueTypeId="a6e71c2a-6142-4e74-9999-6ff9fb8c2ac9"/>
+    <recordType typeId="96ae5e2a-2985-47ad-a60a-ccae557da91f" valueTypeId="a0178d10-5c00-4b03-999a-669b746d4c14"/>
+    <recordManagerType typeId="b0e8eae1-314b-4287-8742-0b1bf8e291be" valueTypeId="e427a06f-4c32-4e0d-a887-bfdcd70ff19d"/>
+  </producedTypes>
+  <name>НастройкиАналитикиПоСтатьям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки аналитики по статьям</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d22323a9-eabf-43e6-9ebe-c4fb5d29c24d">
+    <name>Использовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="782f156b-58c0-4f79-b604-76ea1d9a07c0">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НастройкиАналитикиПоСтатьям.Dimension.ВидАналитики</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.НастройкиАналитикиПоСтатьям.Dimension.ВидАналитики</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="495124a6-e012-4791-9d11-99b36c04e39c">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f6357bd-9908-4a52-9954-3f2e7557b187">
+    <name>ВидАналитики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид аналитики</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

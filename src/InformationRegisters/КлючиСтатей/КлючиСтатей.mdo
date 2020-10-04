@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5860188-c15e-4116-b83c-d26c14cb894d">
+  <producedTypes>
+    <selectionType typeId="7f9f29d4-4b66-4717-a4ef-31cc2ed8be1a" valueTypeId="66d838a6-db78-4648-85ee-7fc6f52410d2"/>
+    <listType typeId="3c499e57-1848-411f-8d0a-fc65d8a49e04" valueTypeId="9be21dd2-c6ab-413a-8f8b-bc1358ffb914"/>
+    <managerType typeId="bba7c49b-a222-401b-82ef-f3cfd8e4c354" valueTypeId="621f9439-f169-433a-9428-2a17533ae164"/>
+    <recordSetType typeId="942c1870-6a55-40d2-9fbf-00cb717d7525" valueTypeId="42564cab-6bdd-40c4-a092-c5f03437375c"/>
+    <recordKeyType typeId="432c84d5-997d-44cc-8ffe-ed9124d8c724" valueTypeId="ec95ab2d-ed6d-45d4-b76b-c531a82fead9"/>
+    <recordType typeId="f4d9f2e2-6fe1-4902-a293-2788cd5410ec" valueTypeId="a4de20c6-7808-4bcf-8d10-9a62125d72ae"/>
+    <recordManagerType typeId="0d7010d8-e79c-4eac-a2c7-1761a05c5bb0" valueTypeId="dddbccf1-db54-475e-851f-194aabd1bd09"/>
+  </producedTypes>
+  <name>КлючиСтатей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи статей (служебный)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КлючиСтатей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КлючиСтатей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a23c464a-9d62-4538-a95a-2b81ff0bf744">
+    <name>РодительскаяСтатья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительская статья</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СправочникиУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="bbe2e15f-efa5-4c4d-9cee-78d3381708f9">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0f98060e-1aa2-4b7d-9fac-5f4f87ee3aef">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="7dd12ba0-3943-4b21-91cf-1bb92b585f7f">
+    <name>РодительскаяСтатьяВБюджете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительская статья в бюджете</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СправочникиУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a936e47e-246a-49e6-a4e0-9226e1d5317f">
+    <name>ИсключатьИзБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключать из бюджета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="78ec5669-4f24-440b-9b10-934d00a5df11">
+    <name>СтатьяБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья бюджета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СправочникиУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="288f2b5b-76c0-4032-8146-023a362e15c2">
+    <name>ТипСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип статьи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f21df2f2-204f-4c51-9e79-52daa912585a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7babd885-6290-4aea-8c6b-45bc1a9329f3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

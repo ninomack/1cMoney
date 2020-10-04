@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93cca091-3c69-4174-a44f-28a532056d62">
+  <producedTypes>
+    <refType typeId="6f19cc11-934d-4069-b06c-49ce99390388" valueTypeId="fd750131-95f1-4a5b-87da-134e485fa7d4"/>
+    <listType typeId="69d36fb5-7fcc-4380-8169-30b7e91a1d62" valueTypeId="8637f844-9bde-4ea4-ac3a-bc6e576be3bf"/>
+    <managerType typeId="ba753216-a0a3-4f95-8803-1d89ff216f98" valueTypeId="9a6718cf-96b4-4192-93dd-18cf4ec2a962"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8524b106-2c72-4628-b204-b08fa0359351">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9f33df0-8711-4e5e-9104-1c7d2bc4fa26">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c4e1b6b-a2f4-4e75-8c42-0f5595722072">
+    <name>Декада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac055a06-54a9-4aef-866f-6a8958650986">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23ef45f2-199e-486a-874e-bae88a1cc309">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f31faac-a367-4f02-8ede-fe552ffc8ad1">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86619e50-6906-4d5b-9e32-bf9647d93bc4">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a50a2cfc-2a96-4161-969d-faa840f4d2cc">
+  <producedTypes>
+    <refType typeId="35951658-9c8f-4021-aadc-14cc17125b75" valueTypeId="8b1a0c4a-0031-4760-8d68-b3c4e6facdaa"/>
+    <listType typeId="0dcc6707-6d33-4684-9f65-b2320132c2b0" valueTypeId="8cc8f5d0-c8a4-41ca-9abe-877782f11e8a"/>
+    <managerType typeId="bc0b0d5f-56da-441e-9ada-a28d21f086b7" valueTypeId="0641ae87-8bf1-4269-abae-e2a94b7bcbdc"/>
+  </producedTypes>
+  <name>ВидыРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8bda0a9-da07-4a97-a115-97ba7034ee40">
+    <name>РасходыПоСтатьям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход по статье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79ab5ec0-b33f-4ec9-bd3e-3efb0b18d7db">
+    <name>ПокупкаИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата имущества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8277116f-2457-491c-8029-0ff79fefad16">
+    <name>ВыдачаВДолг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача в долг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5d3dd97-1f43-4ce2-af9f-60194bcb6695">
+    <name>ВозвратВзятыхДолгов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат взятого долга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8857a8d4-2174-4582-be40-880b1c94302a">
+    <name>ВзаимныеРасчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимные расчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb81ac4f-44d4-4482-a0ec-cedd170aa947">
+    <name>ПереводВДругиеКошельки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в кошелек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8e37dd7-7a47-4d81-870f-2a28f92fa33f">
+    <name>ПереводВНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в накопление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b47e214a-d3b2-44df-8cce-b859aeb2d36f">
+    <name>ОбменВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод валюты в кошелек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d94bdf3-1fe1-423c-819c-b737f2053731">
+    <name>ПереводИзНакоплений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат накопления в кошелек</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

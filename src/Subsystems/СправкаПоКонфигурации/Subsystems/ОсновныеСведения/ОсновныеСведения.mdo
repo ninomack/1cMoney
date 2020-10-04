@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee97a15-5c14-4ced-8b57-bc946c521360">
+  <name>ОсновныеСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные возможности программы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>DataProcessor.РазделОперации</content>
+  <content>DataProcessor.РазделНакопления</content>
+  <content>DataProcessor.РазделБюджет</content>
+  <content>DataProcessor.ПлановыеОперации</content>
+  <parentSubsystem>Subsystem.СправкаПоКонфигурации</parentSubsystem>
+</mdclass:Subsystem>

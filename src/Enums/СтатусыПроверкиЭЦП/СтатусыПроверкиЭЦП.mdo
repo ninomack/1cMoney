@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="643d57a7-b973-4301-85b9-1fd57c6754d1">
+  <producedTypes>
+    <refType typeId="43d10a14-91cc-4dc3-9454-94e46ca4e0b6" valueTypeId="d8827cc8-1a94-42f6-8b97-a486821945a4"/>
+    <listType typeId="682b2719-310b-4b1f-91d4-3c29bcc531bf" valueTypeId="66613d13-f4e9-446e-a3fa-b144cbc2b4ae"/>
+    <managerType typeId="16dc7333-312a-4cbd-9ec8-20a0556bb8ab" valueTypeId="ef7ac855-62de-4e9c-91d9-a66bc0ef2c52"/>
+  </producedTypes>
+  <name>СтатусыПроверкиЭЦП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проверки ЭЦП</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34a5b6d8-1255-43e9-a5fd-83df289b3f8b">
+    <name>Валидна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валидна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39ab0292-e44a-4c34-99f4-8b3a04caf4ae">
+    <name>НеВалидна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не валидна</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d693845-9bdd-43cb-914d-afe38b8829b6">
+  <producedTypes>
+    <objectType typeId="aae8f27a-1b99-4c48-8c1f-141ad768a47b" valueTypeId="53db77bb-5e5b-4c9f-9d4f-c61231837da5"/>
+    <refType typeId="346fe9bb-f5bd-42ec-a99d-83c4788efebb" valueTypeId="e399a9b0-b4c3-4944-8603-3fbcbb962023"/>
+    <selectionType typeId="038d4a9e-003e-44d6-884f-134476425cb9" valueTypeId="42bdbe09-8633-4570-9057-015f2b7ebacb"/>
+    <listType typeId="f815ffff-97a2-464b-8364-d2c3aeb88b2d" valueTypeId="636ca322-ea9a-4f9b-82d7-47edc7fc67ad"/>
+    <managerType typeId="043cee34-6c9a-42e7-8d30-929d06ce846d" valueTypeId="68daf099-113c-475a-8e27-caeca06724c4"/>
+  </producedTypes>
+  <name>ТранспортыОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорты обмена данными</value>
+  </synonym>
+  <inputByString>Catalog.ТранспортыОбменаДанными.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТранспортыОбменаДанными.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Транспорт обмена данными</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>25</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТранспортыОбменаДанными.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7c22ac6c-ae64-460a-ab7f-3a9f3eba67d1">
+    <name>ВидТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид транспорта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТранспортаСообщенийОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид транспорта, для которого описываются параметры подключения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыТранспортаСообщенийОбмена.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53a32806-1112-4838-a692-a1797af7ba4e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое описание сценария.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c54265cf-2cf6-4e84-9d83-e6f0e457ee76">
+    <name>КоличествоЭлементовВТранзакцииВыгрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов в транзакции выгрузки данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество элементов на одну транзакцию выгрузки данных. 0 – данные будут выгружены в одной транзакции.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30202397-1b32-4227-ad61-473a214611a9">
+    <name>КоличествоЭлементовВТранзакцииЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов в транзакции загрузки данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество элементов на одну транзакцию загрузки данных. 0 – данные будут загружены в одной транзакции.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="468f9f8a-f33e-442f-a1fc-0049163b6278">
+    <name>СжиматьФайлИсходящегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать отправляемые данные в архив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что отправляемые данные будут заархивированы перед отправкой.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0393dd52-f646-4955-9e16-8d343e1a1aca">
+    <name>ПарольАрхиваСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль архива</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поле для задания пароля для сжатия и распаковки архива данных. Подразумевается, что пароль сжатия в базе источнике и пароль распаковки в базе приемнике должны совпадать.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90777928-fdf9-4678-b1e7-4713dcf825f2">
+    <name>МаксимальныйДопустимыйРазмерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимый размер отправляемого сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальный размер отправляемого файла сообщения обмена (Кб)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="828f05e0-9665-4643-9b9e-892c138770bf">
+    <name>ИмяПользователяНаРесурсе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя на ресурсе</value>
+    </synonym>
+    <comment>Имя пользователя (логин) на внешнем ресурсе</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя на внешнем ресурсе (FTP, WS или COM)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05eac595-aed7-4f49-8416-145980116c61">
+    <name>ПарольПользователяНаРесурсе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя на ресурсе</value>
+    </synonym>
+    <comment>Пароль пользователя на внешнем ресурсе</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль пользователя на внешнем ресурсе (FTP, WS или COM)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a710a837-0a4a-4a5d-b754-75a0dad24349">
+    <name>ЗапомнитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запомнить пароль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак сохранения пароля</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1ca6801-0e08-4d36-abc9-4d449458e1f7">
+    <name>EMAILУчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронной почты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетная запись для синхронизации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7bf15e35-760d-49a4-81db-219ef9cb4504">
+    <name>ЗапретитьИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить использование</value>
+    </synonym>
+    <comment>Запретить использование транспорта</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Разрешить; БИ=Запретить</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="613c5853-1b99-4595-a5fb-d1cdcb3035d8">
+    <producedTypes>
+      <objectType typeId="0cc6159b-9f7a-4128-a3e8-9f628d18bca3" valueTypeId="057de97e-cdbf-4c7a-a225-f8247ca565a8"/>
+      <rowType typeId="229f2432-960f-4701-b98a-3d35e9cf34d1" valueTypeId="a941200d-fa1c-42bb-af4d-c72619283033"/>
+    </producedTypes>
+    <name>ПараметрыТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры транспорта</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура параметров, состав которых зависит от вида транспорта</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5ef0d5a4-2397-421a-9353-9ad4333e1a31">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="22306fac-127b-45a0-8826-d82dff970550">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8a8b9e76-168c-4f71-8d43-73028a5d9b91">
+      <name>ЗначениеДлиннойСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение длинной строкой</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bded4f83-0514-420e-809b-4b071fc746b5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8201487a-553f-4953-90cd-72aed62235ab">
+    <name>ТранспортCOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт COM</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b59e562-33e9-4504-91fb-05bf12fcb951">
+    <name>ТранспортEMAIL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт EMAIL</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="967fc370-f826-459e-8e75-c4c7f8fead18">
+    <name>ТранспортFILE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт FILE</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7eb96c7-8ccc-465d-9c5e-a96da3d68399">
+    <name>ТранспортЯндексДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт Яндекс.Диск</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="605c68f9-3958-4aa4-88a9-b7258c49923c">
+    <name>ТранспортWS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт WS</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b43ce86-6a5d-4e2b-823e-3aa81f6f1763">
+    <name>ТранспортDropbox</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт Dropbox</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba9b7996-5c07-4c07-b0c9-0c7f9085d11d">
+    <name>ТранспортGoogleDrive</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт Google drive</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

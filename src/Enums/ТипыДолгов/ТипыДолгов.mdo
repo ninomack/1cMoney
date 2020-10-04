@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1fcd3bc-9b2f-45ad-b72f-2423e96a8c24">
+  <producedTypes>
+    <refType typeId="2ec8c685-3e71-4ce8-9b95-7caab7cc35ce" valueTypeId="ba624b4c-4155-420d-99bf-ef977f5194de"/>
+    <listType typeId="555746dd-e8c2-46f6-abc9-7711e3959ede" valueTypeId="931ab1bd-2e5d-4b6a-9085-06b8f4763e49"/>
+    <managerType typeId="9834abb5-18b1-4e12-9406-f0ac2a87b21b" valueTypeId="452b94a5-1a9a-47d3-a2bf-59d897535790"/>
+  </producedTypes>
+  <name>ТипыДолгов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы долгов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2cee8bdb-85c9-43c0-b9a4-5b2be43324ec">
+    <name>ВыданныйЗаем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нам должны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="915e91e3-a151-4936-a91b-f60612bc5497">
+    <name>ПолученныйКредит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мы должны</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dc5f4e5-ea70-48af-af8a-59da419ad26c">
+    <name>ВзаимныйРасчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимный расчет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

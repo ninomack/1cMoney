@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea9386c-298e-4070-9193-b1c7144e42a2">
+  <producedTypes>
+    <objectType typeId="82389163-d4e4-4e75-a9e8-b2e1b72b29ee" valueTypeId="5069b407-fff0-4e33-97fe-f7547b1dbe0d"/>
+    <managerType typeId="33124cc4-0904-41ea-bc81-1b8420c7d2a1" valueTypeId="b9bb393b-a1b6-40d3-8d93-bb1c5c0ec1cb"/>
+  </producedTypes>
+  <name>СверкаСВыпискойБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка с выпиской банка</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СверкаСВыпискойБанка.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="9eaac2d9-0604-4ce1-89ad-cae5a612d371">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="b7994739-9c9d-4fdd-af32-34c363598f57">
+    <name>СверкаСВыпискойБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка с выпиской банка</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="317fa1d2-d396-4757-8be6-e7b0112b5ef5">
+    <name>СверкаСВыпискойПоКошельку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка с выпиской банка</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.КошелькиИСчета</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

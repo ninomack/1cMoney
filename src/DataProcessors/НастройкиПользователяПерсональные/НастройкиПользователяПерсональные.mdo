@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4071339f-8550-436b-aaa5-f0849655fef6">
+  <producedTypes>
+    <objectType typeId="2730c78d-29ba-47f2-8811-4eeeee24c2cf" valueTypeId="19077445-cf80-4300-8c6d-f8331bf1ad80"/>
+    <managerType typeId="effd17a4-ab44-4d62-990d-fb79302138e7" valueTypeId="ebd68f6e-fbc5-457a-82f0-b050a20948df"/>
+  </producedTypes>
+  <name>НастройкиПользователяПерсональные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкиПользователяПерсональные.Form.ПерсональныеНастройки</defaultForm>
+  <forms uuid="72ef40b2-74f6-4020-a147-31921305845f">
+    <name>ПерсональныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональные настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b9110905-94e8-4700-9896-89b27cb170c5">
+    <name>ПерсональныеНастройкиПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональные настройки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

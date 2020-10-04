@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cada5db-84c3-4bc0-bbe5-f915ba289dbd">
+  <producedTypes>
+    <objectType typeId="1987c1fb-edf0-4caa-9da4-b148e6565eef" valueTypeId="dff6eb72-1e9f-4594-931f-db60ddc4e8ce"/>
+    <refType typeId="362e97ee-6549-40f4-9f63-8a9e434aac7f" valueTypeId="eb1a03e8-3d05-49a0-b87d-df6676a9aa3b"/>
+    <selectionType typeId="e5278641-811e-4061-b2a6-bdd54d8d62e3" valueTypeId="9363ea88-eb27-41a3-9853-fec2c03f728f"/>
+    <listType typeId="9386dcb4-1810-4345-98d7-23f51461065f" valueTypeId="506befd4-2b0e-486c-8bb2-81247e8267cb"/>
+    <managerType typeId="a2aa2679-76d8-4632-a0fb-6227f9f81bfd" valueTypeId="5839a816-bdb6-4bef-b9e2-d8f559247c2f"/>
+    <containerType typeId="135f2a95-30b6-41cc-9160-eeda065a7675" valueTypeId="ce2cd43d-0bc4-41d7-a2e5-1ef14e400066"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.ДействияРасписания</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>4</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>80</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="76f6a186-75f7-4ac0-88ce-1bfd1a49af28">
+      <name>АвтозагрузкаКурсовВалютПриНачалеРаботы</name>
+      <description>Автозагрузка курсов валют</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="fc12439b-4818-498a-b9e7-47dd09946089">
+      <name>АвтообновлениеКонфигурации</name>
+      <description>Автообновление конфигурации при старте программы</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="f8dee55d-2aba-41fa-95cb-405778ed77c9">
+      <name>ТекущийВариантЗакладок_РабочийСтол_Деньги</name>
+      <description>Вариант закладок для Денег</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="e8a8157a-cca6-4284-a3de-be65df43349a">
+      <name>РабочийСтол_Имущество_ВариантОтбора</name>
+      <description>Вариант отбора имущества раздела Имущество Рабочего стола</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="7a17db34-077e-4241-968c-d13ebe07ae32">
+      <name>РабочийСтол_Кредиты_ВариантОтбора</name>
+      <description>Вариант отбора Кредитов раздела Кредиты Рабочего стола</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="8ca0bc7e-8670-4dc6-b613-5309ab1fc8ea">
+      <name>РабочийСтол_Накопления_ВариантОтбора</name>
+      <description>Вариант отбора накоплений раздела Накопления Рабочего стола</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="9e081216-93a2-4def-bfde-d7d7f1f6df0c">
+      <name>РабочийСтол_Операции_ВидимостьПанелиИндикаторов</name>
+      <description>Видимость панели индикаторов, раздел Операции</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="f0b17401-a88b-41ff-8c9a-847af9ecdb35">
+      <name>Подсказка_ОтчетБаланс</name>
+      <description>Видимость подсказки в отчете по изменению капитала</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="40c4f5e0-fbc0-45f2-9fde-864376a1103a">
+      <name>Подсказка_РабочийСтол_Прогнозирование</name>
+      <description>Видимость подсказки в разделе Долгосрочное планирование рабочего стола</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="1b0c5494-1906-4903-bd3c-11718b97d57f">
+      <name>Подсказка_СправочникКредиты</name>
+      <description>Видимость подсказки в справочнике Кредиты</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="9bf2227d-2224-4ef9-9987-6923fcfa9c9f">
+      <name>РабочийСтол_ДолгосрочноеПланирование_Таблица</name>
+      <description>Видимость таблицы раздела Долгосрочное планирование</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="40e59ad5-c7b2-493d-a72a-df2569fa6a2b">
+      <name>РабочийСтол_Операции_ВключатьОтложенныеСредстваВОстатки</name>
+      <description>Включать отложенные средства в остатки кошельков и валют, раздел Операции</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="9a925cbd-af24-42fa-b9e7-32aca342db71">
+      <name>РабочийСтол_ВосстанавливатьТекущийРаздел</name>
+      <description>Восстанавливать текущий раздел рабочего стола при открытии</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="5280cd51-89ec-4a50-838b-a71128ed0197">
+      <name>РабочийСтол_ДолгосрочноеПланирование_ДатаОТ</name>
+      <description>Дата начала отчета раздела Долгосрочное планирование</description>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="e71b1651-ba5c-4a94-af65-cbee48b98020">
+      <name>РабочийСтол_Операции_ДатаОТ</name>
+      <description>Дата начала показа операций раздела Операции</description>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="bb4f94b3-68ce-4d3d-8744-f2143a3899c7">
+      <name>РабочийСтол_ДолгосрочноеПланирование_ДатаДО</name>
+      <description>Дата окончания отчета раздела Долгосрочное планирование</description>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="f0cc33e5-8829-4fde-b3c1-e3897bc2d712">
+      <name>РабочийСтол_Операции_ДатаДО</name>
+      <description>Дата окончания показа операций раздела Операции</description>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="54751b2b-309d-4199-b919-91365312d813">
+      <name>РабочийСтол_Операции_ДатаДО_ДоТекущейДаты</name>
+      <description>Дата окончания показа операций раздела Операции равна текущей дате</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="eb4040da-d699-4968-9aa6-2351c6dc068a">
+      <name>РабочийСтол_ПлановыеОперации_ДействиеНаДвойнойКлик</name>
+      <description>Действие на двойной клик в календаре плановых операций</description>
+      <type>
+        <types>EnumRef.ДействияРасписания</types>
+      </type>
+    </items>
+    <items id="f5ee296c-92d8-4457-a918-1d605f34509e">
+      <name>ДокументБюджетПанельЗаполнение_ИмяЗакладки</name>
+      <description>Документ Бюджет, панель Заполнение, имя последней открытой закладки</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="11ad1133-0ad3-4c1c-bc26-cc19042e8623">
+      <name>ДокументПриход_ПредупреждатьПриИзмененииКошелька</name>
+      <description>Документ Приход, предупреждать при изменении кошелька</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="7bfc55a5-406a-4a70-8e4b-6292cf1eab8a">
+      <name>ДокументПриход_РежимОткрытияДокумента</name>
+      <description>Документ Приход, режим открытия документа</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="58feefeb-4af7-4642-b7e5-6dd4dc195a14">
+      <name>ДокументРасход_ВариантКоэффициента</name>
+      <description>Документ Расход, вариант коэффициента пересчета сумм (&quot;*&quot; или &quot;/&quot;)</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="8434db00-2f8f-474a-b556-921139dc34c7">
+      <name>ДокументРасход_КоэффициентИзмененияСумм</name>
+      <description>Документ Расход, коэффициент изменения сумм</description>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="dc2b9eb5-f6c6-4a69-8064-2f56ca2d348e">
+      <name>ДокументРасход_ПредупреждатьПриИзмененииКошелька</name>
+      <description>Документ Расход, предупреждать при изменении кошелька</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="d94eec90-1951-4961-8ba4-35a7b146fa46">
+      <name>ДокументРасход_РазрешитьРедактироватьНесколькоСтрок</name>
+      <description>Документ расход, разрешить редактировать несколько строк</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="7ddd101b-2c98-480c-ba5c-c0dc99fb2ea1">
+      <name>ДокументРасход_РежимОткрытияДокумента</name>
+      <description>Документ Расход, режим открытия документа</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="41473951-db58-467c-a69b-de525418dfde">
+      <name>РабочийСтол_Долги_ОсновнойОтчет_Настройка</name>
+      <description>Настройка основного итогового отчета для раздела учета 'Долги'</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="87dbec20-d585-4793-9901-19b49a0a8837">
+      <name>РабочийСтол_Накопления_ОсновнойОтчет_Настройка</name>
+      <description>Настройка основного итогового отчета для раздела учета 'Накопления'</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="ba36575c-59f9-4528-a564-7f6441ab3bd6">
+      <name>НеСпрашиватьОВыходе</name>
+      <description>Не спрашивать о выходе</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="0db538ef-e1cf-4603-ae4a-dde220653036">
+      <name>ОсновнойКошелек</name>
+      <description>Основной кошелек</description>
+      <type>
+        <types>CatalogRef.КошелькиИСчета</types>
+      </type>
+    </items>
+    <items id="b15f16f1-1678-4b1a-b746-d9fa299594ee">
+      <name>ОткрыватьВебКонференциюВоВнешнемБраузере</name>
+      <description>Открывать веб конференцию во внешнем браузере</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="ab31a0db-42ea-453b-8a89-53430923fe57">
+      <name>РабочийСтол_Бюджет_ОткрыватьТекущийБюджетПриПереходеВРаздел</name>
+      <description>Открывать текущий бюджет при переходе в раздел Бюджет</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="739f00ce-773c-4969-9b2e-3a7f41f611ec">
+      <name>ПоказыватьБыстроеОсвоение</name>
+      <description>Показывать быстрое освоение</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="a3f986ae-bd19-4705-97a1-7a9a19344829">
+      <name>РабочийСтол_Кредиты_ПоказыватьЖурналПодчиненныхДокументов</name>
+      <description>Показывать журнал документов раздела Кредиты Рабочего стола</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="8b16dda5-0771-467a-b8d2-2f01faf1be21">
+      <name>ПоказыватьПомеченныеНаУдаление</name>
+      <description>Показывать помеченные на удаление</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="4fe0576f-8033-4535-95b7-86de4c6ce76e">
+      <name>РабочийСтол_Отчеты_ПоказыватьСписокВнешнихОтчетов</name>
+      <description>Показывать список внешних отчетов</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="ba212a57-94fd-44de-899b-6d65be8a2307">
+      <name>ПоказыватьСтартовыйПомощник</name>
+      <description>Показывать стартовый помощник</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="b50bf462-0c40-44f0-8175-25414739ad25">
+      <name>РабочийСтол_Бюджет_ВыбраннаяДата</name>
+      <description>Последняя выбранная дата раздела Бюджет</description>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="2e95b776-7b3c-4606-9f79-306db11567e6">
+      <name>Отчеты_ПредупреждатьОБольшомПериоде</name>
+      <description>При открытии отчета предупреждать о большом периоде</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="5b68ab46-b654-4991-8626-31c7de66fb85">
+      <name>СправочникСтатьиДоходов_РаскрыватьТолькоВерхнийУровень</name>
+      <description>Раскрывать только верхний уровень в справочнике Статьи Доходов</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="a20f86cf-8fc8-4f80-b012-f5fb25a10e87">
+      <name>СправочникСтатьиРасходов_РаскрыватьТолькоВерхнийУровень</name>
+      <description>Раскрывать только верхний уровень в справочнике Статьи Расходов</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="095a9506-b815-47da-aa54-5e5082002538">
+      <name>РабочийСтол_Накопления_РаспределятьДоступныеДеньги</name>
+      <description>Распределять доступные деньги (раздел Накопления)</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="9eae979c-2160-425d-8c6e-99e41308a035">
+      <name>РабочийСтол_Накопления_РаспределятьНакопленныеНаПустуюЦельДеньги</name>
+      <description>Распределять накопленные на пустую цель деньги (раздел Накопления)</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="62bdff8b-25a9-437c-938f-0b63a3a84a4f">
+      <name>СправочникВидыОпераций_ИмяЗакладки</name>
+      <description>Справочник Виды операций, имя последней открытой закладки</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="3a009bde-1ffb-4f14-b7bb-944f2c83e858">
+      <name>СправочникСтатьиДоходов_ИмяЗакладки</name>
+      <description>Справочник Статьи Доходов, имя последней открытой закладки</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="2cac8809-e9bc-43e6-a358-fd57eef6fce6">
+      <name>СправочникСтатьиРасходов_ИмяЗакладки</name>
+      <description>Справочник Статьи Расходов, имя последней открытой закладки</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="567fa09c-983d-43a8-a325-c124a7f2ee52">
+      <name>РабочийСтол_ТекущийРаздел</name>
+      <description>Текущий раздел рабочего стола</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="752a85b3-701a-4ff0-89b4-eafd9923025a">
+      <name>Отчеты_ФормироватьПриОткрытии</name>
+      <description>Формировать отчеты при открытии</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a02a90d8-1f03-448f-a67b-60a60fc66ca4">
+    <name>Скрытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

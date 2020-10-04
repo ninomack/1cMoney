@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1436a2ab-c144-49ad-8a3c-95299d2ba181">
+  <producedTypes>
+    <objectType typeId="d491c437-bf59-4fda-995e-a73a693ba920" valueTypeId="21169e36-2fc1-4166-94b1-7940b878d35f"/>
+    <managerType typeId="85852d4d-74c8-4a30-a973-63a5571a05d9" valueTypeId="e201595d-e73a-462c-ab8d-c7fc12699e91"/>
+  </producedTypes>
+  <name>ПомощникЗаполнения3НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник заполнения 3-НДФЛ</value>
+  </synonym>
+  <attributes uuid="3362b1a7-a775-4dac-9e41-72f80cf5558d">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f1517b9e-fea7-4a20-88c1-d3d6f14fa4f8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ЮридическоеФизическоеЛицо</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>04b643a6-15dd-477e-ae9f-8cf4c67c0b4c.e3ea3f3b-568c-408a-bb78-fa4a49f84317</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="c8d6dab3-d9c3-46f0-a7ae-e97548386a3b">
+    <name>НалогКУплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налог на доходы физ. лица</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3354c709-f05a-4d3e-b17e-8bc13ff2c2b7">
+    <name>АвансовыеПлатежиИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансовые платежи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a608e42-5b6a-443a-9286-c0d97ed10242">
+    <name>СформироватьДекларацию4НДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать декларацию 4-НДФЛ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0446ebc2-6763-4f51-a306-de0ffcbba09a">
+    <name>ПредполагаемаяСуммаДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предполагаемая сумма доходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма доходов от предпринимательской деятельности с учетом профессионального вычета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="efd7a789-0a36-4fb2-b57c-fac9efec2a58">
+    <name>ТорговыйСбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый сбор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10b0f323-c714-45ff-9555-13150486a8eb">
+    <name>НомерКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер корректировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52511b66-2254-4b5e-b0f7-896d24bbffbb">
+    <name>НомерКорректировки4НДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер корректировки 4-НДФЛ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a0c747f5-de8a-4756-833c-5af92183bf1d">
+    <producedTypes>
+      <objectType typeId="2a760aa7-1d73-470a-95b4-d5b091570d81" valueTypeId="2e8c1619-d7f4-4fea-9c23-8093477980b1"/>
+      <rowType typeId="533373c5-0e10-4f03-9deb-19a405354db6" valueTypeId="d1c89035-02ba-46cb-9b25-1a38ed5d1d95"/>
+    </producedTypes>
+    <name>ДоходыВычеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы и вычеты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c57cc06f-1295-4629-b37c-5b4a649b0d02">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ИсточникиДоходовФизическихЛиц</types>
+        <types>EnumRef.ВычетыФизическихЛиц</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3cd9c30e-c8ae-4a12-9501-057a9d73621b">
+      <name>Информация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="121a8046-17c4-48ab-9be6-2386297e2058">
+      <name>СуммаДохода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доход</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f06d5d0e-22b5-44c8-bf7f-e68ec91014e5">
+      <name>СуммаВычета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вычет</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9ea09438-b44e-44a7-8aac-02dced3c7c6c">
+    <name>ДоходПоСправке2НДФЛ2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход по справке2 НДФЛ2018кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="494539b7-703b-4da0-bcc5-01bf0e2291c7">
+    <name>ДоходПредпринимателя2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход предпринимателя2018кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d07d6331-89e0-4689-af1b-1ca6f2d6df10">
+    <name>ДоходПродажаИмущства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход продажа имущства</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d76dd013-e288-4c85-bb0d-85a43d9c6b5a">
+    <name>ДоходОднойСуммойБезВычетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход одной суммой без вычетов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9fd46ffe-8aa4-4f1d-b100-1abb67755029">
+    <name>ДоходВРФПрочий2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход ВРФПрочий2018кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d4fa8b5-3c67-4b04-97af-4badd1f89731">
+    <name>ДоходВВалюте2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход в валюте2018кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7895b77a-a19b-41d5-bbfc-3484654622ff">
+    <name>ВычетИИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет ИИС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6cddf838-7dce-442c-97a3-fecc61083049">
+    <name>ВычетСоциальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальный вычет</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0fe8028d-14f9-471c-aa62-153df428cdd0">
+    <name>ВычетСтрахования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет страхования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2ec6853-7195-4e13-a6ad-0ba667aabd2f">
+    <name>ВычетУбыткиПрошлыхЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет убытки прошлых лет</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3b4b639-aeef-4914-9363-db9f4393e82d">
+    <name>ВычетНаНалогоплательщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет на налогоплательщика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0cf7e715-e293-4992-9fba-3923f1e1339b">
+    <name>ВычетНаДетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет на детей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ae3dbe0-d181-4e04-8c8a-3835b16ed852">
+    <name>ОбъектИмущественногоВычета2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет на приобретение или строительство недвижимости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97eaa83e-25d6-47ed-9b91-063f07a51f94">
+    <name>ОбъектИмущественногоВычета2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычет на приобретение или строительство недвижимости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1b06ef2e-55c6-44e6-a339-d52047fef68e">
+    <name>ДоговорыОбИзбежанииДвойногоНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры об избежании двойного налогообложения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="affe9711-edfd-4c48-a1ba-5d32baacfd18">
+  <producedTypes>
+    <objectType typeId="876a73aa-6c2a-4c7d-8526-137ad391b1f2" valueTypeId="6290c769-1fb7-4361-ba7b-92f39be960e5"/>
+    <refType typeId="2a616d0d-e40f-4bd1-8994-6cd73b97e6d1" valueTypeId="3dc4181b-4bf7-41a7-8887-dd9460325e13"/>
+    <selectionType typeId="c22ff03e-6ad9-4268-b5ea-f65a95a63cc4" valueTypeId="576b32dc-e590-40d4-9a7a-6a2424291eb7"/>
+    <listType typeId="368ab62e-419b-4129-879b-284c6ed184ba" valueTypeId="1a40f74d-9366-41af-82e2-2e6aff2f786e"/>
+    <managerType typeId="f43206cd-cf0a-4400-b26b-b519642dbab2" valueTypeId="088916f8-0df1-4919-bf9c-a69c57c0e8ae"/>
+  </producedTypes>
+  <name>ВыгрузкаРегламентированныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка регламентированных отчетов</value>
+  </synonym>
+  <inputByString>Document.ВыгрузкаРегламентированныхОтчетов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Выгрузка регламентированных отчетов</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выгрузки регламентированных отчетов</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>13</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыгрузкаРегламентированныхОтчетов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВыгрузкаРегламентированныхОтчетов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ВыгрузкаРегламентированныхОтчетов.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.АрхивДанныхРегламентированнойОтчетности</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="06910348-4ab9-4429-b9e9-cb087f1fe661">
+    <name>ПериодПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период По</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96cde9c4-171c-4099-8cdf-587270a1156c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fa04b93-390c-4669-8cbf-c6b1cf7e7740">
+    <name>КодНалоговогоОргана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код налогового органа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97dccef5-11e5-49b2-a27b-308bea324428">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4d72e5e-7d5f-45c3-8069-a6a7e4bf46d5">
+    <name>ОтборПоНалоговомуОргану</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по налоговому органу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8ef9c2d-8cb0-45bf-becf-26b243e1b9e1">
+    <name>ПредставлениеПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление периода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="590cab63-cf93-4f96-8baf-1526a4956959">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0f88be1-dff1-4ad6-b312-12e24e7b329d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5860e0e5-336e-450e-b9aa-0e4e4c8ac5f6">
+    <name>ФормаНавигацииПоОшибкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма навигации по ошибкам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e68cc480-7839-4a52-a69a-05e4f7d80ab7">
+    <name>ФормаСообщенийОбОшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты проверки выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a48840f9-fbfa-475d-89c3-e60303aa5b7c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d2b4daf6-9172-40cc-b626-05a8c17fac1a">
+    <producedTypes>
+      <objectType typeId="e72bb744-2a20-4477-9f1a-7d08784c4e9e" valueTypeId="318f1bd9-20bc-4975-8252-df63417d3b0b"/>
+      <rowType typeId="007256ec-fb9d-4626-bbdf-d450ce205c2d" valueTypeId="7cafb2c3-ccb0-44ee-b26c-3a022ab72959"/>
+    </producedTypes>
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <attributes uuid="e83056e0-a86f-4ff7-b7ac-459c4c9cb784">
+      <name>Основание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документы-основания</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РегламентированныйОтчет</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bcaebe37-3585-43ca-bd21-1f46790b8f23">
+      <name>НомерСтрокиТекстаВыгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки текста выгрузки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6aeda81b-fbcf-44bf-934f-fe9d92255ab2">
+    <producedTypes>
+      <objectType typeId="0a1193a8-488c-488f-9756-3ae79be6fc5d" valueTypeId="d2704bc2-c2c2-4406-8428-f3b4a59a89b2"/>
+      <rowType typeId="7443ae0f-be7e-457b-b141-cad77f9b6279" valueTypeId="44dfb3ff-c589-4280-a21e-bca7463d6d46"/>
+    </producedTypes>
+    <name>Выгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузки</value>
+    </synonym>
+    <attributes uuid="dd585fc2-3e3a-4875-89d9-4ad9ccd6acd7">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВерсииФорматовВыгрузки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29e9662d-2aff-46a2-a2ab-62429e41ab95">
+      <name>ИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d24dcbd-2a11-44b1-8041-c236f9fdf5da">
+      <name>Текст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

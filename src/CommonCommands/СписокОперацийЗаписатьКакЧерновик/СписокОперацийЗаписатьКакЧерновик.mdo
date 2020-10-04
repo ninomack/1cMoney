@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a1525ec-4d98-4a41-87be-50479689506c">
+  <name>СписокОперацийЗаписатьКакЧерновик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать как черновик</value>
+  </synonym>
+  <comment>Отменяет проведение или пометку удаления выделенных документов</comment>
+  <group>CommandGroup.КомандыСпискаОпераций</group>
+  <commandParameterType/>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <modifiesData>true</modifiesData>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Записать выделенные операции как черновики: без учета и без пометки на удаление</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.UndoPosting</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

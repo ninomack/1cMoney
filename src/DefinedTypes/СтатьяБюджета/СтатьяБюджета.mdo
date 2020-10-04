@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36a26dea-d6fd-49ef-ab48-910f81173275">
+  <producedTypes>
+    <containerType typeId="06b477d8-f566-4a64-b8cd-2dab8d837bf3" valueTypeId="4fc65bee-3d40-4e49-8182-81c135f6dd74"/>
+  </producedTypes>
+  <name>СтатьяБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья бюджета</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>CatalogRef.Долги</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+    <types>CatalogRef.ГрафыБюджета</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f396fb-a773-474c-ada3-425bd47eebe1">
+  <name>МенюПеремещение16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Меню перемещение16х16</value>
+  </synonym>
+</mdclass:CommonPicture>

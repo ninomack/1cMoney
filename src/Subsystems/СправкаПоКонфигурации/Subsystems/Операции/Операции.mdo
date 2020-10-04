@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a516a0f1-493a-42a5-8dee-4f010d0fd171">
+  <name>Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Document.ВводИзменениеОстатка</content>
+  <content>Document.МыДалиВДолг</content>
+  <content>Document.НамВернулиДолг</content>
+  <content>Document.ОбменВалюты</content>
+  <content>Document.Перемещение</content>
+  <content>Document.МыВернулиДолг</content>
+  <content>Document.МыВзялиВДолг</content>
+  <content>Document.Доход</content>
+  <content>Document.Расход</content>
+  <content>Document.УниверсальнаяОперация</content>
+  <parentSubsystem>Subsystem.СправкаПоКонфигурации</parentSubsystem>
+</mdclass:Subsystem>

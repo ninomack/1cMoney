@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4c3cc4c-f92a-41cc-9cfc-2aef1c2acfcf">
+  <producedTypes>
+    <recordType typeId="312ea70c-cc4b-46c4-b74f-b0b500a53096" valueTypeId="b5da52e9-de59-487e-80fc-ff12aa68fee2"/>
+    <managerType typeId="0f403eeb-1ebb-442b-9938-9c5062d5f7c3" valueTypeId="1b8a74da-bfe8-46e7-bcee-cfd9d4a2d6c4"/>
+    <recordSetType typeId="e75788b6-8287-406d-81a1-5b00c47ab048" valueTypeId="f09f3639-b5c8-4f4c-b66a-e057d375c3c2"/>
+  </producedTypes>
+  <name>ВводИзменениеОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод/изменение остатков</value>
+  </synonym>
+  <documents>Document.ВводИзменениеОстатка</documents>
+  <documents>Document.МыДалиВДолг</documents>
+  <documents>Document.НамВернулиДолг</documents>
+  <documents>Document.ОбменВалюты</documents>
+  <documents>Document.Перемещение</documents>
+  <documents>Document.МыВернулиДолг</documents>
+  <documents>Document.МыВзялиВДолг</documents>
+  <documents>Document.Доход</documents>
+  <documents>Document.Расход</documents>
+  <documents>Document.УниверсальнаяОперация</documents>
+  <registerRecords>AccountingRegister.ЖурналОпераций</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0670a3a3-61ba-42d3-b569-4d4331ae4b82">
+    <name>РазделУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.РазделыУчета</types>
+    </type>
+    <documentMap>Document.ВводИзменениеОстатка.Attribute.РазделУчета</documentMap>
+  </dimensions>
+  <dimensions uuid="755d8e25-154f-46bf-80d4-548f9d3a876b">
+    <name>ОбъектУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект учета</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконто</types>
+    </type>
+    <documentMap>Document.ВводИзменениеОстатка.Attribute.ОбъектУчета</documentMap>
+  </dimensions>
+</mdclass:Sequence>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2335d0d9-89a9-4a77-acf8-9bd22badefa0">
+  <producedTypes>
+    <managerType typeId="2cecf820-cab3-4cc0-a2b9-09c011616718" valueTypeId="31f4cf7b-d58a-4165-9b76-6171439eed67"/>
+    <valueManagerType typeId="da4a9842-b891-4233-85d4-3f34a4cb9616" valueTypeId="39314651-ff6e-45d9-bbe7-d38395086201"/>
+    <valueKeyType typeId="0894af3f-561b-5fe1-a592-70b06a8b8b7f" valueTypeId="88d11c88-45c9-5002-bbed-b60972f5c18b"/>
+  </producedTypes>
+  <name>ОсновнойВариантБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной вариант бюджета</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВариантыБюджетов</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

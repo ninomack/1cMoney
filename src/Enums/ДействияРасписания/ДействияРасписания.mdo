@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4659bff0-57db-4dad-b672-08a1cd4e6f4c">
+  <producedTypes>
+    <refType typeId="c7a90888-6d42-426b-a65b-24668081feb7" valueTypeId="be767aed-9d60-430c-9429-5cb320224b58"/>
+    <listType typeId="b5ec4102-c551-4374-86da-a5e055227372" valueTypeId="5f6bf81e-1b4a-447f-b3a1-3b0b15a84650"/>
+    <managerType typeId="dfc2c01a-b6fe-4687-9106-4263c3a03432" valueTypeId="40a3de79-ee45-41ea-b69d-768b3f6a0e2d"/>
+  </producedTypes>
+  <name>ДействияРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия расписания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3273fbbd-003a-4735-a90a-d0e3603e3b0f">
+    <name>Выполнить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b6e709e-c349-4ec9-a7a6-c97fb2b1d2fb">
+    <name>Изменить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

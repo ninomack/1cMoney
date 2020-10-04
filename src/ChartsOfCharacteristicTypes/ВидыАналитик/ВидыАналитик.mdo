@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc5077ad-cb42-401e-a36a-ec0a85eb4a85">
+  <producedTypes>
+    <objectType typeId="cdfe951b-29f3-4d53-b6b0-eac8797bf8ed" valueTypeId="3702d185-ceb0-43c5-8e1b-ac88d39287ce"/>
+    <refType typeId="47ae04c5-d869-422a-8ee9-b486784abe8a" valueTypeId="1f119a48-6998-4b5a-a833-8b74b0d4c751"/>
+    <selectionType typeId="e9777763-9643-4a5e-96c5-d031fbb02737" valueTypeId="bf7a0e3f-8533-42e9-b9b6-93529b5f49fd"/>
+    <listType typeId="32cb05d9-e947-49cc-9658-487aff24c683" valueTypeId="8e0020c1-cdc8-4ea3-9b63-87ac2231612a"/>
+    <managerType typeId="3584f2a3-2738-4cbb-89e5-e5f2daeee638" valueTypeId="7bbf981b-873d-44cc-9e19-6f1d8f4717ee"/>
+    <containerType typeId="a43f63e3-da9c-456e-8c13-d1a7b823d69e" valueTypeId="d5626321-0a7f-42fb-9383-8e201f219a6d"/>
+  </producedTypes>
+  <name>ВидыАналитик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика статей</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ВидыАналитик.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ДополнительныеЗначенияВидовАналитик</characteristicExtValues>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Контакты</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>CatalogRef.Долги</types>
+    <types>Number</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>4</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="98765e7c-8545-4fdb-950b-166db4fbbca1">
+      <name>Важность</name>
+      <description>Важность</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="6ec89d52-e0a0-4971-ba47-b5312438e824">
+      <name>НаправлениеИспользования</name>
+      <description>Где будет использоваться</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="70974bbe-9924-44a2-8478-c1ca6e1da68e">
+      <name>ГеографияСделки</name>
+      <description>География сделки</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="3122415a-2b2b-4bcc-ae33-4b9ca8834866">
+      <name>Имущество</name>
+      <description>Имущество</description>
+      <type>
+        <types>CatalogRef.Имущество</types>
+      </type>
+    </items>
+    <items id="f454b22e-17ff-44ac-a3a2-601f3039d076">
+      <name>КарточкаСкидок</name>
+      <description>Карточка скидок</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="3cb8ec04-db1e-4875-8377-ad43e119849b">
+      <name>Кредит</name>
+      <description>Кредит</description>
+      <type>
+        <types>CatalogRef.Долги</types>
+      </type>
+    </items>
+    <items id="fc8d1cfb-f2f9-47d0-80fe-2a992a6f11a6">
+      <name>МестоПолученияДохода</name>
+      <description>Место получения дохода</description>
+      <type>
+        <types>CatalogRef.Контакты</types>
+      </type>
+    </items>
+    <items id="602006b9-15ff-4de7-bcd3-1f7b6f6ec340">
+      <name>МестоТраты</name>
+      <description>Место траты (магазин, кафе)</description>
+      <type>
+        <types>CatalogRef.Контакты</types>
+      </type>
+    </items>
+    <items id="1632968f-f5f8-45ea-95a1-5bf6101c63df">
+      <name>Пометка</name>
+      <description>Пометка</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="d020e880-1dae-469f-8e8a-67099456f239">
+      <name>Проект</name>
+      <description>Проект</description>
+      <type>
+        <types>CatalogRef.ДополнительныеЗначенияВидовАналитик</types>
+      </type>
+    </items>
+    <items id="4322fd6d-b0b4-427b-b84c-c655de1a73e5">
+      <name>ФинансоваяЦель</name>
+      <description>Финансовая цель</description>
+      <type>
+        <types>CatalogRef.ФинансовыеЦели</types>
+      </type>
+    </items>
+    <items id="a332bdbc-09cd-4e9e-997a-69f888eb6b57">
+      <name>ЧленыСемьи</name>
+      <description>Члены семьи (назначение затрат, источники доходов)</description>
+      <type>
+        <types>CatalogRef.Контакты</types>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ВидыАналитик.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ВидыАналитик.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ВидыАналитик.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e8f98dff-91f9-4fa1-8eb9-1739cf0924a0">
+    <name>АктуальнаДляДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для статей доходов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c3b8a64-759f-44fd-9ca6-0a91a800bb4f">
+    <name>РедактироватьВШапкеДляДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнять в шапке (для дохода)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ec6d6d3-8e85-42d8-9db9-bf290e63b84e">
+    <name>ЗначениеАналитикиДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию (для дохода)</value>
+    </synonym>
+    <comment>Значение по умолчанию в доходах</comment>
+    <type>
+      <types>Characteristic.ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>ChartOfCharacteristicTypes.ВидыАналитик.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.ВидыАналитик.StandardAttribute.Ref</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bafe265e-22c4-4a80-9b34-720601148c01">
+    <name>РасширенныеНастройкиДляДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки по статьям доходов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93211933-fde0-4447-b743-fa40b176fdf1">
+    <name>АктуальнаДляРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для статей расходов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83c14409-17b8-4bd1-a36b-6bdfdaef3514">
+    <name>РедактироватьВШапкеДляРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнять в шапке (для расхода)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cfda9ec-8938-4257-88ce-e86783f57cfe">
+    <name>ЗначениеАналитикиРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию (для расхода)</value>
+    </synonym>
+    <comment>Значение по умолчанию в расходах</comment>
+    <type>
+      <types>Characteristic.ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>ChartOfCharacteristicTypes.ВидыАналитик.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.ВидыАналитик.StandardAttribute.Ref</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8de2189-d7a4-42c5-8a92-e284b7c788af">
+    <name>РасширенныеНастройкиДляРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки по статьям расходов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6de68aaf-f663-427f-b476-685346e42c6c">
+    <name>ГруппаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа по умолчанию</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f28be2d4-e134-4bb8-87f7-b96088664867">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2de9a2a0-ae8b-4d3c-8cb0-39324cc12cc4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c3ee98d-0a6d-4db7-a2a5-923e21382b9f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9353376a-9ae8-4ee2-94e4-e6542fac3812">
+    <name>НастройкиВидимостиПоСтатьям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки видимости по статьям</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f19351c9-b911-4cdd-a014-112608f334da">
+    <name>АналитикаСтатей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика статей</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийСправочники</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ChartOfCharacteristicTypes>

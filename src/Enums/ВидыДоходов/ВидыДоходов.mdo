@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23c2bbfe-ae9a-4a1b-aacf-fc5a0fe9cae4">
+  <producedTypes>
+    <refType typeId="0ca17ec8-d308-4b36-a459-a2063056be21" valueTypeId="f741f691-8368-4f6d-84e4-692b336a7ac9"/>
+    <listType typeId="70b18b10-6373-493c-9676-4a7ba80e322b" valueTypeId="851f803e-9bfb-4ac4-85d3-ad520f3e86f0"/>
+    <managerType typeId="d29d1fdf-6db6-47c2-a649-da316a629df8" valueTypeId="29df1c2f-3020-422e-8947-45440fd600ff"/>
+  </producedTypes>
+  <name>ВидыДоходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доходов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1d6a627-721d-4839-bb26-34e3b58fa76c">
+    <name>ДоходыПоСтатьям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход по статье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e3ad3b0-f682-4fb1-ba17-f1e0a2e7453a">
+    <name>ПродажаИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка за имущество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90c6fccd-51ae-410e-b337-e6521e0cbf60">
+    <name>ВозвратВыданныхДолгов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение выданного долга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="450378ad-69dc-4f29-8bfa-38685dd1035b">
+    <name>ВзятиеДенегВДолг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взятие в долг (кредит)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d414ccb-8bbe-400a-a355-01745ccf4050">
+    <name>ВзаимныеРасчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимные расчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27688ba8-3dfd-4cfc-94e8-6adb6df11e55">
+    <name>ПереводИзДругихКошельков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод из кошелька</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f28c43e6-cff0-46cf-9400-e4e63648783b">
+    <name>ОбменВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод валюты из кошелька</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e15d1cc4-b6d8-49f7-b5fb-abdc106ded81">
+    <name>ПереводИзНакоплений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат накопления из кошелька</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a22beeb-44ce-482a-a7ee-759d423ffa40">
+    <name>ПереводВНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в накопление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

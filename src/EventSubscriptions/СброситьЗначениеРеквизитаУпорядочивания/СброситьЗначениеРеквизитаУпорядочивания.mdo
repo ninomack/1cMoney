@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9a27e13-6584-4735-84c5-73736f99f4fb">
+  <name>СброситьЗначениеРеквизитаУпорядочивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбросить значение реквизита упорядочивания</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОбъектСНастраиваемымПорядком</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементов.СброситьЗначениеРеквизитаУпорядочивания</handler>
+</mdclass:EventSubscription>

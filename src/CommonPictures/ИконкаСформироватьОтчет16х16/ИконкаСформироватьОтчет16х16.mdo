@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4f1f825-50b4-404d-9448-febfc3845eb2">
+  <name>ИконкаСформироватьОтчет16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка &quot;Сформировать отчет&quot; 16х16</value>
+  </synonym>
+  <transparentPixel>
+    <x>13</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

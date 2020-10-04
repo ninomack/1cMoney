@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d89f66f0-c5fd-41fe-8fe8-f13edda15c59">
+  <name>ПрикрепленныеФайлыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прикрепленные файлы (клиентская часть)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

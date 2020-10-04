@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae7af998-b8f8-4d8d-9eb4-b3ab3daa5558">
+  <producedTypes>
+    <objectType typeId="213b2291-1d08-4a4f-b653-076049d4d2ce" valueTypeId="7ec0283c-182d-4cac-ae26-477d8da8a805"/>
+    <managerType typeId="af4a2b97-913b-4829-abfb-97a0a11183b9" valueTypeId="51fb791c-b897-4320-abe6-cbd0f297a2ff"/>
+  </producedTypes>
+  <name>ОтчетПоБюджету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по бюджету</value>
+  </synonym>
+  <defaultForm>Report.ОтчетПоБюджету.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетПоБюджету.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="6cad2eec-7932-443a-b918-fd91ce1a184c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="76b9965e-22af-4161-80fd-d2cf95f070d8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2a27c8a9-1287-4ce2-ab4e-dfa4a4e46605">
+    <name>ОтчетПоБюджету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по бюджету</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

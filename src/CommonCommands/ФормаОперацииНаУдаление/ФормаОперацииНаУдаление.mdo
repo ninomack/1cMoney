@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c07ccfa-b1a7-4772-a298-8d551eb33449">
+  <name>ФормаОперацииНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>На удаление</value>
+  </synonym>
+  <comment>Пометить на удаление и закрыть форму</comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.MarkToDelete</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

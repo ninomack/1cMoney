@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15f40cec-fda8-47b1-8e1a-f672c068c82e">
+  <name>ПеремещениеНакоплений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение накоплений</value>
+  </synonym>
+</mdclass:CommonPicture>

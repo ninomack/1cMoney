@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f19c1f01-4c66-440d-8ef4-41adac720e98">
+  <producedTypes>
+    <containerType typeId="ac462899-c482-464c-80f4-ff481f86fafb" valueTypeId="aa04d44d-253c-412e-94bb-e42d9e6b6672"/>
+  </producedTypes>
+  <name>СправочникиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники учета</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контакты</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>CatalogRef.Долги</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+    <types>CatalogRef.ГрафыБюджета</types>
+  </type>
+</mdclass:DefinedType>

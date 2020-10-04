@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="456de83c-4383-4dab-9cc9-904fea6fb77d">
+  <producedTypes>
+    <objectType typeId="8cef21b4-6fdd-45ec-b777-e6c21e956688" valueTypeId="5d849986-a8aa-4f39-8be7-959a5606ff2c"/>
+    <refType typeId="99670d87-c407-47ad-9e28-1e8e5c8235cb" valueTypeId="dfdac9c4-c05f-4f04-9737-9808af14a9d6"/>
+    <selectionType typeId="2c627a94-ecc9-4d41-b6ce-99fac805f52b" valueTypeId="6e2f80d6-eac2-4d2c-a449-e857e5ca4778"/>
+    <listType typeId="c0294c36-9b6a-4e64-9435-330bcf177933" valueTypeId="17e7d062-b575-44cf-803d-bccdda16ea8c"/>
+    <managerType typeId="87b6e1ec-a918-4225-b7a8-8b0143cc373d" valueTypeId="d9555a74-ab69-4b5c-b61b-0b7363608b8e"/>
+  </producedTypes>
+  <name>ПравилаЧтенияТабличныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила чтения табличных документов</value>
+  </synonym>
+  <inputByString>Catalog.ПравилаЧтенияТабличныхДокументов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Правило чтения табличного документа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.ПравилаЧтенияТабличныхДокументов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="03feff1a-3e88-44ea-af11-4cfde5ef8b31">
+    <name>ТипЗагружаемогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип загружаемого документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЗагружаемыхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыЗагружаемыхДокументов.EnumValue.ВыпискаБанка</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9b595673-0faf-4471-9513-4f5d042e7855">
+    <producedTypes>
+      <objectType typeId="a1fea345-38f6-49eb-845a-8defc210bc57" valueTypeId="198f3ec3-6b95-4783-81b9-aa5598916bde"/>
+      <rowType typeId="48162312-3f85-4235-b8d2-4d02fd531310" valueTypeId="17fc0277-3f5e-4810-b77a-4184cb8574ab"/>
+    </producedTypes>
+    <name>ПоказателиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели документа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2253e684-3883-4b3c-8290-139449920aaa">
+      <name>КлючПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ показателя</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ВидыАналитик</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="08b55a80-af3b-4667-8a6a-c6016dcf4242">
+      <name>ПоложениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Положение показателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="11a4719e-8e4e-4726-b389-005c8a9c9089">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ad4e337-af80-4d7b-abbd-6cedbdbb4bb0">
+    <name>ПравилоЧтенияВыписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило чтения выписки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="142d6b7f-1428-4cde-a2a4-87c93c2f261f">
+    <name>ПредустановленныеПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предустановленные правила</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

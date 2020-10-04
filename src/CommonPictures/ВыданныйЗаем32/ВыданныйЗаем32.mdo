@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f372a0-8692-4774-8f27-70b5350797b9">
+  <name>ВыданныйЗаем32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выданный заем32</value>
+  </synonym>
+</mdclass:CommonPicture>

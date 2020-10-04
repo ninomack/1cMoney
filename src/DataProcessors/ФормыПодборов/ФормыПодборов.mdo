@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80385cec-e919-4bc5-a09a-67aae9686f94">
+  <producedTypes>
+    <objectType typeId="9de3948b-552a-49ee-89a8-2b07060c0462" valueTypeId="7e9e9c0f-df0b-4c02-af03-d9e26cef7a29"/>
+    <managerType typeId="e0a70f30-4f4d-44e9-8d08-d753621014ad" valueTypeId="1de45723-e724-4b97-928f-a56a440b8393"/>
+  </producedTypes>
+  <name>ФормыПодборов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы подборов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ФормыПодборов.Form.Форма</defaultForm>
+  <forms uuid="cf470c3b-4836-4b4c-a254-6053db163203">
+    <name>ПодборСтатейРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор статей расходов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4f74efe-e093-4034-b956-fb8476f89c7c">
+    <name>ЗапросСуммыРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос суммы расхода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7d4495c-6437-4096-b0af-51bd4cfbf69d">
+    <name>ПодборСтатейДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор статей доходов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e269acd5-2d40-4e60-a504-92e08e3b7d52">
+    <name>ЗапросСуммыДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос суммы дохода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="184b7d33-a252-4d1c-ae24-2139e8ff69ab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

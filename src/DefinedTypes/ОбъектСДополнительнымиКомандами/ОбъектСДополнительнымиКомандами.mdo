@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdef5df6-f3a1-4950-b197-4f375914f885">
+  <producedTypes>
+    <containerType typeId="d1afa1a2-4abd-4a1b-82cc-2f3def9fedbe" valueTypeId="ed4788ec-70ab-436c-8f91-8d86683c8bc5"/>
+  </producedTypes>
+  <name>ОбъектСДополнительнымиКомандами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с дополнительными командами</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ОбменВалюты</types>
+    <types>DocumentRef.ВводИзменениеОстатка</types>
+    <types>DocumentRef.Доход</types>
+    <types>CatalogRef.ЗначенияСубконтоАналитика</types>
+    <types>ChartOfCharacteristicTypesRef.ВидыАналитик</types>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.Контакты</types>
+    <types>DocumentRef.МыВзялиВДолг</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>DocumentRef.МыВернулиДолг</types>
+    <types>DocumentRef.НамВернулиДолг</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>DocumentRef.МыДалиВДолг</types>
+    <types>DocumentRef.Перемещение</types>
+    <types>CatalogRef.Долги</types>
+    <types>DocumentRef.Расход</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+    <types>DocumentRef.УниверсальнаяОперация</types>
+  </type>
+</mdclass:DefinedType>

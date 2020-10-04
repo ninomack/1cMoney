@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a677b8-ca38-46a7-9954-0595acbb57a6">
+  <producedTypes>
+    <objectType typeId="2de0a8fe-60bd-4f99-a4ee-ed9621a292d0" valueTypeId="ac5b358c-a373-4854-90c9-d30f064b5b29"/>
+    <managerType typeId="564af9b3-92f5-469b-95ba-6e616b56f4aa" valueTypeId="39464dab-b733-4938-aace-e4645c84d7a6"/>
+  </producedTypes>
+  <name>ПомощникСозданияКошелька</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник создания кошелька</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникСозданияКошелька.Form.Форма</defaultForm>
+  <forms uuid="79cd3c83-7d2d-4f02-b6fe-e1441111f4fa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

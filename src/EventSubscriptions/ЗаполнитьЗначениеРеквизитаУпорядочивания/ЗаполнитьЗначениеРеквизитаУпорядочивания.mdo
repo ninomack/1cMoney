@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a819da8-9784-4215-8b30-48d67c5cc7b2">
+  <name>ЗаполнитьЗначениеРеквизитаУпорядочивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить значение реквизита упорядочивания</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОбъектСНастраиваемымПорядком</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементов.ЗаполнитьЗначениеРеквизитаУпорядочивания</handler>
+</mdclass:EventSubscription>

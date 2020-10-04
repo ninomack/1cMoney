@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a43205-aa7a-442b-82b8-d345f9153d48">
+  <producedTypes>
+    <selectionType typeId="7c44c5db-4aa1-4f61-b423-4ee7d275ace1" valueTypeId="24796e5c-b4d8-4ac2-8b1f-bb321f1c2f12"/>
+    <listType typeId="3f0a01ae-2e23-4a99-8fe9-009d43e48fb9" valueTypeId="d47b895b-463b-4a89-a79e-769cf5fc3d13"/>
+    <managerType typeId="7f7ffc03-3d56-4cc1-a1ff-06886fa8cbf2" valueTypeId="47ad51c3-07de-448e-8a23-0da026eb5223"/>
+    <recordSetType typeId="57c3c60a-4de1-42cf-b241-b4a6981ca478" valueTypeId="0a1870aa-fbe1-4c3b-88b1-91cbbf1bcaae"/>
+    <recordKeyType typeId="a2faf406-cff4-4fda-9891-31a08d381fd7" valueTypeId="2fe7f252-19a1-46f4-aa49-5a421fe3b216"/>
+    <recordType typeId="8489ec49-322e-4ccf-ad26-7b737f6c4706" valueTypeId="5d1f2df1-f409-40bc-9deb-76a946180483"/>
+  </producedTypes>
+  <name>ОборотыПлановыхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обороты плановых операций</value>
+  </synonym>
+  <defaultListForm>AccumulationRegister.ОборотыПлановыхОпераций.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="afd6baf5-77de-4154-91f1-ea8c4a13b441">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="8eaf67e7-8fa3-4fd3-bfc2-b67b66d68049">
+    <name>ПлановаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dba21cc6-07c5-41b2-92aa-060264bf4a49">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="6c4baa0b-4898-4d43-abe1-fedb1b830785">
+    <name>РазделБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4890619-6c63-4792-a7c0-975893a2ac1b">
+    <name>Кошелек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КошелькиИСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a4aa2dcc-f184-4ade-9581-affb337e371a">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыБюджетныхПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e0934f80-d087-4f05-b1e3-e8750a907fb7">
+    <name>СтатьяБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья бюджета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СтатьяБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="849933f4-a6bf-4e60-baad-2b33381ac46e">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8bac7970-4576-4550-9d5c-c342b15b9962">
+    <name>УдалитьГрафаБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить графа бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафыБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e547a0cd-71e5-46f4-865e-eba2ffc2632c">
+    <name>УдалитьШаблонОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить шаблон операции</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОбменВалюты</types>
+      <types>DocumentRef.Доход</types>
+      <types>DocumentRef.МыВзялиВДолг</types>
+      <types>DocumentRef.МыВернулиДолг</types>
+      <types>DocumentRef.НамВернулиДолг</types>
+      <types>DocumentRef.МыДалиВДолг</types>
+      <types>DocumentRef.Перемещение</types>
+      <types>DocumentRef.Расход</types>
+      <types>DocumentRef.УниверсальнаяОперация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <forms uuid="8de3fc4a-6112-4bd1-bc51-b2b54a983f2b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

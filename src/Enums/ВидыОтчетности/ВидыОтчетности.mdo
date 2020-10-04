@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da2fcc4a-7146-4f64-9ba7-af4b7cd21cb9">
+  <producedTypes>
+    <refType typeId="f2834f78-ddee-4f39-a362-fde675f256f5" valueTypeId="a91b57bb-f3bc-4ef4-a352-86a39df36125"/>
+    <listType typeId="7c0efd6c-6c0c-4295-81b7-4163286d537d" valueTypeId="01ef539d-03a4-4a88-beb1-562158dfa38d"/>
+    <managerType typeId="c2008295-810d-4a34-9643-1957d7ae31a8" valueTypeId="2233273a-e619-4649-a88a-85c58b969bc9"/>
+  </producedTypes>
+  <name>ВидыОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отчетности</value>
+  </synonym>
+  <comment>Виды отчетности</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="793f73f6-55f2-4a46-a738-ef783bd58d32">
+    <name>РегламентированнаяОтчетность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентированная отчетность</value>
+    </synonym>
+    <comment>(Регл)</comment>
+  </enumValues>
+  <enumValues uuid="eb678b6c-f777-4fcc-9e0f-ba9f1abce33d">
+    <name>ОтчетностьПоМСФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетность по МСФО</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+</mdclass:Enum>

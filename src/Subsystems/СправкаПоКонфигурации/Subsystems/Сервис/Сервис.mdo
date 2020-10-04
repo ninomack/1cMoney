@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35af1943-94ed-40fd-b711-1481c543046c">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>DataProcessor.АктивныеПользователи</content>
+  <content>DataProcessor.НастройкиПользователей</content>
+  <content>8e755ce0-c571-4ed5-b0bb-9470edcb7c73</content>
+  <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>Catalog.Пользователи</content>
+  <content>DataProcessor.БлокировкаРаботыПользователей</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
+  <parentSubsystem>Subsystem.СправкаПоКонфигурации</parentSubsystem>
+</mdclass:Subsystem>

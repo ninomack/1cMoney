@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c0851cb-5d59-4380-b124-1eab634417c8">
+  <name>БюджетОтметкаФакта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет отметка факта</value>
+  </synonym>
+</mdclass:CommonPicture>

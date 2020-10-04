@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acff6de2-0e2b-4016-b66e-796f49d8e9d9">
+  <name>СоздатьШаблонОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать шаблон</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ОбменВалюты</types>
+    <types>DocumentRef.Доход</types>
+    <types>DocumentRef.МыВзялиВДолг</types>
+    <types>DocumentRef.МыВернулиДолг</types>
+    <types>DocumentRef.НамВернулиДолг</types>
+    <types>DocumentRef.МыДалиВДолг</types>
+    <types>DocumentRef.Перемещение</types>
+    <types>DocumentRef.Расход</types>
+    <types>DocumentRef.УниверсальнаяОперация</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

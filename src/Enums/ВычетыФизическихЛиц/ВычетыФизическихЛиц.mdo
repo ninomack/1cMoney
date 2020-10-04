@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d094dfa-7b20-4cf1-8379-7019c8c51f54">
+  <producedTypes>
+    <refType typeId="d7d5e997-17c0-4568-832e-0973624af0ca" valueTypeId="38a181d3-6be5-40c7-b043-50e7b73b8091"/>
+    <listType typeId="7072a1e4-8a3c-46d4-b6e0-69a813bc3d01" valueTypeId="a137da81-3e50-47f9-833c-49e1ee95c905"/>
+    <managerType typeId="b12f91de-51b1-4dfb-9968-0f43e7bc1112" valueTypeId="301c9e74-c987-467a-8114-e75887eb4646"/>
+  </producedTypes>
+  <name>ВычетыФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вычеты физических лиц</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a7657c04-a191-449d-900b-23572632dc9c">
+    <name>ДобровольныеПенсионныеВзносыИСтрахованиеЖизни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добровольные пенсионные взносы и страхование жизни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7598d4a2-998c-4ff3-8b31-4eb28767c42a">
+    <name>Имущественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущественный</value>
+    </synonym>
+    <comment>Имущественный по доходам от продажи имущества</comment>
+  </enumValues>
+  <enumValues uuid="7e4ef2bc-8445-48df-845a-5e471c4d49a6">
+    <name>Инвестиционный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвестиционный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9524cef4-0f6c-4be0-a2a4-04083cf3461d">
+    <name>НаПриобретениеИлиСтроительствоНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>На приобретение или строительство недвижимости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0a070df-6bc6-4a51-9650-5cfc464e2d46">
+    <name>Профессиональный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессиональный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cb4a317-e2fd-4fa1-917d-6e237920aa5c">
+    <name>Социальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальный (обучение, медицинские расходы, пожертвования)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f8d0ac1-ccac-4159-baab-59b3b2b9c549">
+    <name>СтандартныйНаДетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный на детей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5774a3e3-c3ed-4fd7-9df3-73bb34c9028a">
+    <name>СтандартныйНаНалогоплательщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный на налогоплательщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bee323de-6c03-4f5e-b1aa-08f6e14fbcc0">
+    <name>УбыткиПрошлыхЛетПоОперациямСЦеннымиБумагами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Убытки прошлых лет по операциям с ценными бумагами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34c36dfd-a60b-4429-8587-97740eca3d17">
+    <name>НеоблагаемыеСуммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необлагаемые суммы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

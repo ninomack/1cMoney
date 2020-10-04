@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e998f391-7cd7-4869-87af-81f36931e399">
+  <name>УчетИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет имущества</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Имущество</content>
+  <content>Document.ВводИзменениеОстатка</content>
+  <content>Document.Расход</content>
+  <content>Document.УниверсальнаяОперация</content>
+  <content>Report.ОтчетПоИмуществу</content>
+  <content>CommonPicture.ИзменениеОстатка16</content>
+  <content>CommonPicture.УниверсальнаяОперация16</content>
+  <content>CommonPicture.Имущество48</content>
+  <content>CommonPicture.Имущество32</content>
+  <content>CommonPicture.Имущество16</content>
+  <content>DataProcessor.ПомощникСозданияИмущества</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

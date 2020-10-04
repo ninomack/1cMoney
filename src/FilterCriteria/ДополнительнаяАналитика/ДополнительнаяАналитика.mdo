@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="febed06a-66a0-4853-ab50-3d6cb52bdcbf">
+  <producedTypes>
+    <listType typeId="c3fe8542-a160-4729-bd91-f4c86a8dbc50" valueTypeId="28685983-b962-42bb-a27e-f2636923b2db"/>
+    <managerType typeId="5ca29e8c-6b83-4fb2-b41d-621f9129fb81" valueTypeId="9df10738-7022-42c1-9d45-c89e4ab88537"/>
+  </producedTypes>
+  <name>ДополнительнаяАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная аналитика</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЗначенияСубконтоАналитика</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.Доход.TabularSection.Доходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.МыВернулиДолг.Attribute.АналитикаСтатьиРасходовПоКомиссии</content>
+  <content>Document.МыВернулиДолг.Attribute.АналитикаСтатьиРасходовПоПроцентам</content>
+  <content>Document.МыВернулиДолг.Attribute.АналитикаСтатьиСписания</content>
+  <content>Document.МыВернулиДолг.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.МыВзялиВДолг.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.МыДалиВДолг.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.НамВернулиДолг.Attribute.АналитикаСтатьиДоходовПоПроцентам</content>
+  <content>Document.НамВернулиДолг.Attribute.АналитикаСтатьиСписания</content>
+  <content>Document.НамВернулиДолг.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.ОбменВалюты.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.Перемещение.TabularSection.ДополнительныеРасходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.Расход.Attribute.КошелекДолг</content>
+  <content>Document.Расход.TabularSection.Расходы.Attribute.АналитикаСтатьи</content>
+  <content>Document.УниверсальнаяОперация.TabularSection.Доходы.Attribute.АналитикаСтатьиДохода</content>
+  <content>Document.УниверсальнаяОперация.TabularSection.Расходы.Attribute.АналитикаСтатьиРасхода</content>
+</mdclass:FilterCriterion>

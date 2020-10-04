@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b5ce5f2-c5ef-42ab-8663-bd22d56ed352">
+  <producedTypes>
+    <selectionType typeId="6e92337b-fa00-478d-a4ef-a54464d48a0d" valueTypeId="6da371a1-af07-446c-99e9-a048da8b3abf"/>
+    <listType typeId="20c2b6c2-982c-442c-8018-64c0f288a619" valueTypeId="91986453-120d-4670-a716-4ab0672a17de"/>
+    <managerType typeId="6a285ddc-5199-452e-b23f-7fa941274a0d" valueTypeId="9509ea7b-1943-4375-bd62-9f74b31d5eaa"/>
+    <recordSetType typeId="fd6638b7-2933-41d8-9272-42ffdd3a0766" valueTypeId="9df91938-c6e5-45f7-b8ee-02ca70472ce5"/>
+    <recordKeyType typeId="e47ddcea-bf71-4436-84b8-793612c98878" valueTypeId="4a31b5e2-b402-4e1b-b977-151216307661"/>
+    <recordType typeId="606a4313-2bfb-48d0-80d9-1887810489a6" valueTypeId="3ae93e8a-7ed7-4790-8de2-36b713416922"/>
+    <recordManagerType typeId="e02f1076-6b5e-44dd-91ba-0c3835cf60b0" valueTypeId="5e4cb91b-ba59-4de5-bbc0-d55235d1e96c"/>
+  </producedTypes>
+  <name>УдалитьВложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) вложения</value>
+  </synonym>
+  <fullTextSearch>Use</fullTextSearch>
+  <attributes uuid="dcdae562-532d-4093-bccc-06ca6c75252f">
+    <name>Вложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="352e6645-07ca-4fbf-8a6f-e9b31b6b5ac8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="199f8de2-bcfc-4c73-b45d-6973a5d11dc1">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1624e63-3ae8-45d8-a350-106f68034d9f">
+    <name>РазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер файла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bb9ba7ce-e4c7-4705-b416-315de249e303">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="240c6b20-9266-47d3-9407-67f75a9ecd93">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="73c4821f-d23a-4803-9907-04f70905f42b">
+    <name>УИНВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИН вложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

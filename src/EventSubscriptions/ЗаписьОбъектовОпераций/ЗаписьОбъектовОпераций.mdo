@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="021c2292-5945-4df5-8a0f-73ad34f78aa2">
+  <name>ЗаписьОбъектовОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись объектов операций</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УниверсальнаяОперация</types>
+    <types>DocumentObject.ОбменВалюты</types>
+    <types>DocumentObject.МыДалиВДолг</types>
+    <types>DocumentObject.НамВернулиДолг</types>
+    <types>DocumentObject.МыВернулиДолг</types>
+    <types>DocumentObject.Перемещение</types>
+    <types>DocumentObject.ВводИзменениеОстатка</types>
+    <types>DocumentObject.МыВзялиВДолг</types>
+    <types>DocumentObject.Доход</types>
+    <types>DocumentObject.Расход</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбслуживаниеДокументов.ЗаписьОбъектовОпераций</handler>
+</mdclass:EventSubscription>

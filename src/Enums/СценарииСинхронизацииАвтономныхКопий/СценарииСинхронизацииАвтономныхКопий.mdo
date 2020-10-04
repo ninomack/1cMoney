@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21de99e1-5786-4057-b999-52ab6f47aeb0">
+  <producedTypes>
+    <refType typeId="c8eb7700-31f8-4e05-b26b-eca69aaaf981" valueTypeId="e38d790f-856c-422f-b932-f8719004529a"/>
+    <listType typeId="44eb8a14-aa0f-4b54-a222-3f4f4e67816c" valueTypeId="845af710-978d-4bd0-8fe7-014d8462f3eb"/>
+    <managerType typeId="596fcb3c-9b3b-4a65-a544-e931c3791e4f" valueTypeId="0769574a-751a-468b-b4ed-e493119a04bd"/>
+  </producedTypes>
+  <name>СценарииСинхронизацииАвтономныхКопий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии синхронизации автономных копий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f810079f-d2e0-41b3-a093-9cf3fb15369b">
+    <name>ОбъединениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединить данные двух баз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae4d5976-35c0-4b39-ba5c-b2046d298147">
+    <name>ЗаменитьВсеВЦентральнойБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменить все в центральной базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad161fda-9351-4a5a-904e-2cdbd732c90a">
+    <name>ЗаменитьВсеВАвтономнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменить все в автономной копии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

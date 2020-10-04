@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="153c9342-6a8b-4db4-9011-53d4ddf40b8b">
+  <producedTypes>
+    <objectType typeId="f2bcda1c-f99e-4bdc-84ed-13773d3549a3" valueTypeId="eafa6ce2-5407-470c-ae89-85d746dacea3"/>
+    <managerType typeId="a784a207-04cb-4b3b-afab-ba7abe0b0054" valueTypeId="7260cdb0-77c5-4480-9667-ad79cae65630"/>
+  </producedTypes>
+  <name>РазделОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <defaultForm>DataProcessor.РазделОперации.Form.СписокДокументовИОстатки</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="886d3227-18c9-4292-82ed-124b526b678d">
+    <name>СписокДокументовИОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список документов и остатки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f65f685a-ef40-4a6d-ba9e-1a7cc5559f1b">
+    <name>УстановкаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка отбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

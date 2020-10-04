@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2bce3f9-b129-47f4-bb8c-14cf308d79e3">
+  <producedTypes>
+    <managerType typeId="0e8d9e36-da9c-49c2-a221-95f612fc41e3" valueTypeId="575efa96-f10b-4750-ad7c-9579d6b7da9f"/>
+    <valueManagerType typeId="dbe60271-73cb-4fbb-b774-d1e7ca655bfa" valueTypeId="b0d84a82-a78e-494e-b4bd-916b4e4682e6"/>
+    <valueKeyType typeId="e5b36c85-3e0b-59d3-97d2-6de6112bcc9c" valueTypeId="7d256e9e-2a27-56b7-b20a-8e95ed511ab6"/>
+  </producedTypes>
+  <name>УдалитьНомерВерсииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) номер версии конфигурации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

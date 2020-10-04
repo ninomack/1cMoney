@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9d83cb-f611-4100-8f65-0b619d0612ed">
+  <producedTypes>
+    <refType typeId="4f6507fe-5f40-4582-a0b5-e312c8c6fa0f" valueTypeId="ea807ecb-5a7d-4488-bdfa-82d2dd869f55"/>
+    <listType typeId="d93cabeb-4c54-4221-acdb-1786952c6b75" valueTypeId="6511cbb5-b5f9-4631-86bf-94b0ad025734"/>
+    <managerType typeId="800da330-3e70-4ceb-9e3f-3e2317306c9c" valueTypeId="c884eae2-d749-41d1-a8ff-70db1f3f6745"/>
+  </producedTypes>
+  <name>ПорядкиОкругленияОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядки округления отчетности</value>
+  </synonym>
+  <comment>Порядки округления отчетности</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00290bac-5fa1-480a-a047-31f182e88972">
+    <name>Окр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="df6c2007-937b-471a-afdd-79188a57191c">
+    <name>Окр1000</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 000</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="8b094de8-6d25-4c29-984f-0a5e13b1b0a6">
+    <name>Окр1000000</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 000 000</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

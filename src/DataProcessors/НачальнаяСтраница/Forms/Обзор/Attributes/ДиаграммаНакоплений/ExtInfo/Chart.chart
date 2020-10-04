@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart:Chart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:chart="http://g5.1c.ru/v8/dt/chart/model" xmlns:core="http://g5.1c.ru/v8/dt/mcore">
+  <seriesCurId>408</seriesCurId>
+  <pointsCurId>873</pointsCurId>
+  <isSeriesDesign>true</isSeriesDesign>
+  <realSeriesCount>5</realSeriesCount>
+  <realSeriesData>
+    <properties>
+      <id>2</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorRef">
+        <color>Style.НакопленияПотрачено</color>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rhomb</marker>
+      <text>
+        <key>ru</key>
+        <value>Потрачено</value>
+      </text>
+      <expand>true</expand>
+      <strIsChanged>true</strIsChanged>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realSeriesData>
+  <realSeriesData>
+    <properties>
+      <id>34</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorRef">
+        <color>Style.НакопленияЗарезервировано</color>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rect</marker>
+      <text>
+        <key>ru</key>
+        <value>Зарезервировано</value>
+      </text>
+      <expand>true</expand>
+      <strIsChanged>true</strIsChanged>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realSeriesData>
+  <realSeriesData>
+    <properties>
+      <id>173</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorRef">
+        <color>Style.НакопленияОбщие</color>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Circle</marker>
+      <text>
+        <key>ru</key>
+        <value>Распределено</value>
+      </text>
+      <strIsChanged>true</strIsChanged>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realSeriesData>
+  <realSeriesData>
+    <properties>
+      <id>387</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorRef">
+        <color>Style.НакопленияОсталосьНакопить</color>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rhomb</marker>
+      <text>
+        <key>ru</key>
+        <value>Осталось накопить</value>
+      </text>
+      <strIsChanged>true</strIsChanged>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realSeriesData>
+  <realSeriesData>
+    <properties>
+      <id>388</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorRef">
+        <color>Style.НакопленияИзлишки</color>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rect</marker>
+      <text>
+        <key>ru</key>
+        <value>Излишки</value>
+      </text>
+      <strIsChanged>true</strIsChanged>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realSeriesData>
+  <realExSeriesData>
+    <properties>
+      <id>1</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <color xsi:type="core:ColorDef">
+        <red>153</red>
+        <green>25</green>
+        <blue>25</blue>
+      </color>
+      <line>
+        <width>2</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rhomb</marker>
+      <text>
+        <key>#</key>
+        <value>Сводная</value>
+      </text>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realExSeriesData>
+  <realPointCount>6</realPointCount>
+  <realPointData>
+    <id>1</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Rhomb</marker>
+    <text>
+      <key>ru</key>
+      <value>Финансовая безопасность</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>208</red>
+      <green>42</green>
+      <blue>53</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <realPointData>
+    <id>12</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Rect</marker>
+    <text>
+      <key>ru</key>
+      <value>Ремонт дома на Краснопресненской</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>254</red>
+      <green>225</green>
+      <blue>1</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <realPointData>
+    <id>13</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Circle</marker>
+    <text>
+      <key>ru</key>
+      <value>Образование Никитки</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>25</red>
+      <green>204</green>
+      <blue>25</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <realPointData>
+    <id>14</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Rhomb</marker>
+    <text>
+      <key>ru</key>
+      <value>Новый автомобиль</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>25</red>
+      <green>178</green>
+      <blue>229</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <realPointData>
+    <id>15</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Rect</marker>
+    <text>
+      <key>ru</key>
+      <value>Отпуск 2016</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>25</red>
+      <green>25</green>
+      <blue>204</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <realPointData>
+    <id>51</id>
+    <valInfo xsi:type="core:UndefinedValue"/>
+    <marker>Circle</marker>
+    <text>
+      <key>ru</key>
+      <value>Новый ноутбук</value>
+    </text>
+    <strIsChanged>true</strIsChanged>
+    <color xsi:type="core:ColorDef">
+      <red>204</red>
+      <green>25</green>
+      <blue>255</blue>
+    </color>
+    <line>
+      <width>2</width>
+      <style>Solid</style>
+    </line>
+    <key xsi:type="core:UndefinedValue"/>
+  </realPointData>
+  <isPointsDesign>true</isPointsDesign>
+  <curSeries>4</curSeries>
+  <curPoint>5</curPoint>
+  <chartType>NormalizedBar</chartType>
+  <circleLabelType>Value</circleLabelType>
+  <labelsDelimiter>, </labelsDelimiter>
+  <labelsLocation>EdgeInside</labelsLocation>
+  <lbFormat>
+    <key>ru</key>
+    <value>Л=ru_RU; ЧДЦ=2</value>
+  </lbFormat>
+  <labelsColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </labelsColor>
+  <transparentLabelsBkg>true</transparentLabelsBkg>
+  <labelsBorder xsi:type="core:BorderDef">
+    <width>1</width>
+  </labelsBorder>
+  <labelsBorderColor xsi:type="core:ColorRef">
+    <color>Style.FormBackColor</color>
+  </labelsBorderColor>
+  <title>
+    <key>ru</key>
+    <value>Резерв на финансовые цели</value>
+  </title>
+  <ttlBorder xsi:type="core:BorderDef"/>
+  <ttlBorderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </ttlBorderColor>
+  <lgBorder xsi:type="core:BorderDef"/>
+  <lgBorderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </lgBorderColor>
+  <chBorder xsi:type="core:BorderDef"/>
+  <chBorderColor xsi:type="core:ColorRef">
+    <color>Style.ReportLineColor</color>
+  </chBorderColor>
+  <transparent>true</transparent>
+  <bkgColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </bkgColor>
+  <isTrnspTtl>true</isTrnspTtl>
+  <ttlColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </ttlColor>
+  <isTrnspLeg>true</isTrnspLeg>
+  <legColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </legColor>
+  <isTrnspCh>true</isTrnspCh>
+  <chColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </chColor>
+  <ttlTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </ttlTxtColor>
+  <legTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </legTxtColor>
+  <chTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </chTxtColor>
+  <ttlFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+    <bold>true</bold>
+    <italic>false</italic>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+  </ttlFont>
+  <legFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+  </legFont>
+  <chFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+  </chFont>
+  <isShowScale>true</isShowScale>
+  <isShowSeriesScale>true</isShowSeriesScale>
+  <isShowPointsScale>true</isShowPointsScale>
+  <isShowValuesScale>true</isShowValuesScale>
+  <vsFormat>
+    <key>ru</key>
+    <value>Л=ru_RU; ЧДЦ=</value>
+  </vsFormat>
+  <xLabelsOrientation>Auto</xLabelsOrientation>
+  <scaleLine>
+    <width>1</width>
+    <style>Solid</style>
+  </scaleLine>
+  <scaleColor xsi:type="core:ColorRef">
+    <color>Style.ReportLineColor</color>
+  </scaleColor>
+  <isAutoSeriesName>true</isAutoSeriesName>
+  <maxSeries>4</maxSeries>
+  <maxSeriesPrc>30</maxSeriesPrc>
+  <spaceMode>Half</spaceMode>
+  <baseVal>0</baseVal>
+  <isLight>true</isLight>
+  <hideBaseVal>true</hideBaseVal>
+  <dtVerLines>true</dtVerLines>
+  <dtHorLines>true</dtHorLines>
+  <dtHAlign>Right</dtHAlign>
+  <dtKeys>true</dtKeys>
+  <paletteKind>Palette32</paletteKind>
+  <legendScrollEnable>true</legendScrollEnable>
+  <surfaceColor xsi:type="core:ColorDef">
+    <red>169</red>
+  </surfaceColor>
+  <gaugeQualityBands/>
+  <endGaugeAngle>180</endGaugeAngle>
+  <gaugeThickness>5</gaugeThickness>
+  <gaugeLabelsLocation>InsideScale</gaugeLabelsLocation>
+  <gaugeBushThickness>4</gaugeBushThickness>
+  <gaugeBushColor xsi:type="core:ColorDef">
+    <red>169</red>
+    <green>169</green>
+    <blue>169</blue>
+  </gaugeBushColor>
+  <autoMaxValue>true</autoMaxValue>
+  <autoMinValue>true</autoMinValue>
+  <elementsIsInit>true</elementsIsInit>
+  <titleIsInit>true</titleIsInit>
+  <legendIsInit>true</legendIsInit>
+  <chartIsInit>true</chartIsInit>
+  <elementsChart>
+    <right>0.00796178343949044</right>
+  </elementsChart>
+  <elementsLegend>
+    <left>0.8328025477707</left>
+    <top>0.0405982905982906</top>
+  </elementsLegend>
+  <elementsTitle>
+    <right>0.377388535031847</right>
+    <bottom>0.925213675213675</bottom>
+  </elementsTitle>
+  <borderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </borderColor>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
+  <autoTransposition>true</autoTransposition>
+  <splineStrain>95</splineStrain>
+  <translucenceMode>Auto</translucenceMode>
+  <funnelNeckHeightPercent>10.0</funnelNeckHeightPercent>
+  <funnelNeckWidthPercent>10.0</funnelNeckWidthPercent>
+  <funnelGapSumPercent>3.0</funnelGapSumPercent>
+  <multiStageLinkLine>
+    <width>1</width>
+    <style>Solid</style>
+  </multiStageLinkLine>
+  <multiStageLinkColor xsi:type="core:ColorDef"/>
+  <rebuildTime>6816767</rebuildTime>
+  <valuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </valuesAxis>
+  <pointsAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </pointsAxis>
+  <bubbleSizeValueSource>NextSeries</bubbleSizeValueSource>
+  <bubbleSizeCommonSeries>-2</bubbleSizeCommonSeries>
+  <bubbleSizing>IncreaseArea</bubbleSizing>
+  <pointsScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </pointsScale>
+  <valuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <gridLinesShowMode>DontShow</gridLinesShowMode>
+    <scaleLabelLocation>None</scaleLabelLocation>
+    <labelOrientation>Auto</labelOrientation>
+    <labelFormat>
+      <key>ru</key>
+      <value>Л=ru_RU; ЧДЦ=</value>
+    </labelFormat>
+  </valuesScale>
+  <seriesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </seriesScale>
+  <trendLinesArray>
+    <seriesId>2</seriesId>
+  </trendLinesArray>
+  <trendLinesArray>
+    <seriesId>34</seriesId>
+  </trendLinesArray>
+  <trendLinesArray>
+    <seriesId>173</seriesId>
+  </trendLinesArray>
+  <trendLinesArray>
+    <seriesId>387</seriesId>
+  </trendLinesArray>
+  <trendLinesArray>
+    <seriesId>388</seriesId>
+  </trendLinesArray>
+  <trendLinesArray>
+    <seriesId>1</seriesId>
+  </trendLinesArray>
+  <colorPaletteDescription>
+    <colorPalette>Palette32</colorPalette>
+  </colorPaletteDescription>
+  <referenceBandsColorPaletteDescription>
+    <colorPalette>Auto</colorPalette>
+  </referenceBandsColorPaletteDescription>
+  <valuesReferenceLines/>
+  <pointsReferenceLines/>
+  <valuesReferenceBands/>
+  <pointsReferenceBands/>
+  <legendPlacement>None</legendPlacement>
+  <plotAreaPlacement>UseCoordinates</plotAreaPlacement>
+  <titleAreaPlacement>None</titleAreaPlacement>
+  <additionalValuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <labelOrientation>Auto</labelOrientation>
+  </additionalValuesScale>
+  <additionalValuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </additionalValuesAxis>
+</chart:Chart>

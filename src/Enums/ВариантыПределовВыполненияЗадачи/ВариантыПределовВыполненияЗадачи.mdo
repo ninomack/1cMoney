@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="543a75eb-62e8-48b7-b6e1-41efab59eb4a">
+  <producedTypes>
+    <refType typeId="cec0e819-8047-49c0-8af0-78ebd147fd64" valueTypeId="7024c6bd-a531-4d2b-9323-bc4e773f25e1"/>
+    <listType typeId="95a2df1d-2186-4996-b10b-1dc40fd65ee3" valueTypeId="f899e9d8-5fdb-433a-ba71-71d130510682"/>
+    <managerType typeId="5a362636-185e-4873-b270-da19cbd75bde" valueTypeId="6b20f20d-50e2-44ea-91cf-8b98736308cc"/>
+  </producedTypes>
+  <name>ВариантыПределовВыполненияЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты пределов выполнения задачи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="5fa58663-ed77-4a66-9b40-e8b67b8775ab">
+    <name>Бесконечно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бесконечно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7034438c-403a-4222-bfdd-d8f78ed9bc35">
+    <name>КоличествоРаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество раз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbe1d23d-6d64-4a8a-9739-645d9c753db3">
+    <name>ДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>До даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

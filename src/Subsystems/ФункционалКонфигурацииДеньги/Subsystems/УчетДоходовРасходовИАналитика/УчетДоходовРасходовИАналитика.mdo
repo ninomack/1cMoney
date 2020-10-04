@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="980561e1-edf4-4326-8162-52cef2bc3cbb">
+  <name>УчетДоходовРасходовИАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет доходов расходов и аналитика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ЗначенияСубконтоАналитика</content>
+  <content>ChartOfCharacteristicTypes.ВидыАналитик</content>
+  <content>InformationRegister.НастройкиАналитикиПоСтатьям</content>
+  <content>InformationRegister.НастройкиАналитикиВДокументахПоУмолчанию</content>
+  <content>CommonForm.НастройкаКолонокАналитики</content>
+  <content>Catalog.СтатьиДоходов</content>
+  <content>Catalog.СтатьиРасходов</content>
+  <content>Document.ВводИзменениеОстатка</content>
+  <content>Document.Доход</content>
+  <content>Document.УниверсальнаяОперация</content>
+  <content>Report.ДинамикаДоходовИРасходов</content>
+  <content>Report.СравнениеДоходовИРасходовЗа2Периода</content>
+  <content>Report.СтруктураДоходов</content>
+  <content>Report.СтруктураРасходов</content>
+  <content>CommonPicture.СтатьиДоходов16</content>
+  <content>8a6ba5e3-934a-4a49-bad5-a59752de2fd7</content>
+  <content>CommonPicture.СтатьиРасходов16</content>
+  <content>57b23afe-f52a-4b8a-b5ae-9ba05b999bcc</content>
+  <content>CommonPicture.УниверсальнаяОперация16</content>
+  <content>05e7a11b-a5e2-4977-8fa5-d635308b7ffb</content>
+  <content>AccumulationRegister.КоличественныеОборотыПоСтатьямРасходов</content>
+  <content>CommonModule.АналитикаСтатей</content>
+  <content>CommonModule.АналитикаСтатейКлиент</content>
+  <content>Constant.ИспользоватьАналитикуСтатей</content>
+  <content>Constant.КоличественноЦеновойУчет</content>
+  <content>Document.Расход</content>
+  <content>Report.НастройкиАналитикиСтатей</content>
+  <content>DataProcessor.РазделОперации</content>
+  <content>CommonCommand.ОткрытьРазделОперации</content>
+  <content>FunctionalOption.ИспользоватьАналитикуСтатей</content>
+  <content>CommonPicture.ДобавитьВлево</content>
+  <content>CommonPicture.ДобавитьВлевоВсе</content>
+  <content>CommonPicture.ДобавитьВправо</content>
+  <content>CommonPicture.ДобавитьВправоВсе</content>
+  <content>CommonPicture.ИконкаЗакладки16х16</content>
+  <content>22aa9684-0ae1-438f-b280-5703a7eb29fe</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03d3537-e051-4f04-9c5d-52785e746224">
+  <name>СписокОперацийОтборПомеченныеНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помеченные на удаление</value>
+  </synonym>
+  <group>CommandGroup.ОтборОперацийПоСостоянию</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

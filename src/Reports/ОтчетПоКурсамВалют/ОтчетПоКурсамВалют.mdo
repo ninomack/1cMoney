@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbb6292b-9776-4b0f-8631-c2f3036199fb">
+  <producedTypes>
+    <objectType typeId="90351b6f-4d2f-44df-841a-b3f435fce3e1" valueTypeId="c89edb23-f482-4da9-831a-99fc07c146d2"/>
+    <managerType typeId="a34d340a-9c60-4989-bd3d-f9fc06c4376e" valueTypeId="92aef66a-bf98-4055-b1e5-5cd8df00156b"/>
+  </producedTypes>
+  <name>ОтчетПоКурсамВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по курсам валют</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоКурсамВалют.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="64b8a85e-c00a-4b16-ba8a-f8553310663f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0b4bf8d8-9b7b-45b7-8209-658f020218d1">
+    <name>КурсыВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсы валют</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="069066c7-afd4-4801-8190-1937ed167822">
+    <name>ОтчетПоКурсамВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по курсам валюты</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Валюты</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

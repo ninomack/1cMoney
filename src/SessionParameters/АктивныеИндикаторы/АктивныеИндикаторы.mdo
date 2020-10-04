@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94d061df-961e-42b9-b64f-061981281efc">
+  <name>АктивныеИндикаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные индикаторы</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

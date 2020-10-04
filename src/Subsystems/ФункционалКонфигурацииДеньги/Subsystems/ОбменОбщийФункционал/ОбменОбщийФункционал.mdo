@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31b34312-cd31-4dcb-b384-4e1d233a1486">
+  <name>ОбменОбщийФункционал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен общий функционал</value>
+  </synonym>
+  <comment>Общий функционал для всех способов синхронизации данных</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МенеджерСинхронизацииАвтономныхКопий_10</content>
+  <content>XDTOPackage.MoneyData_2_0</content>
+  <content>CommonModule.СинхронизацияАвтономныхКопийВызовСервера</content>
+  <content>InformationRegister.ПараметрыСинхронизацииАвтономныхКопий</content>
+  <content>Enum.СпособыОтбораЭлементовСинхронизации</content>
+  <content>CommonModule.СинхронизацияАвтономныхКопий</content>
+  <content>WebService.MoneyDataExchange</content>
+  <content>FunctionalOption.СинхронизацияАвтономныхКопийЭтоЦентральнаяБаза</content>
+  <content>Constant.СинхронизацияАвтономныхКопийЭтоЦентральнаяБаза</content>
+  <content>Constant.СинхронизацияАвтономныхКопийЭтоАвтономнаяКопия</content>
+  <content>FunctionalOption.СинхронизацияАвтономныхКопийЭтоАвтономнаяКопия</content>
+  <content>CommonModule.СинхронизацияАвтономныхКопийКлиентСервер</content>
+  <content>Enum.СценарииСинхронизацииАвтономныхКопий</content>
+  <content>InformationRegister.ОтборыСинхронизацииАвтономныхКопий</content>
+  <content>Constant.ДеньгиВыбранныйСпособСинхронизации</content>
+  <content>Enum.СпособыСинхронизацииДанных</content>
+  <content>Constant.ДеньгиСинхронизацияНеИспользуется</content>
+  <content>FunctionalOption.ДеньгиСинхронизацияНеИспользуется</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

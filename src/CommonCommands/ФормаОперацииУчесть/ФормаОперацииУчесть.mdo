@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4293d6d8-87c4-4e69-be79-d9b182d527ca">
+  <name>ФормаОперацииУчесть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учесть</value>
+  </synonym>
+  <comment>Учесть операцию и закрыть эту форму</comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.WriteAndClose</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

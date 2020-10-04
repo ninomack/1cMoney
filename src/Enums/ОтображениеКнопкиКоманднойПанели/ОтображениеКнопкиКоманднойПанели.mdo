@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca1ee8c2-24cc-455d-b8af-84ea097b03d1">
+  <producedTypes>
+    <refType typeId="b783f523-44a9-4c7f-91bb-fed777d3ba8a" valueTypeId="2a4fc0da-7c31-49d1-acd3-c4d90ae626e4"/>
+    <listType typeId="a8497e2d-8e94-4e10-ae72-4a1bfc6b6723" valueTypeId="a8f2cf90-6256-4c11-a11d-acbabd470161"/>
+    <managerType typeId="5e284610-62ec-4e1a-9a7b-2ebff3077aac" valueTypeId="ee4ce289-0781-4d1e-b901-b299e3191921"/>
+  </producedTypes>
+  <name>ОтображениеКнопкиКоманднойПанели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображение кнопки командной панели</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="37e883ab-8061-4b3d-9ed1-b01b21309652">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6bbce1a-15e1-443f-9713-1767c0b0b886">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d65d44e9-2ac4-44e6-9a1e-34c7c6320199">
+    <name>Надпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надпись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37331a57-bedd-4424-91b8-e33a0be908d6">
+    <name>КартинкаНадпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка + надпись</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

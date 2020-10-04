@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86d77012-437d-438a-98e5-b0cfddb1fa98">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаСервис</picture>
+  </picture>
+  <content>CommonPicture.Настройки48</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>DataProcessor.ОбзорОсновныхВозможностей</content>
+  <content>CommonCommand.НаписатьОтзывОПрограмме</content>
+  <content>CommonCommand.Конференция1СДеньги8</content>
+  <content>CommonCommand.ПерсональнаяНастройкаПроксиСервера</content>
+  <content>DataProcessor.МониторСинхронизацииСМобильнымиУстройствами</content>
+  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
+  <content>DataProcessor.НастройкиПользователяПерсональные</content>
+  <content>CommonPicture.ПодсистемаСервис</content>
+  <content>Catalog.Пользователи</content>
+  <content>CommonCommand.ЗагрузкаКурсовВалют</content>
+  <content>CommonCommand.СписокПользователей</content>
+  <content>DataProcessor.ЗагрузкаВыпискиБанка</content>
+  <content>CommonCommand.СообщитьВСлужбуПоддержки</content>
+  <content>DataProcessor.РезервноеКопированиеИБ</content>
+  <content>DataProcessor.НастройкаИОбслуживание</content>
+  <content>DataProcessor.НастройкаРезервногоКопированияИБ</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.ПоискИУдалениеДублей</content>
+  <content>DataProcessor.УстановкаОбновлений</content>
+  <content>DataProcessor.РедакторАналитики</content>
+  <content>CommonCommand.ДополнительныеОбработкиСервис</content>
+  <content>f2a29263-103b-490e-aa9d-d519f3c6c420</content>
+  <content>5f85d93c-463b-42cc-b068-074fa5f836b0</content>
+</mdclass:Subsystem>

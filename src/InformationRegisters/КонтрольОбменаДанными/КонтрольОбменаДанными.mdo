@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df4d18d1-01d4-4266-ae0b-fecb3b37db42">
+  <producedTypes>
+    <selectionType typeId="b5037d83-9909-4cab-8248-e2c78efa288c" valueTypeId="d543e011-fde5-4a25-9861-fee98786919b"/>
+    <listType typeId="d3c01561-a7ee-429c-915a-bc8dad69eedf" valueTypeId="8e83d5c4-6ef3-4f05-840d-51a967f179ca"/>
+    <managerType typeId="8bd51e31-70e5-4a2e-b0a6-ee7b5e9b8d61" valueTypeId="a15163be-1595-489a-bc87-0861cb695ec2"/>
+    <recordSetType typeId="8a0a4c3f-bb32-4474-81cb-9660ecb3e1e5" valueTypeId="529ede6d-5535-4385-aec8-c5b103619f51"/>
+    <recordKeyType typeId="478fb998-4f47-42c9-8580-adb8fb27c758" valueTypeId="70174714-6936-4632-b9e3-9338e15233da"/>
+    <recordType typeId="699e1676-27fa-4d9d-b1ae-c27b67381878" valueTypeId="8e073c3a-7674-4c68-aeba-ce7ec4d652d9"/>
+    <recordManagerType typeId="2e39d306-6575-4fb6-842e-97df9afe067a" valueTypeId="fdacab3f-21c0-4e62-a838-6a1c018d1d87"/>
+  </producedTypes>
+  <name>КонтрольОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль обмена данными</value>
+  </synonym>
+  <comment>Последние результаты обмена для каждого узла</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации состояния последней итерации обмена данными.</value>
+  </explanation>
+  <resources uuid="50447317-67cd-480a-9cac-b58523144e57">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ccd4ddeb-aa5c-4726-bdbe-9b8911025f06">
+    <name>Транспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортыОбменаДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9602b311-3fff-403a-8d5e-16ee53655627">
+    <name>ТекущееДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее действие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="aaf16137-a58f-4847-8714-30844f490d5f">
+    <name>ПоследнееПолучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее получение</value>
+    </synonym>
+    <comment>получение данных от узла</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c3b2b0a5-427b-4e38-a56b-0c4e692bba0e">
+    <name>РезультатПолученияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат получения данных</value>
+    </synonym>
+    <comment>получение от узла плана обмена</comment>
+    <type>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РезультатыВыполненияОбмена.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="d3512c4e-5041-48b8-abf7-3180f6a66ab6">
+    <name>ПоследняяОтправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя отправка</value>
+    </synonym>
+    <comment>Отправка данных в узел</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3d4b86af-0cf4-4e59-9346-91e4b07a90c2">
+    <name>РезультатОтправкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат отправки данных</value>
+    </synonym>
+    <comment>Отправка данных на узел плана обмена</comment>
+    <type>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РезультатыВыполненияОбмена.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="df4d1939-9699-4218-aa81-c824438aebb0">
+    <name>НачалоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало обмена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd6d7245-0cea-4375-a4d8-4097895b4b62">
+    <name>ЗавершениеОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение обмена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="34f2283b-ca2b-4035-9e85-2906c9f788b8">
+    <name>ПоследнееУспешноеПолучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее успешное получение</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8214805-61d8-4a52-b7b8-fe16a603f0cb">
+    <name>ПолученоОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено объектов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7684a5fe-6ac7-482a-ac90-f3e9f44efca9">
+    <name>ПоследняяУспешнаяОтправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя успешная отправка</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e7169f14-adf0-41e7-8a0b-a35eb8800440">
+    <name>ОтправленоОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено объектов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="30dfef3e-1bfa-4795-9826-bfef3618338d">
+    <name>ПоследнееПолучениеУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее получение узлом</value>
+    </synonym>
+    <comment>Дата получения узлом данных, отправленных этим приложением</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7b9584c-972b-4468-8c21-e223c683b2d1">
+    <name>РезультатПолученияДанныхУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат получения данных узлом</value>
+    </synonym>
+    <comment>Результат получения и чтения узлом данных, отправленных этим приложением</comment>
+    <type>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РезультатыВыполненияОбмена.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="902c27fb-0305-4fda-9d7e-ff4faf6eef3f">
+    <name>ПоследняяОтправкаУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя отправка узлом</value>
+    </synonym>
+    <comment>Дата отправки узлом данных в это приложение</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="00cb6815-f113-40cd-b9af-42e5df5ac9b3">
+    <name>РезультатОтправкиДанныхУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат отправки данных узлом</value>
+    </synonym>
+    <comment>Результат выгрузки и отправки узлом данных в это приложение</comment>
+    <type>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РезультатыВыполненияОбмена.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <attributes uuid="2f396de6-72b8-421f-b71b-e8323393abcf">
+    <name>ТекстОшибокПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибок получения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="1f56a0d6-61e2-4091-88fb-37d1acee413d">
+    <name>ТекстОшибокОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибок отправки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="8dc1c923-1972-4015-ad63-b932210c3133">
+    <name>ТекстОшибокПолученияУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибок получения узлом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="012b3c61-473a-43b0-9a03-dfd50115d835">
+    <name>ТекстОшибокОтправкиУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибок отправки узлом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="9db98591-33d7-4007-8f25-978906f8e74d">
+    <name>ТранспортПолученияУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт получения узлом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0341a69b-a1fc-4ccb-8ab9-c0e822ce6606">
+    <name>ТранспортОтправкиУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт отправки узлом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="5ee89792-8f06-42d8-872a-2298918fa346">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого используется информация состояния обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

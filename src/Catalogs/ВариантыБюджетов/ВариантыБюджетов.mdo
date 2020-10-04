@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb739f93-df32-4e2a-b517-7139833d3012">
+  <producedTypes>
+    <objectType typeId="4b04fd11-a490-4357-8377-c53df2d397cf" valueTypeId="f928421e-c5a1-4efe-b36e-da744b99edef"/>
+    <refType typeId="d24d5502-6522-4b9d-8d7c-d0527a2e306c" valueTypeId="42b1e541-a38b-4741-8c1d-53c984e69b3e"/>
+    <selectionType typeId="c0de3cc7-1538-4424-83cb-8912237575c7" valueTypeId="9c3f1ab4-0204-45f0-ac86-a468e997a022"/>
+    <listType typeId="ad764ccd-d725-435a-ab3f-e7adfbded55f" valueTypeId="4f7203b4-169c-443f-80cd-533b25b52240"/>
+    <managerType typeId="62e1c071-44f3-497f-90fe-2a5be7f1c388" valueTypeId="27b93282-6e10-4184-9304-1c8eb869b827"/>
+  </producedTypes>
+  <name>ВариантыБюджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты бюджетов</value>
+  </synonym>
+  <inputByString>Catalog.ВариантыБюджетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вариант бюджета</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ea73c396-6df4-4eca-a52f-69d4e702fc50">
+      <name>БазовыйВариант</name>
+      <description>Базовый вариант</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВариантыБюджетов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВариантыБюджетов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВариантыБюджетов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7e0b873b-3607-4099-8364-075429ce69d0">
+    <name>НачалоПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало планирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e85b040-350d-42a6-bb3c-4d51043ce7fb">
+    <name>ДетальностьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детальность планирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодичностьПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПериодичностьПланирования.EnumValue.Неделя</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПериодичностьПланирования.EnumValue.Месяц</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ПериодичностьПланирования.EnumValue.Год</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПериодичностьПланирования.EnumValue.Месяц</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3def9fb6-e9aa-4379-969e-b8b2237904d5">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97370289-391f-4621-9985-9f86c32566eb">
+    <name>ЧислоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число месяца</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e9eb75d-8041-420d-b98a-f4bfb2d63232">
+    <name>НомерМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер месяца</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0525a0d6-9b24-4aef-99a3-2e445658ea1a">
+    <name>ПредставлениеДетальностиПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление детальности планирования</value>
+    </synonym>
+    <comment>(Инф.)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c63a47f0-891b-4c07-910e-2492f26e96af">
+    <name>Активность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуален</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7be27f24-a55a-4ff3-ab23-5fd052162065">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd19c18e-2602-4f76-8335-39d02a0a01ec">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab3498ec-8d1c-464c-87f8-6fdb6f556b0e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b28d1d4e-f711-4b3e-9564-d827939d6cd0">
+    <name>ВариантыБюджетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты бюджетов</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийСправочники</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

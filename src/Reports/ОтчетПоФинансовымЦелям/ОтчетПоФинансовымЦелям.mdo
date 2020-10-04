@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4575c540-7438-4f73-848b-38ef6955dbe6">
+  <producedTypes>
+    <objectType typeId="2a2e951a-439f-42db-adfd-eccc8dde33f9" valueTypeId="e6d4a287-cbef-4429-8106-1bfff4f8ed26"/>
+    <managerType typeId="99bdce51-edda-4b51-a86c-daee19be577e" valueTypeId="b0e8c649-2d66-4aab-9536-30899126e08e"/>
+  </producedTypes>
+  <name>ОтчетПоФинансовымЦелям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по финансовым целям</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоФинансовымЦелям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="6ba84a18-3742-4005-a22a-8697ab3c010b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="4b14d02a-d1fe-4b55-92a1-31e0234bece1">
+    <name>НакопленияНаФинЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопления на финансовые цели</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e8d47b68-7da4-4917-87d3-103991a6b03f">
+    <name>ОперацииПоФинансовойЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции с финансовой целью</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="b55d46ec-74ad-413f-b2b8-9e5f962760dc">
+    <name>РасходыНаЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы на цель</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="acc171b3-a4dd-4cec-8028-53fd7211a523">
+    <name>ОтчетПоФинансовойЦели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по финансовой цели</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

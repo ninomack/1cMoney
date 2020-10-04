@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9bf5d5f-06f5-481a-a946-e7ff8686cc6e">
+  <producedTypes>
+    <objectType typeId="8252be32-143d-4aa5-8a44-5f27dd8639a9" valueTypeId="d33acc1f-741d-41e6-a4df-ee11671ae11d"/>
+    <managerType typeId="89709d02-0316-4b34-b6a7-054a7b3d8edd" valueTypeId="2d5c152b-0015-48c9-9281-cee8200fab0e"/>
+  </producedTypes>
+  <name>СтруктураРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура расходов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СтруктураРасходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="f0c742ca-9c19-459e-a4c3-61f74e189d74">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="86028934-5dc9-405e-a772-3b56dcd2e5fa">
+    <name>СтруктураРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура расходов</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="39608306-4e68-4025-8b4e-9a44797d39d9">
+    <name>РасходыПоСтатье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы по статье</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.СтатьиРасходов</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

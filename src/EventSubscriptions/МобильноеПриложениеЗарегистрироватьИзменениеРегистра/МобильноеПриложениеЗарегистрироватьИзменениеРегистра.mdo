@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="497874b6-2197-46e7-a660-8fd373641987">
+  <name>МобильноеПриложениеЗарегистрироватьИзменениеРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение зарегистрировать изменение регистра</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДатыРасписаний</types>
+    <types>InformationRegisterRecordSet.ПоказателиБюджета</types>
+    <types>InformationRegisterRecordSet.ПринадлежностьФайлов</types>
+    <types>AccumulationRegisterRecordSet.ОборотыПлановыхОпераций</types>
+    <types>InformationRegisterRecordSet.Расписания</types>
+    <types>InformationRegisterRecordSet.КурсыВалют</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменМобильноеПриложение.МобильноеПриложениеЗарегистрироватьИзменениеРегистраПередЗаписью</handler>
+</mdclass:EventSubscription>

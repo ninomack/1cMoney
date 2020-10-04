@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4d87b0c-7d0a-4ced-ae3d-963501a165f1">
+  <producedTypes>
+    <objectType typeId="f9be604e-7dd8-4743-8c6c-828fbfee52f3" valueTypeId="599f6176-0b49-4c11-bb06-c2aa40f6caef"/>
+    <managerType typeId="26399024-39f7-4e6c-9f3a-0c3cdb33fa48" valueTypeId="43620f8b-8811-423b-bc49-4f6e6bff6bed"/>
+  </producedTypes>
+  <name>СравнениеДоходовИРасходовЗа2Периода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение доходов и расходов за 2 периода</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СравнениеДоходовИРасходовЗа2Периода.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="f19cf516-b537-4b0d-8fd5-9142271f93ee">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bbc1e734-9916-4a4f-b4c2-7e064d0574cc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fcd6e012-28e8-4821-8251-73565d225ba3">
+    <name>СравнениеДоходовИРасходовЗа2Периода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение доходов и расходов за 2 периода</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e9700b7-ee38-4d0f-a0d8-f82c698a63b4">
+  <name>ДополнительныеКомандыСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительно</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

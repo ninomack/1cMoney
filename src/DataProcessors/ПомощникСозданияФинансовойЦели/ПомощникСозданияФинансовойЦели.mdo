@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c38b9f36-7af9-41cd-92ff-617cd17a2167">
+  <producedTypes>
+    <objectType typeId="39b57fc1-374a-4bba-9662-36d333f5d063" valueTypeId="56c0fcd8-435a-4aee-b425-8b1a3d0a51b8"/>
+    <managerType typeId="1a8d9c39-5417-452e-ac08-e790a033ad82" valueTypeId="142a115d-6e58-461c-922a-5c7561b53d47"/>
+  </producedTypes>
+  <name>ПомощникСозданияФинансовойЦели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник создания финансовой цели</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникСозданияФинансовойЦели.Form.Форма</defaultForm>
+  <forms uuid="9ea33cd4-6154-4411-9abe-367ed5178bff">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

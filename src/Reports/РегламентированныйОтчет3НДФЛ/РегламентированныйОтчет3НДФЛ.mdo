@@ -1,0 +1,3007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e854f9-39fd-4629-a83f-f0873c711043">
+  <producedTypes>
+    <objectType typeId="50b09466-5228-4751-b022-d352d761d87b" valueTypeId="1c935c56-3f71-4a3b-87ce-e56193907a15"/>
+    <managerType typeId="db2129ce-8b05-4c50-b482-305e965b1511" valueTypeId="380a2a84-3f42-450b-a99b-00c459957ab0"/>
+  </producedTypes>
+  <name>РегламентированныйОтчет3НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декларация 3-НДФЛ</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчет3НДФЛ.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="730b666f-bb70-4ac1-86a8-1e04cc51a359">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="818791e1-4089-4389-ba64-56fcff1ca99a">
+    <name>ВзносВПенсионныйФонд2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взнос в пенсионный фонд2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e45f5e25-5cfa-4692-92a6-bb5a5640115e">
+    <name>ВыборЗначенияИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор значения из списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0101cbeb-6434-4c29-b6bf-c72f61b9c972">
+    <name>ВыборКодаДоходаИВычета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор кода дохода и вычета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="60819810-9b81-4d57-aee9-00cb7d6f4bbd">
+    <name>ВыборНалоговойИнспекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор налоговой инспекции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73050ff9-2845-418e-bb9d-e32a94a8ceb0">
+    <name>ДоходВВалюте2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход в валюте2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c23965ba-8831-4bc6-9551-1f16cf834220">
+    <name>ДоходВВалюте2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход в валюте2017кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="159690f0-3fab-4d3c-8700-2d9402a496d5">
+    <name>ДоходВРФПрочий2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход ВРФПрочий2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8de26742-2a61-4466-8d05-d582ac30b04c">
+    <name>ДоходВРФПрочий2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход ВРФПрочий2017кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe1f1ca3-8bd4-4ba4-bff2-70a2212ac36c">
+    <name>ДоходИнвестТоварищества2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход инвест товарищества 2015 кв 1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67e702cc-55a6-4be9-80c1-c7c784e1253c">
+    <name>ДоходПоСправке2НДФЛ2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход по справке2 НДФЛ2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27ef0b23-e401-46a2-988e-c7faca387887">
+    <name>ДоходПоСправке2НДФЛ2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход по справке2 НДФЛ2017кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35cb173a-40a8-4b49-b992-da58df045b3b">
+    <name>ДоходПредпринимателя2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход предпринимателя2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d363322-ec57-4ad9-9167-1e19ed5f7b81">
+    <name>ОбъектИмущественногоВычета2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект имущественного вычета2015кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f03c63c-9c1c-496c-9007-7735c0f0b292">
+    <name>ПомощникЗаполнения2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения 2011, 2012</value>
+    </synonym>
+    <comment>Помощник заполнения декларации 3-НДФЛ за 2011 - 2012 годы</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f9d6833-dbbe-44e1-b05f-50673a6be492">
+    <name>ПомощникЗаполнения2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения2015 кв I</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a4f15ef-c6e6-46d5-8dea-c1c30d71bc3a">
+    <name>ПомощникЗаполнения2016кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения 2016</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc1bff36-dbb1-485b-a30d-a29ee055e68f">
+    <name>ПомощникЗаполнения2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения 2017</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a403adc4-b3a5-4404-9b9f-7a679ff1e8d7">
+    <name>ПомощникЗаполнения2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения2018кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="17b3e10b-cef4-4458-9833-a7b08972b778">
+    <name>ПомощникЗаполнения2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения2019кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7d6a390-e145-45b1-9150-e57c3f4f5f22">
+    <name>ПомощникЗаполнения2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник заполнения2020кв1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d29f40fd-62f5-4dda-901e-03992252b477">
+    <name>ФормаОтчета2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef4e10eb-9352-435b-8038-fba56e838f43">
+    <name>ФормаОтчета2014кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="355b26fc-9fb4-4356-8be5-3955a9a9a754">
+    <name>ФормаОтчета2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="653fa539-1ab3-4d1c-a5bf-da68b1a0d47e">
+    <name>ФормаОтчета2016кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8edb39b5-ff50-455b-a5cd-c6f6b5b22875">
+    <name>ФормаОтчета2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ba38e87-dab4-48d9-b890-87d6f75ad1c2">
+    <name>ФормаОтчета2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63ada0cc-b133-4796-beec-31d0be77988c">
+    <name>ФормаОтчета2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="68888dba-c99a-4ae9-92b2-d5a15d2004f8">
+    <name>ФормаОтчета2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="066d457b-d971-476b-be22-fdff1a8c9a0a">
+    <name>ДоговорыОбИзбежанииДвойногоНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры об избежании двойного налогообложения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7c2a08d2-7dcb-4e89-b629-0d6d5c090f1f">
+    <name>Иконки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иконки</value>
+    </synonym>
+  </templates>
+  <templates uuid="64880366-664e-459e-aabf-728c7ad3368c">
+    <name>КодыДоходовИВычетов2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2011 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="2eab6d7b-1eee-4e03-a970-8fffc161f633">
+    <name>КодыДоходовИВычетов2014кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2014 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="30021939-5aca-4bba-b5d3-54689d3f3321">
+    <name>КодыДоходовИВычетов2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2015 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d4333cd4-da13-4cc0-8fc5-c1bc3ccab356">
+    <name>КодыДоходовИВычетов2016Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2015 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="85948e3b-e821-49ed-b31b-c7fab48c0a73">
+    <name>КодыДоходовИВычетов2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2017 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="33c85e26-7a72-4f90-92db-2699c1221d85">
+    <name>КодыДоходовИВычетов2018Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2018 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="1cd579ed-1172-42ab-b4d4-fa45b5c8efa7">
+    <name>МБ_1151020_5_07000_10_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.07000_10.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="951820df-8a36-458f-8581-93d80010c93b">
+    <name>МБ_1151020_5_08000_10_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.08000_10.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8a4fa293-007d-4723-8025-fce82682b976">
+    <name>МБ_1151020_5_08000_11_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.08000_11.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="352fd42e-9def-4062-ae29-85139575570b">
+    <name>МБ_1151020_5_09000_12_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.09000_12.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c7a76716-8d56-460b-a636-ebe5ebad7f39">
+    <name>МЧБ_2011_01_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 01 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="abc02b9f-b0ee-4e7b-bead-d41f86e25c3f">
+    <name>МЧБ_2011_02_Титул_002</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 02 Титульный 002</value>
+    </synonym>
+  </templates>
+  <templates uuid="c77ce157-1894-4af8-a3a9-5afb563e1133">
+    <name>МБ_1151020_5_12000_01_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.12000_01.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="62dac695-5640-4233-a496-cb127779a670">
+    <name>МЧБ_2011_03_Раздел_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 03 Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e4167a83-4f68-44e4-8fd8-eb01b4f9a5ba">
+    <name>МЧБ_2011_04_Раздел_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 04 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6cbc8ce5-ac28-4792-a848-b46667289053">
+    <name>МЧБ_2011_05_Раздел_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 05 Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="ce502cba-8144-4ab1-be4f-353031332ccd">
+    <name>МЧБ_2011_06_Раздел_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 06 Раздел 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="51e8c10f-7db4-4ff3-b034-852c822ae40f">
+    <name>МЧБ_2011_07_Раздел_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 07 Раздел 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="02044878-9bb3-48a6-975a-9a837380047d">
+    <name>МЧБ_2011_08_Раздел_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 08 Раздел 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="307cbd77-f995-4354-8f09-9517a52d515a">
+    <name>МЧБ_2011_09_Лист_А</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 09 Лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="9567d4e2-47b0-4fcd-929f-97626d8e0b28">
+    <name>МЧБ_2011_10_Лист_Б</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 10 Лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="071c4c59-c2ca-4db6-b481-7f390d33a0f8">
+    <name>МЧБ_2011_11_Лист_В</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 11 Лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="2cab2236-3f90-4cfa-aeda-a7909edc172e">
+    <name>МЧБ_2011_12_Лист_Г1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 12 Лист Г1</value>
+    </synonym>
+  </templates>
+  <templates uuid="3bc30092-002f-4e41-bf0e-5bdc4891584f">
+    <name>МЧБ_2011_13_Лист_Г2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 13 Лист Г2</value>
+    </synonym>
+  </templates>
+  <templates uuid="b7613b1e-5c2d-4037-a625-bd61a27d3f3e">
+    <name>МЧБ_2011_14_Лист_Д</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 14 Лист Д</value>
+    </synonym>
+  </templates>
+  <templates uuid="1595196d-0c52-4d8d-9af8-0a1dfc8976f2">
+    <name>МЧБ_2011_15_Лист_Е</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 15 Лист Е</value>
+    </synonym>
+  </templates>
+  <templates uuid="95ca3841-d5ad-4de5-ae97-ac2478946c6f">
+    <name>МЧБ_2011_16_Лист_Ж1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 16 Лист Ж1</value>
+    </synonym>
+  </templates>
+  <templates uuid="f29e1f57-bcfd-4dea-8852-562a517294d9">
+    <name>МЧБ_2011_17_Лист_Ж2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 17 Лист Ж2</value>
+    </synonym>
+  </templates>
+  <templates uuid="125e1190-007f-46e2-babe-c5be4114a623">
+    <name>МЧБ_2011_18_Лист_Ж3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 18 Лист Ж3</value>
+    </synonym>
+  </templates>
+  <templates uuid="d6fd2dfc-d476-4bc5-9835-768d3846eacc">
+    <name>МЧБ_2011_21_Лист_З</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 21 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="a442fd7f-f573-4a00-8233-fc7330d899bf">
+    <name>МЧБ_2011_22_Лист_З_Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 22 Лист З Продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="f22dadfe-49c9-430d-9579-f69f6b459291">
+    <name>МЧБ_2011_24_Лист_И</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 24 Лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="2e12cfb6-2c48-4f3e-ae76-feb9c5ed05df">
+    <name>МЧБ_2011_27_Лист_Г1_Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 27 Лист Г1 (продолжение)</value>
+    </synonym>
+  </templates>
+  <templates uuid="22a2f051-748f-4a76-afa9-b4bed0e575f6">
+    <name>МЧБ_2011_28_Лист_Г3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 28 Лист Г3</value>
+    </synonym>
+  </templates>
+  <templates uuid="a08dec45-6b78-482d-ba41-f88f8a2cdb0b">
+    <name>МЧБ_2014_01_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 01 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="aa3f8a44-7ab4-42a3-822a-2aadf58f3cdc">
+    <name>МЧБ_2014_02_Титул_002</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 02 Титульный 002</value>
+    </synonym>
+  </templates>
+  <templates uuid="1006892a-5e0e-4bc3-b895-a08c5fe2fbc5">
+    <name>МЧБ_2014_03_Раздел_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 03 Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="62e555de-c45b-4561-b3c9-a4e7f8b7387a">
+    <name>МЧБ_2014_04_Раздел_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011 04 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="75374aa9-4fd3-438a-99c3-7842b5e0ccd6">
+    <name>МЧБ_2014_05_Раздел_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 05 Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="02d92690-19a7-48b1-a2d7-b6e22a987192">
+    <name>МЧБ_2014_06_Раздел_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 06 Раздел 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="3afc3e89-c6f1-401b-99a3-120dae491213">
+    <name>МЧБ_2014_07_Раздел_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 07 Раздел 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="4bc75c09-3e3a-47a0-af8a-bb000b50b996">
+    <name>МЧБ_2014_08_Раздел_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 08 Раздел 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1c2cf74-4aa1-4a33-8c5a-2b6ca2f2df4b">
+    <name>МЧБ_2014_09_Лист_А</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 09 Лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="19be5728-07aa-4f2c-8951-9cdbcc94471b">
+    <name>МЧБ_2014_10_Лист_Б</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 10 Лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="3ca860cb-d599-41f2-b10d-ed8e30b81092">
+    <name>МЧБ_2014_11_Лист_В</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 11 Лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="2d6f8256-6ed1-4970-a9b5-2159ca9da52f">
+    <name>МЧБ_2014_12_Лист_Г1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 12 Лист Г1</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed6a6503-7f6a-4d00-9e18-12e3030f522c">
+    <name>МЧБ_2014_13_Лист_Г2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 13 Лист Г2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f8fe423a-464d-4bc5-bd3a-07ee7fcab5d0">
+    <name>МЧБ_2014_14_Лист_Д</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 14 Лист Д</value>
+    </synonym>
+  </templates>
+  <templates uuid="2fe4cff8-c305-4ecc-804e-3e690f459f35">
+    <name>МЧБ_2014_15_Лист_Е</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 15 Лист Е</value>
+    </synonym>
+  </templates>
+  <templates uuid="e0cbc4c9-9290-4b54-9cdb-f34853f07169">
+    <name>МЧБ_2014_16_Лист_Ж1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 16 Лист Ж1</value>
+    </synonym>
+  </templates>
+  <templates uuid="65ae3ea6-3212-4f93-8796-301eab03de68">
+    <name>МЧБ_2014_17_Лист_Ж2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 17 Лист Ж2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4ef1e490-831b-4e6e-80c5-f6ec40802938">
+    <name>МЧБ_2014_18_Лист_Ж3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 18 Лист Ж3</value>
+    </synonym>
+  </templates>
+  <templates uuid="0e43328e-ede7-46bd-a07c-633a7a50d5ae">
+    <name>МЧБ_2014_21_Лист_З</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 21 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="ebef23b9-3a2f-405e-84e1-7ad51f5c5ec9">
+    <name>МЧБ_2014_22_Лист_З_Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 22 Лист З Продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="57fb69bb-2998-4648-ad05-10144ab2fcde">
+    <name>МЧБ_2014_24_Лист_И</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 24 Лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="283f35ab-2ca2-4ccf-a615-96fdb9ce57f4">
+    <name>МЧБ_2014_27_Лист_Г1_Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 27 Лист Г1 (продолжение)</value>
+    </synonym>
+  </templates>
+  <templates uuid="7e6e696f-9956-4dd5-9492-7c93dee92780">
+    <name>МЧБ_2014_28_Лист_Г3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014 28 Лист Г3</value>
+    </synonym>
+  </templates>
+  <templates uuid="1d945807-a14d-48fa-8d64-ff4e5389e340">
+    <name>МЧБ_2015Кв1_01_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 01 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="d90de853-53be-4ee1-b659-6856de3e6149">
+    <name>МЧБ_2015Кв1_02_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 02 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="4d7ec477-e837-4843-8ffa-4c3fb4fe747a">
+    <name>МЧБ_2015Кв1_03_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 03 раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="661c5807-073d-4817-9dc0-f23990f08539">
+    <name>МЧБ_2015Кв1_04_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 04 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="7e1fcc04-f296-482b-bb68-ef572468790d">
+    <name>МЧБ_2015Кв1_05_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 05 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="e44f45b5-eb67-46bf-8da1-e5f8d8f98522">
+    <name>МЧБ_2015Кв1_06_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 06 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="5cef182a-3196-48d0-be78-94dfafb4ca99">
+    <name>МЧБ_2015Кв1_07_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 07 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="0210860e-55a1-4358-9e7b-bfecbbf82047">
+    <name>МЧБ_2015Кв1_08_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 08 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b8b9e58-2bad-4f1c-bdb3-b7ec7b993701">
+    <name>МЧБ_2015Кв1_09_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 09 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="44d9f2d9-79ac-4270-a579-b987999c8d55">
+    <name>МЧБ_2015Кв1_10_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 10 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="933f05b0-55c3-4bc8-ba77-29eba2605d28">
+    <name>МЧБ_2015Кв1_11_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 11 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="643bbcae-8bf8-4cb8-9cad-2e9e6b5b6fbd">
+    <name>МЧБ_2015Кв1_12_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 12 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="18b0dc13-881e-4ce7-80ad-96f58aaafa55">
+    <name>МЧБ_2015Кв1_13_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 13 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="2a7fdbce-f94a-4bc4-95f1-629c186996df">
+    <name>МЧБ_2015Кв1_14_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 14 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="61622dd7-c4ae-485b-9951-f39fa8edd560">
+    <name>МЧБ_2015Кв1_15_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 15 лист З Продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c2063e9-464e-49e2-88b0-63b08dc32231">
+    <name>МЧБ_2015Кв1_17_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 17 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="753b881d-e030-490d-8faa-def805771a5b">
+    <name>МЧБ_2015Кв1_17_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 17 лист З Продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="ca282775-8e50-42ee-8462-5c0164da1dba">
+    <name>МЧБ_2015Кв1_18_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 18 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="4fe88d3f-f736-43e3-8849-7a2936fd4a71">
+    <name>МЧБ_2015Кв1_19_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв1 19 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="fe7c0990-cf28-4d63-86d7-724216127d3f">
+    <name>СоставПоказателей2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателей Расчета</comment>
+  </templates>
+  <templates uuid="92571ec9-383e-4d21-a63a-41e1b026f0ed">
+    <name>СоставПоказателей2014кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателей Расчета</comment>
+  </templates>
+  <templates uuid="f2b00240-ab3a-470c-8da7-7c42b5db38d6">
+    <name>СоставПоказателей2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателей Расчета</comment>
+  </templates>
+  <templates uuid="84f1b422-8bc6-47e9-a5fa-da102d0938bc">
+    <name>Списки2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2011 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="46713cdc-6cce-4426-8099-3532d32d734c">
+    <name>Списки2014кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2014 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="3daa8446-6b0e-4232-a48b-ecfe50d7b5b6">
+    <name>Списки2015кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2015 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="eee0b0cc-c4dd-4f58-9ace-4849de1d8ed0">
+    <name>СтруктураXML507</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML507</value>
+    </synonym>
+  </templates>
+  <templates uuid="67dcc5e4-b013-4335-8b25-f6c147a7c468">
+    <name>СтруктураXML508</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML508</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a4dd973-f199-4557-beea-3343839db8f2">
+    <name>СтруктураXML509</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML509</value>
+    </synonym>
+  </templates>
+  <templates uuid="6e07c418-b46f-40ac-80d0-915d9280fdd6">
+    <name>ФормаОтчета2011кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="841541a9-48c0-4791-ad5e-363845a65e77">
+    <name>ФормаОтчета2011кв1_ЛистА_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист а без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="b96510ce-c5bf-4f8e-9be0-ea475aef4f32">
+    <name>ФормаОтчета2011кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="d8877dee-0ef1-494e-93ca-b8618bf3d7ad">
+    <name>ФормаОтчета2011кв1_ЛистБ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист б без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="cdc832a9-41ed-46e6-8e80-f3c97e59acbf">
+    <name>ФормаОтчета2011кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="94beb970-fe5a-4730-b9c6-4602ec2e9c07">
+    <name>ФормаОтчета2011кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист в без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="8422d684-7293-4abe-a937-6da1ec19497c">
+    <name>ФормаОтчета2011кв1_ЛистГ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г1</value>
+    </synonym>
+  </templates>
+  <templates uuid="cba38832-8fdd-4c20-abcc-fafc0b255ea3">
+    <name>ФормаОтчета2011кв1_ЛистГ1Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г1 продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="c5c88d29-1e8e-4e2f-b544-d3212cf526dd">
+    <name>ФормаОтчета2011кв1_ЛистГ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4be42f37-1a5f-4aa1-ac60-9cf3dcbf334f">
+    <name>ФормаОтчета2011кв1_ЛистГ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г2 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="86df9fc7-77fe-4cd4-bad9-114686e87e3b">
+    <name>ФормаОтчета2011кв1_ЛистГ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г3</value>
+    </synonym>
+  </templates>
+  <templates uuid="121a365d-3d74-4219-aaf1-72655d514efc">
+    <name>ФормаОтчета2011кв1_ЛистГ3_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист г3 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="db634bc3-1903-4460-a890-e19fdff191be">
+    <name>ФормаОтчета2011кв1_ЛистД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист Д</value>
+    </synonym>
+  </templates>
+  <templates uuid="5717e0c5-5a10-4ba4-befb-644479031dca">
+    <name>ФормаОтчета2011кв1_ЛистЕ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист Е</value>
+    </synonym>
+  </templates>
+  <templates uuid="63d88ba2-3260-4533-aec3-178301848c73">
+    <name>ФормаОтчета2011кв1_ЛистЖ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист ж1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6ca28432-6818-46c5-9b19-6eb7700a7aa6">
+    <name>ФормаОтчета2011кв1_ЛистЖ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист ж2</value>
+    </synonym>
+  </templates>
+  <templates uuid="9cbcc8c4-3c1d-4a45-a623-16ab9c2a47cd">
+    <name>ФормаОтчета2011кв1_ЛистЖ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист ж3</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed65aac4-0b3f-493f-8619-be34bee59b7d">
+    <name>ФормаОтчета2011кв1_ЛистЖ3_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист ж3 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="e8b97e7c-611a-42c7-8246-2fd5921fcb76">
+    <name>ФормаОтчета2011кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2011 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="c11a7991-881b-4a0b-bcce-d00f4771b263">
+    <name>ФормаОтчета2011кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист з продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="119944e4-8c9c-4ca2-baea-51276648e69e">
+    <name>ФормаОтчета2011кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="17842daf-d2a6-4042-8cee-7c17ba394f6d">
+    <name>ФормаОтчета2011кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e98140a6-ecce-47e6-ae2a-d9e2014468cb">
+    <name>ФормаОтчета2011кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f11cf4ce-ef77-4515-b020-1f69fad7e201">
+    <name>ФормаОтчета2011кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел3</value>
+    </synonym>
+  </templates>
+  <templates uuid="c0016f7f-0f09-4900-ae21-84ea8c87cd4e">
+    <name>ФормаОтчета2011кв1_Раздел4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел4</value>
+    </synonym>
+  </templates>
+  <templates uuid="2e62644e-c0d9-4abb-a5d0-773b6543e4b5">
+    <name>ФормаОтчета2011кв1_Раздел5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел5</value>
+    </synonym>
+  </templates>
+  <templates uuid="54d0a711-9aeb-47c1-bc71-11bb622dfd2c">
+    <name>ФормаОтчета2011кв1_Раздел6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 раздел6</value>
+    </synonym>
+  </templates>
+  <templates uuid="71c1089a-b399-4f41-9021-33be847ca7c4">
+    <name>ФормаОтчета2011кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="e9409165-1970-491a-a5c2-e6b8659ec3c3">
+    <name>ФормаОтчета2011кв1_Титульный002</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 титульный002</value>
+    </synonym>
+  </templates>
+  <templates uuid="6759efa2-0a90-42ae-ba2e-4cddf634566c">
+    <name>ФормаОтчета2014кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="fe049f47-e018-425f-8f83-c5efb078c3e8">
+    <name>ФормаОтчета2014кв1_ЛистА_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист а без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="2c208969-b35b-4c14-8652-12664d386b8d">
+    <name>ФормаОтчета2014кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="4f779209-bb15-40bf-9ea9-207367092fa5">
+    <name>ФормаОтчета2014кв1_ЛистБ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист б без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="32464a26-6d3a-48c9-9222-26ccbcec3bc0">
+    <name>ФормаОтчета2014кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="bf7cf314-f46f-4bc6-9df7-2e0df951388b">
+    <name>ФормаОтчета2014кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист в без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="03fcfc76-10c4-47ac-ae47-e7a3ea9d95df">
+    <name>ФормаОтчета2014кв1_ЛистГ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e5e7175e-f1c2-4545-ab26-070fe1defcfc">
+    <name>ФормаОтчета2014кв1_ЛистГ1Продолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г1 продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="3a90ce41-e7e6-46b1-bd20-84c7cb22f05a">
+    <name>ФормаОтчета2014кв1_ЛистГ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г2</value>
+    </synonym>
+  </templates>
+  <templates uuid="7e7647b3-9f35-4396-8b13-dab0e5bf06b2">
+    <name>ФормаОтчета2014кв1_ЛистГ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г2 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="d1e35e09-d2ba-4551-a766-a4977147c079">
+    <name>ФормаОтчета2014кв1_ЛистГ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г3</value>
+    </synonym>
+  </templates>
+  <templates uuid="734b0030-a486-4bf0-8936-70ab89f00847">
+    <name>ФормаОтчета2014кв1_ЛистГ3_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист г3 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="73a51680-911e-441f-b20c-0878679f5821">
+    <name>ФормаОтчета2014кв1_ЛистД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист Д</value>
+    </synonym>
+  </templates>
+  <templates uuid="8f1b53f3-74e0-43e0-b7d5-e33185eb281c">
+    <name>ФормаОтчета2014кв1_ЛистЕ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист Е</value>
+    </synonym>
+  </templates>
+  <templates uuid="420b4c2f-e2d3-4caf-ade0-9628c3886bc4">
+    <name>ФормаОтчета2014кв1_ЛистЖ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист ж1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9adc8d85-89a7-46ac-b17c-34ab18e91b0c">
+    <name>ФормаОтчета2014кв1_ЛистЖ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист ж2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f9fe6390-bbef-42ba-b8b8-c320036fe99f">
+    <name>ФормаОтчета2014кв1_ЛистЖ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист ж3</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1b7fd94-633b-4270-9107-d431dec775ec">
+    <name>ФормаОтчета2014кв1_ЛистЖ3_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист ж3 без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="5396f0d7-c9e2-4b18-9787-7c93229c2ad4">
+    <name>ФормаОтчета2014кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2011 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="c80ecb6d-9928-4334-801b-079fe2687a37">
+    <name>ФормаОтчета2014кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист з продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="98ff953c-3511-4b52-935e-38819cf9a86c">
+    <name>ФормаОтчета2014кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="e78d74f6-6f81-472c-9e99-f6ac8ef43831">
+    <name>ФормаОтчета2014кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="52a32df1-a144-4a8e-ad54-b7e28ad4ccf0">
+    <name>ФормаОтчета2014кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4ae3d052-abce-4a32-aff7-d0ff9cfd0030">
+    <name>ФормаОтчета2014кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел3</value>
+    </synonym>
+  </templates>
+  <templates uuid="b6bed453-c3a5-479f-8756-394ea87179b7">
+    <name>ФормаОтчета2014кв1_Раздел4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел4</value>
+    </synonym>
+  </templates>
+  <templates uuid="f0f188b3-188e-4257-b93d-f9ea79ffbc42">
+    <name>ФормаОтчета2014кв1_Раздел5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел5</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a317952-6352-474e-9946-462dc718e8bc">
+    <name>Регионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регионы</value>
+    </synonym>
+  </templates>
+  <templates uuid="63ac7a8c-15a5-438c-8946-22c9d0c52b39">
+    <name>ФормаОтчета2014кв1_Раздел6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 раздел6</value>
+    </synonym>
+  </templates>
+  <templates uuid="f8a95e97-68dd-4d50-beaa-8f57f3460cb4">
+    <name>ФормаОтчета2014кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="af367748-bcec-4ffa-8559-85d0ce164bc5">
+    <name>ФормаОтчета2014кв1_Титульный002</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 титульный002</value>
+    </synonym>
+  </templates>
+  <templates uuid="8190aed5-0206-4b5d-abe3-f88a9e3c5295">
+    <name>ФормаОтчета2015кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="a9e9ef35-f515-4af3-9158-d2adaa665ed9">
+    <name>СоставПоказателей2016кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателкей Расчета</comment>
+  </templates>
+  <templates uuid="764a1195-c22b-4c78-821d-ef7fdb56140c">
+    <name>ФормаОтчета2015кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="69cdf911-9d9c-4fd9-b299-fbe83a388792">
+    <name>ФормаОтчета2015кв1_ЛистБ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="a87f007d-425b-4168-b949-c7926aabc802">
+    <name>ФормаОтчета2015кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2015кв1 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="03eda4b8-9e15-451e-a3a4-57fc217f6bee">
+    <name>ФормаОтчета2015кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист в без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="a56c913b-5131-4183-8249-71659db8cb54">
+    <name>ФормаОтчета2015кв1_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="69e7f6bd-449d-437c-9279-bb984ddbcdd0">
+    <name>ФормаОтчета2015кв1_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="395121e5-f2c1-4c25-914c-454249c71792">
+    <name>Списки2016кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2016 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="66d798a7-1e7c-4a61-a5fb-fe4963664bf2">
+    <name>ФормаОтчета2015кв1_ЛистД1_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fc0e3d8e-9d49-4829-91ce-3f72356a84b8">
+    <name>ФормаОтчета2015кв1_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="016965a8-2601-40ce-b587-afb43300286f">
+    <name>СписокИнспекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список инспекций</value>
+    </synonym>
+  </templates>
+  <templates uuid="43fd7b90-d7bb-400d-ac62-4ca1e3d61d02">
+    <name>СтраныМира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страны мира</value>
+    </synonym>
+  </templates>
+  <templates uuid="129f5ce0-050f-4063-9f7a-497d68b10927">
+    <name>ФормаОтчета2015кв1_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="06027c94-1575-46f1-a73e-a343ec838fcd">
+    <name>ФормаОтчета2015кв1_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="e1d11864-a869-4a1e-be28-f0353fa59934">
+    <name>ФормаОтчета2015кв1_ЛистЕ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="9aa17f32-2257-4dce-9957-0558c41fabc6">
+    <name>ФормаОтчета2015кв1_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="4eb73525-c9b2-4f5d-abb1-69e51e881c1e">
+    <name>ФормаОтчета2015кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="c2fec820-c743-46ea-9bbe-b984fb9aa8ea">
+    <name>ФормаОтчета2015кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="373f8549-0936-4a2d-a15d-710863191b9b">
+    <name>ФормаОтчета2015кв1_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист З продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="ccbdd24c-0327-401b-999a-43661298130d">
+    <name>ФормаОтчета2015кв1_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="bf33327f-a2a0-47bd-bfb0-70f719d6d361">
+    <name>ФормаОтчета2015кв1_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="4a360822-da70-4cd8-837f-984f01ede30c">
+    <name>ФормаОтчета2015кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="e1ff7d61-6199-4ee6-bcbb-18ee89f5cad2">
+    <name>ФормаОтчета2015кв1_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="ff8f52ca-0cc2-43dd-8413-f7f3a5f9849a">
+    <name>ФормаОтчета2015кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв1 раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="463e7299-8c1a-4fa2-a192-2336158b2d1f">
+    <name>ФормаОтчета2015кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="76b7219e-1edb-4db6-b466-ad35352a38c6">
+    <name>ФормаОтчета2015кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="58ce1be3-d537-44f4-8b7a-020f6d6198ae">
+    <name>ФормаОтчета2016Кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="3f715335-0b6d-4f30-af2b-4104293f0662">
+    <name>ФормаОтчета2016Кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="5f7f4691-d8e9-4110-bf71-9dc5c337e5bd">
+    <name>ФормаОтчета2016Кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2015Кв4 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="62de44d4-7b76-417a-9985-41bca51560c7">
+    <name>ФормаОтчета2016Кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист в без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="28823a3f-d560-4ae9-9a4b-6ed1a96a3368">
+    <name>ФормаОтчета2016Кв1_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="8c1ac4a4-38e6-4585-9b24-5a5bff414b4b">
+    <name>ФормаОтчета2016Кв1_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9ca82e39-03e7-4b0c-8ac5-aae5b06967d8">
+    <name>ФормаОтчета2016Кв1_ЛистД1_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="394b11e8-236b-438e-85ab-de9929c2c778">
+    <name>ФормаОтчета2016Кв1_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6af2b2b9-0e55-4b90-85a1-6cbf9b9d7610">
+    <name>ФормаОтчета2016Кв1_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8a13c003-15c2-441f-872f-2c565e8fc48c">
+    <name>ФормаОтчета2016Кв1_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c77f5c5-6f19-45b4-b0ff-6f75b6ad016c">
+    <name>ФормаОтчета2016Кв1_ЛистЕ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="70d0f35f-a8a8-45d4-a6d6-19c13ea22738">
+    <name>ФормаОтчета2016Кв1_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="66d04cfa-d6c3-4dcf-8637-1328b8cd05e2">
+    <name>ФормаОтчета2016Кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="e5b98c54-b663-4d1b-81a4-42f2fd3d1f60">
+    <name>ФормаОтчета2016Кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="93dcf223-fc97-470d-a580-fada2e92d00c">
+    <name>ФормаОтчета2016Кв1_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист З продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="ae289079-afa5-451a-8f05-bb7ccbc04afd">
+    <name>ФормаОтчета2016Кв1_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c35003a-b545-47c5-81bc-9a595d27b77c">
+    <name>ФормаОтчета2016Кв1_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист З продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="2f90d6e7-9ff0-4c7e-8741-f209984790eb">
+    <name>ФормаОтчета2016Кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="0d1b4449-9a16-4f68-9e79-60dea46d3241">
+    <name>ФормаОтчета2016Кв1_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="0dca37bc-b650-437e-afab-b6b0c2fbaa76">
+    <name>ФормаОтчета2016Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="ad215406-d8f1-4bc3-a78b-055480fd98fd">
+    <name>ФормаОтчета2016Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2015 кв 2 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="bfee2c5e-ec3c-42a1-8e8f-51d24525de14">
+    <name>ФормаОтчета2016Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2016 кв 1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="167d9caf-5c15-4247-98a2-e8d2bf64eb0e">
+    <name>МЧБ_2016Кв1_01_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2016 кв 1 01 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="dd99181b-c19f-499c-adcb-dd5130121959">
+    <name>МЧБ_2016Кв1_02_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2016 кв 1 02 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="710bf4e1-4892-4b7b-ab91-3ef76f485d37">
+    <name>МЧБ_2016Кв1_03_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2016 кв1 03 раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="34d2c189-752c-470f-b46d-371747c07011">
+    <name>МЧБ_2016Кв1_04_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 04 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="7c0d1252-4c12-4fce-a9c4-40489b99e00e">
+    <name>МЧБ_2016Кв1_05_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 05 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="6c9c2cb4-2486-45ae-af0f-18c6da19ddf7">
+    <name>МЧБ_2016Кв1_06_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 06 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="47b1b056-c846-4512-af9b-1e782b65145b">
+    <name>МЧБ_2016Кв1_07_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 07 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="bcb12a60-926f-41c4-b796-e2b2b69fbe00">
+    <name>МЧБ_2016Кв1_08_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 08 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fd57cfab-1c39-4ef2-af3e-87d8f8c8fa45">
+    <name>МЧБ_2016Кв1_09_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 09 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="0dfb1d8d-766a-4ef7-9d45-c1f08b7ada42">
+    <name>МЧБ_2016Кв1_10_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 10 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="4b8e2ba1-4707-4d7c-a259-13ada3a9fa7f">
+    <name>МЧБ_2016Кв1_11_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 11 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="b0d6a7c7-762c-4d9f-8524-b616f1ca02d5">
+    <name>МЧБ_2016Кв1_12_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 12 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="01f2bc7c-b021-4b92-85fd-c96ff2148f6b">
+    <name>МЧБ_2016Кв1_13_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 13 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="a6a8d008-1414-4ce7-9cd6-ddb377d19c07">
+    <name>МЧБ_2016Кв1_14_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 14 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="b2bb723b-fa63-4528-a3f3-b6bb59b13971">
+    <name>МЧБ_2016Кв1_15_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 15 лист З Продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="727f4ce2-8c4a-4a81-9805-b96e5b8be466">
+    <name>МЧБ_2016Кв1_17_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 17 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="f18fc8e5-38ce-4b0a-b581-54f0f318b3dc">
+    <name>МЧБ_2016Кв1_17_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 17 лист З Продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="fb48dc2b-958f-4bc6-8f6b-0b9c8b4ddf70">
+    <name>МЧБ_2016Кв1_18_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 18 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="ce5c9e06-981b-4d84-909c-0122971e3a6e">
+    <name>МЧБ_2016Кв1_19_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2015 кв2 19 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="d03e0432-b40d-4c8f-89e0-89d4f483c511">
+    <name>СоставПоказателей2016Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей</value>
+    </synonym>
+    <comment>Состав показателей Расчета</comment>
+  </templates>
+  <templates uuid="9e7f11f8-1355-42b7-b700-cca17575020e">
+    <name>Списки2016Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2015 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="2ad76ed4-2fb1-41ad-ac03-b4889705d4aa">
+    <name>СтруктураXML510</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML510</value>
+    </synonym>
+  </templates>
+  <templates uuid="516665bd-4e43-44a5-a86e-901adf0ea9c3">
+    <name>НастройкиЗагрузкиXML2016кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2016 (кв1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1d6c112a-0fb1-4f97-ae30-2265f46167ff">
+    <name>МБ_1151020_5_10000_13_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.10000_13.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d6dac938-91c8-473d-be98-b406414e1e27">
+    <name>ФормаОтчета2017Кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="26ab5c14-127c-4652-95de-d7c0541646a8">
+    <name>ФормаОтчета2017Кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="43721504-ac99-4609-a281-c123de295c71">
+    <name>ФормаОтчета2017Кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017Кв1 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="4f3967ab-cca9-4608-9ed8-afbedb0921af">
+    <name>ФормаОтчета2017Кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист В без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="c2243a3f-b589-4a8a-b8f8-9175e7e6c2e9">
+    <name>ФормаОтчета2017Кв1_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="7b155d9b-b26b-4e35-83b6-86a561801e23">
+    <name>ФормаОтчета2017Кв1_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8b836cf2-510d-4e32-81ec-d6df4aa54d9f">
+    <name>ФормаОтчета2017Кв1_ЛистД1_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="dba32f2a-f2ee-472e-8f40-8624e80235b0">
+    <name>ФормаОтчета2017Кв1_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="24abdacd-e134-4c5a-bbc2-420ce6b2bc1d">
+    <name>ФормаОтчета2017Кв1_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="1339dcfa-9d53-4958-9627-485457f43ea1">
+    <name>ФормаОтчета2017Кв1_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="8b0dcc45-7a9c-406f-a1f0-5a88ec2a71a5">
+    <name>ФормаОтчета2017Кв1_ЛистЕ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="97ca1aa5-fa06-4246-9418-611120b386f8">
+    <name>ФормаОтчета2017Кв1_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="3993179d-cd6d-408c-a515-569019074ead">
+    <name>ФормаОтчета2017Кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="f60a39bf-580b-4ff9-b4c7-09e1a4a15b88">
+    <name>ФормаОтчета2017Кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="e54c458a-1874-4ef8-9e28-e629715739e2">
+    <name>ФормаОтчета2017Кв1_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист З продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="84b3dfb6-13cc-4b1f-8cb1-af198d921d9b">
+    <name>ФормаОтчета2017Кв1_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="ce24f8c9-7866-4834-8d5d-6c7b0490dac5">
+    <name>ФормаОтчета2017Кв1_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист З продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c40d686-3fba-481d-b027-cd9fc622b4a2">
+    <name>ФормаОтчета2017Кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="e5a2316c-7222-4bb5-8540-2e316cadeb68">
+    <name>ФормаОтчета2017Кв1_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="883a6d4b-77e2-47ae-8560-5e2878f65c95">
+    <name>ФормаОтчета2017Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e1bc7aef-e2fd-4fb6-bd65-abcf8e0b2e1b">
+    <name>ФормаОтчета2017Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 кв 1 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="49f1a7c6-34ac-44c4-959c-26e89cbcbe63">
+    <name>ФормаОтчета2017Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2017 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="525b320f-3986-4d66-8036-29445c84c8cc">
+    <name>МЧБ_2017Кв1_01_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 01 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="8c387781-6d70-490f-ab66-82a98f064a1b">
+    <name>МЧБ_2017Кв1_02_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 02 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e8de699f-59c7-4a40-8839-be79e562be8f">
+    <name>МЧБ_2017Кв1_03_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 03 раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="d47a2d72-5565-453b-bdd4-dd837eeb95e3">
+    <name>МЧБ_2017Кв1_04_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 04 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="7b952157-49b6-4cae-8903-be1ff7a019d9">
+    <name>МЧБ_2017Кв1_05_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 05 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="c0bf9d2a-082f-487d-9063-e760e032c6fc">
+    <name>МЧБ_2017Кв1_06_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 06 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="7c143de0-b90c-4a84-bfc2-76aad71c710f">
+    <name>МЧБ_2017Кв1_07_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 07 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="61b07b96-dd64-427a-8085-12c8f1d5fc25">
+    <name>МЧБ_2017Кв1_08_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 08 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="75a9ff71-f4f1-40eb-bf51-06def4c615cf">
+    <name>МЧБ_2017Кв1_09_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 09 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="b54ebd3b-17b7-4252-8e1e-7190222854f3">
+    <name>МЧБ_2017Кв1_10_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 10 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="2dbd6981-5836-452e-a6cf-d90016c54d99">
+    <name>МЧБ_2017Кв1_11_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 11 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="e4057059-c1fe-4f2e-bcd1-f43fbdbac5b4">
+    <name>МЧБ_2017Кв1_12_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 12 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="01e7f6ce-b8a4-4e51-a4b3-aded0d7a1cb3">
+    <name>МЧБ_2017Кв1_13_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 13 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="74fa4d5f-410e-401f-9e35-f1801e586ebe">
+    <name>МЧБ_2017Кв1_14_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 14 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="42324a4f-0e27-413d-8b8d-245a25f3dc31">
+    <name>МЧБ_2017Кв1_15_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 15 лист З Продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="e9f48e3c-3d7c-4f84-8ce0-dae3008570c7">
+    <name>МЧБ_2017Кв1_17_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 17 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="7899b421-4a7c-4d48-b484-2c19f87d89b8">
+    <name>МЧБ_2017Кв1_17_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 17 лист З Продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="a6ce2923-f579-4a35-9e41-0f56790475a0">
+    <name>МЧБ_2017Кв1_18_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 18 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="bd59249b-ed12-4006-bdcb-97decd131ced">
+    <name>МЧБ_2017Кв1_19_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2017 19 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="12377b9f-e137-4698-804e-d492ab593732">
+    <name>СоставПоказателей2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей 2017</value>
+    </synonym>
+  </templates>
+  <templates uuid="35ec8180-df2a-40fb-b16e-ea3c00212cd8">
+    <name>Списки2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2016</value>
+    </synonym>
+  </templates>
+  <templates uuid="a748bbbb-4818-4ec0-ac39-8e2d56e84c9b">
+    <name>СтруктураXML511</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML511</value>
+    </synonym>
+  </templates>
+  <templates uuid="d96a6640-1242-485b-ac26-bc8a9ee2eebb">
+    <name>НастройкиЗагрузкиXML2017кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2017 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ad732b67-d584-41d7-ae1a-9112ecabd482">
+    <name>МБ_1151020_5_11000_15_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.11000_15.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="683fd9e4-9ec6-40f0-8aef-b94b959bfdbb">
+    <name>ФормаОтчета2018Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="983ed64c-4633-4c8c-a12c-893a70e55040">
+    <name>ФормаОтчета2018Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="05d24cb8-107d-466a-a30b-138ae08b16eb">
+    <name>ФормаОтчета2018Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="7afcdf88-f897-44f8-83c7-b8e35668e299">
+    <name>ФормаОтчета2018Кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="96a69630-a704-42ce-8a75-ba272ddfed14">
+    <name>ФормаОтчета2018Кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="233dd4a4-9d39-4f21-8593-16255db491a7">
+    <name>ФормаОтчета2018Кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="1cfc53a8-8459-4812-b479-f3e89c38bf92">
+    <name>ФормаОтчета2018Кв1_ЛистВ_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист В без итога</value>
+    </synonym>
+  </templates>
+  <templates uuid="ce0f4004-bb0e-463d-98fd-5160f27f5cfd">
+    <name>ФормаОтчета2018Кв1_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="f5552b3c-405a-463d-bded-06958ad966a6">
+    <name>ФормаОтчета2018Кв1_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b62249a-19f8-45fb-84e7-ec812646bf41">
+    <name>ФормаОтчета2018Кв1_ЛистД1_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="46c30905-1a3a-4071-a046-517f357d6f16">
+    <name>ФормаОтчета2018Кв1_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="7abf41ff-3734-4211-abb5-6bc005d2ec67">
+    <name>ФормаОтчета2018Кв1_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d92d361d-3f9b-4cdf-9d1e-b1fec789a13d">
+    <name>ФормаОтчета2018Кв1_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="b0597431-38e0-4106-bf0c-4834e6ed9cfe">
+    <name>ФормаОтчета2018Кв1_ЛистЕ2_Без_Итога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="5f610ecc-b9e8-4cca-9102-53e9e6d9ec4d">
+    <name>ФормаОтчета2018Кв1_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="44e2729e-2adb-4254-8021-d0b2ae62ab86">
+    <name>ФормаОтчета2018Кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="cd184fca-7cde-4811-a720-68667327e340">
+    <name>ФормаОтчета2018Кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="3f736b46-3efc-46b6-9bb0-73f3d3ea62d6">
+    <name>ФормаОтчета2018Кв1_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист З продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="88757d9d-4a97-42b2-9629-b427f58f333b">
+    <name>ФормаОтчета2018Кв1_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="f442eebb-6082-4848-9bd6-ecf286073d76">
+    <name>ФормаОтчета2018Кв1_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист З продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="3d7c5cd6-3fcf-4555-973d-29d41b8c5a91">
+    <name>ФормаОтчета2018Кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="4738bd27-89c9-4254-bba7-6343bf2da723">
+    <name>ФормаОтчета2018Кв1_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="360704b1-75bd-4e23-8fef-6ddb37d11d42">
+    <name>ФормаОтчета2018Кв1_РасчетДоходаОтПродажиНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2018 кв 1 Расчет дохода от продажи объектов недвижимого имущества</value>
+    </synonym>
+  </templates>
+  <templates uuid="c6c806e4-99a7-4cc3-92fe-6383d857353a">
+    <name>МЧБ_2018Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="b25c42d6-3ee8-4aa6-9476-1d066f04fad8">
+    <name>МЧБ_2018Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="b6de92ca-7775-49c7-a0a3-dede4ad3bf28">
+    <name>МЧБ_2018Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="3feab4f0-accc-4259-86b5-d4b861d227b5">
+    <name>МЧБ_2018Кв1_ЛистА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист А</value>
+    </synonym>
+  </templates>
+  <templates uuid="180a381e-9504-4c5f-8100-9b5877278ab8">
+    <name>МЧБ_2018Кв1_ЛистБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="51ed754b-5972-486c-8a14-3c608656ec68">
+    <name>МЧБ_2018Кв1_ЛистВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист В</value>
+    </synonym>
+  </templates>
+  <templates uuid="5811c401-65a8-40ae-bbea-89fa8a2229b6">
+    <name>МЧБ_2018Кв1_ЛистГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Г</value>
+    </synonym>
+  </templates>
+  <templates uuid="11dc0dfd-c1fd-441a-811a-df55b3ddd240">
+    <name>МЧБ_2018Кв1_ЛистД1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Д1</value>
+    </synonym>
+  </templates>
+  <templates uuid="66a7f8f2-728d-41f1-8046-72103149a734">
+    <name>МЧБ_2018Кв1_ЛистД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Д2</value>
+    </synonym>
+  </templates>
+  <templates uuid="9f1060a1-bebc-448c-90d1-af7e55e03041">
+    <name>МЧБ_2018Кв1_ЛистЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="28b8943f-b42f-4cb6-b987-39c2ead6760e">
+    <name>МЧБ_2018Кв1_ЛистЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="91f8e448-84bd-4113-bebf-00ae91ddbb7c">
+    <name>МЧБ_2018Кв1_ЛистЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист Ж</value>
+    </synonym>
+  </templates>
+  <templates uuid="aa37c78b-dc3b-4a8a-9043-f47fb2988baf">
+    <name>МЧБ_2018Кв1_ЛистЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист З</value>
+    </synonym>
+  </templates>
+  <templates uuid="504cfa67-5cd0-4a03-85e9-c61c451e117d">
+    <name>МЧБ_2018Кв1_ЛистЗПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист З продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="0feba08b-1044-4703-b25d-8dda1d1315be">
+    <name>МЧБ_2018Кв1_ЛистЗПродолжение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист З Продолжение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="0465261d-0a29-4340-932a-0e6070ac9b24">
+    <name>МЧБ_2018Кв1_ЛистЗПродолжение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист З продолжение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="4e2c5545-e5a4-419a-a5f5-cd7693baa10f">
+    <name>МЧБ_2018Кв1_ЛистЗПродолжение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист З Продолжение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="e5909da6-943a-47bf-951f-9b100388deef">
+    <name>МЧБ_2018Кв1_ЛистИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист И</value>
+    </synonym>
+  </templates>
+  <templates uuid="22843f40-700c-4395-9586-32353bf62362">
+    <name>МЧБ_2018Кв1_ЛистИПродолжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 лист И продолжение</value>
+    </synonym>
+  </templates>
+  <templates uuid="c56d55c8-5909-4069-a218-2a19277e0113">
+    <name>МЧБ_2018Кв1_РасчетДоходаОтПродажиНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2018 Расчет дохода от продажи объектов недвижимого имущества</value>
+    </synonym>
+  </templates>
+  <templates uuid="04bff79d-0562-4a72-a2f2-7816f2e430ff">
+    <name>СоставПоказателей2018Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей 2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="db242da7-ff5c-4f14-8690-848630d21d52">
+    <name>Списки2018Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="6cccd227-9112-4893-896c-29f53c194115">
+    <name>СтруктураXML512</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML512</value>
+    </synonym>
+  </templates>
+  <templates uuid="48fc811e-4991-466a-a608-d416be002971">
+    <name>НастройкиЗагрузкиXML2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2018 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="adee86bc-cb5a-46f6-a7a6-4e4b0fe9140a">
+    <name>МБ_1151020_5_12000_16_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.12000_16.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f5d2ff91-93fa-461b-82f8-47ae24611af4">
+    <name>ФормаОтчета2019кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="e18c8689-2394-494d-8fb5-6c4748548d4f">
+    <name>ФормаОтчета2019кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="02fe9ac4-6e8e-40b8-b460-512057e7af66">
+    <name>ФормаОтчета2019кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="974fb50f-2be2-483e-abc9-ea14bdd794c5">
+    <name>ФормаОтчета2019кв1_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6e2a5c09-00b6-4165-9bf4-f00f149754b4">
+    <name>ФормаОтчета2019кв1_Приложение1Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Расчет к приложению 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6cac1786-35c2-4127-b6c6-cfa0f12024ac">
+    <name>ФормаОтчета2019кв1_Приложение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="5d48a678-193f-4c28-b132-2cffeb387b64">
+    <name>ФормаОтчета2019кв1_Приложение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="28a67890-8423-4245-90bb-32611320cc18">
+    <name>ФормаОтчета2019кв1_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="c2e91d69-3251-443e-b3cd-f206fbe93a29">
+    <name>ФормаОтчета2019кв1_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="bd2628f1-7177-4731-90e0-b44818c690c8">
+    <name>ФормаОтчета2019кв1_Приложение5Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Расчет к приложению 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="42f0f22a-f3a4-4c35-aaf7-e2f81ac322cc">
+    <name>ФормаОтчета2019кв1_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="b52774cc-6b06-4482-954d-110a9fc940e9">
+    <name>ФормаОтчета2019кв1_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="a0233383-8e5e-4b60-b34b-1d163f11bdec">
+    <name>ФормаОтчета2019кв1_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2019 Приложение 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="1ee30913-543d-4d81-a021-d77c47b81287">
+    <name>МЧБ_2019кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="9d931f6f-eb8f-4780-9fc6-4418f2b728f9">
+    <name>МЧБ_2019кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="422497d7-f54e-44af-b8b0-df0afedf0949">
+    <name>МЧБ_2019кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="a49f77d9-f403-4305-bf31-92cb033970be">
+    <name>МЧБ_2019кв1_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5f708b1c-ab95-4f4b-b51a-4d1657087457">
+    <name>МЧБ_2019кв1_Приложение1Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Расчет к приложению 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9cad3e93-55b3-4ce9-81b5-391c78bbaff5">
+    <name>МЧБ_2019кв1_Приложение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="88a40e55-15c7-4c27-91b9-8ed220d4d4b4">
+    <name>МЧБ_2019кв1_Приложение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="d1662e96-9e93-4b5c-a33a-4c1238fa9146">
+    <name>МЧБ_2019кв1_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="b1c1fe26-ab89-46ec-9020-0809ddaab0ea">
+    <name>МЧБ_2019кв1_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="4474abe7-fac9-459f-8d49-caa98e098d90">
+    <name>МЧБ_2019кв1_Приложение5Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Расчет к приложению 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="53e33c30-81fd-41b9-aea5-033a78c90681">
+    <name>МЧБ_2019кв1_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="236b6643-5153-4716-8ebc-5775b87f94c3">
+    <name>МЧБ_2019кв1_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="f0dc28df-4d98-48be-ae1f-33dcd71da33a">
+    <name>МЧБ_2019кв1_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2019 Приложение 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="1eb40fde-41aa-4c85-80ef-96ab245b82cd">
+    <name>СоставПоказателей2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей 2019</value>
+    </synonym>
+  </templates>
+  <templates uuid="203195ef-16a5-4669-9610-6029c12f3749">
+    <name>Списки2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2019</value>
+    </synonym>
+  </templates>
+  <templates uuid="c32c7f41-4d11-4152-a898-532605aefcfd">
+    <name>СтруктураXML513</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML 5.13</value>
+    </synonym>
+  </templates>
+  <templates uuid="345fe859-1d3c-43be-9594-dd475dbabfc8">
+    <name>НастройкиЗагрузкиXML2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2019</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ea4cb0ad-addb-41d3-b930-a06f254e1ffe">
+    <name>КодыДоходовИВычетов2019Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2019 кв 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="7350d990-4ec6-43ab-9691-69759346e000">
+    <name>НастройкиСравнения2019кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2019 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="96ee73e2-478a-4416-afe9-0e5d37198e33">
+    <name>МБ_1151020_5_13000_17_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.13000_17.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="99f7822c-0d6f-4ed6-bc2e-3fc250eef514">
+    <name>ФормаОтчета2020кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="de8f609e-e342-406b-a1de-d03838f45ad3">
+    <name>ФормаОтчета2020кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="83f40879-c29b-43eb-874c-4ef7793935ba">
+    <name>ФормаОтчета2020кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="dd67aa0e-0c5f-45f7-ab12-8e9fa23b2563">
+    <name>ФормаОтчета2020кв1_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="4fce86ea-7c37-4821-8444-9562bf19fee0">
+    <name>ФормаОтчета2020кв1_Приложение1Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Расчет к приложению 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5a6caefd-1099-4b6c-aa0d-d5e4a857f146">
+    <name>ФормаОтчета2020кв1_Приложение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="9581780f-7f6c-4a4d-a9e0-126497cadca6">
+    <name>ФормаОтчета2020кв1_Приложение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="8f05594a-a6a8-48e2-8ad8-32b79fffd67a">
+    <name>ФормаОтчета2020кв1_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="8ffb669b-3406-44fb-bf2b-d158266f8756">
+    <name>ФормаОтчета2020кв1_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="f4526e47-504b-483b-94b1-e93c1e4012bd">
+    <name>ФормаОтчета2020кв1_Приложение5Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Расчет к приложению 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="c074e45e-119b-4083-86f3-dfb54e9cbb77">
+    <name>ФормаОтчета2020кв1_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="0438b1bb-2f65-4d2e-bcf2-2799de128428">
+    <name>ФормаОтчета2020кв1_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="d29ad8d2-79e7-4038-9205-0e7a3f942ce6">
+    <name>ФормаОтчета2020кв1_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета 2020 Приложение 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="84491884-ccf6-4e76-9a72-dd52e8fd93ef">
+    <name>МЧБ_2020кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="c4976a14-3c3b-4974-b49e-931722ee8668">
+    <name>МЧБ_2020кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="a2f0d56b-eb50-441d-8733-44a6d2afe578">
+    <name>МЧБ_2020кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="ef06d9c3-31ff-4b4e-8f04-d1bb7c01645a">
+    <name>МЧБ_2020кв1_Приложение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6fe99710-e03d-4e6b-878a-afbd76fe5711">
+    <name>МЧБ_2020кв1_Приложение1Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Расчет к приложению 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="f6aa4dc0-4451-4439-be74-7dc600dbba6c">
+    <name>МЧБ_2020кв1_Приложение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="9a4a9df9-6c19-4cf1-920a-881c84bab0be">
+    <name>МЧБ_2020кв1_Приложение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="2c0c2f13-e8ca-4a8a-8d15-dcefb3eab1e9">
+    <name>МЧБ_2020кв1_Приложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7cf54ce-d759-4db2-ad21-5eade3eaece7">
+    <name>МЧБ_2020кв1_Приложение5</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="c76aa19f-e9fb-49d4-ac0c-0fa0c2878d35">
+    <name>МЧБ_2020кв1_Приложение5Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Расчет к приложению 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="23d8172a-130e-4c2e-b4a6-faa281274c0f">
+    <name>МЧБ_2020кв1_Приложение6</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="10494b47-3c9c-4f8c-b836-14fa5c3803b0">
+    <name>МЧБ_2020кв1_Приложение7</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="19081e91-6f89-4fa6-913e-0a43ccf727b3">
+    <name>МЧБ_2020кв1_Приложение8</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2020 Приложение 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="e79bd123-b1bb-4888-aff2-511ee99dec93">
+    <name>СоставПоказателей2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей 2020</value>
+    </synonym>
+  </templates>
+  <templates uuid="3604f42f-8915-4fb0-b134-1346dd2820e1">
+    <name>Списки2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2020</value>
+    </synonym>
+  </templates>
+  <templates uuid="e09fad6f-5828-417f-b973-2ac5aff9f284">
+    <name>СтруктураXML514</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML 5.14</value>
+    </synonym>
+  </templates>
+  <templates uuid="b3aa3a92-56be-4e04-8142-c108077078a2">
+    <name>НастройкиЗагрузкиXML2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML 2020</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a1e5cca2-7031-4c18-bc44-e1ad6520ed2d">
+    <name>НастройкиСравнения2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7d147c28-4ff1-4153-8893-c7a95fd873f2">
+    <name>МБ_1151020_5_14000_18_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151020_5.14000_18.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="edd84bae-202e-414c-93e2-7e01906dbc49">
+    <name>КодыДоходовИВычетов2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды доходов и вычетов 2020 кв 1</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd029aa7-dc9e-4105-aa28-bf9e72a3e307">
+  <producedTypes>
+    <objectType typeId="571265d5-8940-4201-8823-f087d9bba781" valueTypeId="a6db485c-4e73-4b1e-99a7-ab9913d72bea"/>
+    <managerType typeId="6df2ebc8-b9f1-4f8d-a5b4-ca17e8be371b" valueTypeId="c5a2453a-dc14-4249-8f2c-bcc6ffee7bb3"/>
+  </producedTypes>
+  <name>РедакторАналитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор аналитики</value>
+  </synonym>
+  <defaultForm>DataProcessor.РедакторАналитики.Form.МатрицаАналитики</defaultForm>
+  <forms uuid="c0351e5c-28a6-41c9-9e89-87d6da05a88a">
+    <name>МатрицаАналитики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Матрица аналитики</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6651185e-02da-4de3-8e86-9e358df52668">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="1d70a8eb-b4bf-4f34-8ce9-8639a4e1d318">
+    <name>Макет1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет1</value>
+    </synonym>
+  </templates>
+  <commands uuid="e9ab6781-cabb-4a6a-924e-5763ccca61b8">
+    <name>ИзменитьАналитикуВОперациях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить аналитику в операциях</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Редактировать значения аналитики в списке операций</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

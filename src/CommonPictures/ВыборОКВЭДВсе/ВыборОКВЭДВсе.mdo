@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5ad0f02-ea00-40f2-acbc-0d17df7ee04d">
+  <name>ВыборОКВЭДВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОКВЭД Весь классификатор</value>
+  </synonym>
+</mdclass:CommonPicture>

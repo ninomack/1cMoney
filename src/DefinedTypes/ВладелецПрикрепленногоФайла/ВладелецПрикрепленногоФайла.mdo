@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dcf02ea-8f68-4f37-8278-aebc00fa36e3">
+  <producedTypes>
+    <containerType typeId="95f4f13e-f867-44d1-9840-708d4b69ce10" valueTypeId="da2304b8-ea59-4092-a058-5268e4d09324"/>
+  </producedTypes>
+  <name>ВладелецПрикрепленногоФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец прикрепленного файла</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ОбменВалюты</types>
+    <types>DocumentRef.Доход</types>
+    <types>CatalogRef.Контакты</types>
+    <types>DocumentRef.МыВзялиВДолг</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>DocumentRef.МыВернулиДолг</types>
+    <types>DocumentRef.НамВернулиДолг</types>
+    <types>CatalogRef.КошелькиИСчета</types>
+    <types>DocumentRef.МыДалиВДолг</types>
+    <types>DocumentRef.Перемещение</types>
+    <types>CatalogRef.Долги</types>
+    <types>DocumentRef.Расход</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.Имущество</types>
+    <types>DocumentRef.УниверсальнаяОперация</types>
+  </type>
+</mdclass:DefinedType>

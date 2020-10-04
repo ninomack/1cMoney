@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c50a0c6e-ab9d-4a57-b21d-3152cbaa9a21">
+  <name>КатегорииОКВЭД_ООО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории ОКВЭД ООО</value>
+  </synonym>
+</mdclass:CommonTemplate>

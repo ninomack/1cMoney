@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4546345a-2c16-4f26-824e-6e00752d0dd4">
+  <producedTypes>
+    <managerType typeId="81cb0942-3462-497e-8de9-5fdafdc02c85" valueTypeId="b4c2f1ca-763f-4139-87dc-af534170a258"/>
+    <valueManagerType typeId="1cc6774e-8e59-413b-9d65-d058720d5d35" valueTypeId="90d4c696-d1c8-434a-9d56-7bb057e032ad"/>
+    <valueKeyType typeId="6eb06672-7e63-5a16-bd43-7cf042110bf6" valueTypeId="b8fbc827-2022-5ca1-b46b-202c82470457"/>
+  </producedTypes>
+  <name>СинхронизацияАвтономныхКопийЭтоЦентральнаяБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация автономных копий это центральная база</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

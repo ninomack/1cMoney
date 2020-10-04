@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9581743-0d49-479a-9f49-78190e0df64f">
+  <name>СписокОперацийОтборВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все операции</value>
+  </synonym>
+  <group>CommandGroup.ОтборОперацийПоСостоянию</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

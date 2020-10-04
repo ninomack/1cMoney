@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb886d50-7dc7-44f0-bbb3-4f08dbf79584">
+  <producedTypes>
+    <objectType typeId="ca37160c-ac80-413a-95c8-b87fab1255da" valueTypeId="2d576f60-6832-46f6-b981-5e98999e2874"/>
+    <managerType typeId="39029fcd-350a-4581-9a6d-e280257a0a22" valueTypeId="58e7fbf0-0be6-4873-bf0f-b7f10c5bc33d"/>
+  </producedTypes>
+  <name>СтруктураДоходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура доходов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СтруктураДоходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="9024f704-4f2b-4d01-b9fb-242d0343438f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2cc46bed-e571-49ed-8ef3-13179a31fd7e">
+    <name>СтруктураДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура доходов</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="82d32a86-ba78-4fd0-b815-3844f266adce">
+    <name>ДоходыПоСтатье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы по статье</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f357a984-c96c-4327-9cdb-f8b562d5ce33">
+  <name>ДополнительнаяАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная аналитика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.АналитикаСтатей</content>
+  <content>CommonModule.АналитикаСтатейВызовСервера</content>
+  <content>CommonModule.АналитикаСтатейКлиент</content>
+  <content>FunctionalOption.ИспользоватьАналитикуСтатей</content>
+  <content>CommonForm.НастройкаКолонокАналитики</content>
+  <content>CommonForm.РедакторАналитикиСтатьи</content>
+  <content>Constant.ИспользоватьАналитикуСтатей</content>
+  <content>Catalog.ДополнительныеЗначенияВидовАналитик</content>
+  <content>Catalog.ЗначенияСубконтоАналитика</content>
+  <content>Report.НастройкиАналитикиСтатей</content>
+  <content>Report.СтруктураРасходов</content>
+  <content>Report.СтруктураДоходов</content>
+  <content>ChartOfCharacteristicTypes.ВидыАналитик</content>
+  <content>InformationRegister.НастройкиАналитикиВДокументахПоУмолчанию</content>
+  <content>InformationRegister.НастройкиАналитикиПоСтатьям</content>
+  <content>FilterCriterion.ДополнительнаяАналитика</content>
+  <content>DataProcessor.РедакторАналитики</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56ec60ca-6437-4bd9-8d2c-280484316834">
+  <name>ИконкаОтчетИсторияДолга16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>История долга</value>
+  </synonym>
+</mdclass:CommonPicture>

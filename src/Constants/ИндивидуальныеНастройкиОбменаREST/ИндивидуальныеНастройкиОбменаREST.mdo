@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aea4b726-adb2-4823-9ece-4a2c3bdc9771">
+  <producedTypes>
+    <managerType typeId="7be910c4-b209-478f-a83d-9e9d7ef1f5ed" valueTypeId="39cee54a-c5ba-40c2-b008-82bce48882a5"/>
+    <valueManagerType typeId="ad88b6cb-3aa2-4746-80a4-4b1cf3f71f6c" valueTypeId="e8821510-2110-4b70-a036-2d43e6c4ee99"/>
+    <valueKeyType typeId="496b8386-b525-5274-8dbf-bc01fa1389cf" valueTypeId="142f0dbf-4ca6-50c3-84eb-a32d090077f9"/>
+  </producedTypes>
+  <name>ИндивидуальныеНастройкиОбменаREST</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индивидуальные настройки обмена REST</value>
+  </synonym>
+  <comment>ИСТИНА, если у каждого пользователя собственные настрйоки обмена с мобильным приложением, иначе - одна настройка на всех пользователей</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

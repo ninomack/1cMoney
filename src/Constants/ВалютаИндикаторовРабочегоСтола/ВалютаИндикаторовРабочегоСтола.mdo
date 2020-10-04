@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd15281-6c0e-462b-98ba-6f4197103239">
+  <producedTypes>
+    <managerType typeId="a73e6085-01f7-4beb-8fcf-70bd8e0a8e13" valueTypeId="2c851693-5bc0-4aac-9a0b-0d7bf615ab26"/>
+    <valueManagerType typeId="e2af33ee-14b6-4f33-8dfa-02430031c20c" valueTypeId="4a973d2c-d4b3-4bf0-9084-5ba1ec84fea2"/>
+    <valueKeyType typeId="6d306362-d09f-5f64-b59b-19f51effb784" valueTypeId="a96d4c48-b616-5546-b471-82372f185afd"/>
+  </producedTypes>
+  <name>ВалютаИндикаторовРабочегоСтола</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта индикаторов рабочего стола</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+</mdclass:Constant>

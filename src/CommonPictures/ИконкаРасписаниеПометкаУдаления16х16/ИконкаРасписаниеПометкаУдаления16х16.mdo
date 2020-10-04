@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4dfc185-ba07-458f-91c2-b5787a90b876">
+  <name>ИконкаРасписаниеПометкаУдаления16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка расписание и пометка удаления(16х16)</value>
+  </synonym>
+</mdclass:CommonPicture>

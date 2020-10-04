@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f894786d-ef3a-4421-bce9-5176d4a08aee">
+  <name>ПредставлениеФайлаАудио16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление файла аудио16</value>
+  </synonym>
+</mdclass:CommonPicture>

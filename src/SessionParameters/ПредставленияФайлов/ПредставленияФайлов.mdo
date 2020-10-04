@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e907bcf-b6a8-4285-b587-7f3e6e0ae7d2">
+  <name>ПредставленияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представления файлов</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

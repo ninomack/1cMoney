@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc97f703-4cd4-4eef-bbab-a712a8ff4900">
+  <producedTypes>
+    <managerType typeId="92ec8fc2-b438-4434-8a36-35b94af14cc4" valueTypeId="82e84139-5dfd-48c6-a59a-18a49640ae67"/>
+    <valueManagerType typeId="cde7eeeb-a195-42d6-9d98-4b4c9a65a48b" valueTypeId="e22cce7b-e898-4ee6-9080-88c89fa1df8c"/>
+    <valueKeyType typeId="d1612bbe-eaac-5253-97b3-b59d1055e523" valueTypeId="9a9c39f1-dd0b-57ef-85a4-2e5688834732"/>
+  </producedTypes>
+  <name>ПараметрыАдминистрированияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры администрирования ИБ</value>
+  </synonym>
+  <comment>Параметры администрирования: &quot;ИмяАдминистратораИБ&quot;, &quot;ПарольАдминистратораИБ&quot;, &quot;ИмяАдминистратораКластера&quot;, &quot;ПарольАдминистратораКластера&quot;, &quot;ПортКластераСерверов&quot;, &quot;ПортАгентаСервера&quot;</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

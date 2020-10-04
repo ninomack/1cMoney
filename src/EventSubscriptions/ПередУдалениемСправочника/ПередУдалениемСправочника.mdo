@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdebbde5-1176-4dcb-8c47-295cf554d773">
+  <name>ПередУдалениемСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед удалением справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.Контакты</types>
+    <types>CatalogObject.ВариантыБюджетов</types>
+    <types>CatalogObject.ЗначенияСубконтоАналитика</types>
+    <types>CatalogObject.ФинансовыеЦели</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.КошелькиИСчета</types>
+    <types>CatalogObject.ГрафыБюджета</types>
+    <types>CatalogObject.СтатьиРасходов</types>
+    <types>CatalogObject.СтатьиДоходов</types>
+    <types>ChartOfCharacteristicTypesObject.ВидыАналитик</types>
+    <types>CatalogObject.Имущество</types>
+    <types>CatalogObject.ДополнительныеЗначенияВидовАналитик</types>
+    <types>CatalogObject.Долги</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбслуживаниеСправочников.ПередУдалениемСправочника</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e841b12-1757-4bb9-911c-9baf3588df5f">
+  <producedTypes>
+    <objectType typeId="06a002de-2a50-4373-9641-5233eb604bcc" valueTypeId="698961f6-d601-405b-9870-569ec9d8aa5b"/>
+    <managerType typeId="576f8159-cd4c-4b82-b902-5bce93e401b6" valueTypeId="6b8c7b52-0a92-4b5e-979b-9c06af840f9f"/>
+  </producedTypes>
+  <name>ОбзорОсновныхВозможностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обзор основных возможностей</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбзорОсновныхВозможностей.Form.Обучение</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="3e0d1a06-7b0f-4d32-86ff-6e473e3a8813">
+    <name>ОткрытьОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть обучение</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d1469a8a-802d-4e75-94fa-1daa26272096">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6a58bbc-5ef6-448c-8d75-4a5f16e79435">
+    <name>ФормаНастроекИндикатораНачальнойСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек индикатора начальной страницы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc57c4fd-b72e-47d2-9005-4c7e6bd11f6b">
+    <name>УстройствоГлавногоОкнаПрограммыТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>О главном окне программы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e5a72c2-2926-4534-8cfc-49f3c450acd6">
+    <name>НачалоРаботыТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало работы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6516c04d-9381-4e98-ac16-f0e73ad1179c">
+    <name>ДоброПожаловатьТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добро пожаловать</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e4c878e-57bc-4149-b39c-334360cefee6">
+    <name>ФормаОперацииТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведение учета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b8cb074-f207-4cc5-9d21-d2ef2b637097">
+    <name>КалендарьТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с календарем</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38e30e9b-f3fe-4e99-8f1c-892d6fddfee9">
+    <name>ШаблоныТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны операций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9adc9307-5c6f-45d7-bb55-00f43707effe">
+    <name>ФормаНакопленияТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39432697-2602-4b8f-90b8-8b3e75fcc966">
+    <name>БюджетТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с бюджетом</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b6c9cb4-4b8b-491b-b2bb-305d8197ba9a">
+    <name>МиниденьгиТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миниденьги</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="40c72a86-042f-4bb5-8f6c-009eec11dfce">
+    <name>РабочийСтол_01</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол 01</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2947476e-d34d-47d5-b950-e91f65e7b874">
+    <name>РабочийСтол_02</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол 02</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="69a6ce21-a3d2-4340-b778-5b975a5ac6bc">
+    <name>РабочийСтол_03</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол 03</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="068864cd-585b-4d9f-b72f-9ced57285906">
+    <name>РабочийСтол_04</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол 04</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="c923157a-6210-4372-b279-fc7529cd4e5f">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийИнтеграция</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

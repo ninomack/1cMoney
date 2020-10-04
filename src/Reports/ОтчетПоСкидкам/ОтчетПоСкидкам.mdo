@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6659641-1611-4a19-9ec5-fd9dcde4a36e">
+  <producedTypes>
+    <objectType typeId="da83aca5-c515-459d-ba74-0470d672f28f" valueTypeId="d306ea7d-7ee8-4919-8813-bb3cc2ce265c"/>
+    <managerType typeId="aeee21c5-9ae8-4487-b5bd-15771028942d" valueTypeId="1ac261e6-9a81-49a4-8df2-442f182ddc03"/>
+  </producedTypes>
+  <name>ОтчетПоСкидкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по скидкам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоСкидкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2dfd8aa7-1bd5-4a10-a431-e33d6e21b436">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="517dd42b-1eb7-4169-a0f4-b02d1cf44677">
+    <name>ПолученныеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные скидки</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыАналитические</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

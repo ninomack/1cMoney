@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecbb8e61-30b9-43b6-a4bd-23d44d20c0c0">
+  <name>ФинансовыеЦелиИНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые цели и накопления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ФинансовыеЦели</content>
+  <content>AccumulationRegister.ИспользованиеСуммФинансовыхЦелей</content>
+  <content>Enum.КатегорииИсточниковФинансирования</content>
+  <content>DataProcessor.РазделНакопления</content>
+  <content>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</content>
+  <content>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</content>
+  <content>aed19bc9-8b58-4745-a863-9616bc34b62e</content>
+  <content>Report.ОтчетПоФинансовымЦелям</content>
+  <content>f967ff4d-26ab-477d-b64a-a3dc663f3b1a</content>
+  <content>29af7685-058c-495b-b5ad-a4d361d476c6</content>
+  <content>CommonPicture.Накопления48</content>
+  <content>Document.ВводИзменениеОстатка</content>
+  <content>Document.УниверсальнаяОперация</content>
+  <content>DataProcessor.ПомощникСозданияФинансовойЦели</content>
+  <content>CommonCommand.ОткрытьРазделНакопления</content>
+  <content>Constant.ИспользоватьФинансовыеЦели</content>
+  <content>CommonPicture.МенюНакопление16х16</content>
+  <content>CommonModule.ФинансовыеЦелиСервер</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

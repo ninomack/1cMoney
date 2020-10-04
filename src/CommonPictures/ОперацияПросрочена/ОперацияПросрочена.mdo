@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdc22cd3-0d75-458c-af93-169c25e69f94">
+  <name>ОперацияПросрочена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция просрочена</value>
+  </synonym>
+</mdclass:CommonPicture>

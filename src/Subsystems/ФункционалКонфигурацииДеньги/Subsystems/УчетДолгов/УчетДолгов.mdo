@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cb0e9fb-d62d-44af-8bb2-2d3d6dc91efe">
+  <name>УчетДолгов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет долгов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Долги</content>
+  <content>Document.МыВзялиВДолг</content>
+  <content>Catalog.Контакты</content>
+  <content>Document.МыДалиВДолг</content>
+  <content>Document.НамВернулиДолг</content>
+  <content>Document.МыВернулиДолг</content>
+  <content>Document.ВводИзменениеОстатка</content>
+  <content>Document.Расход</content>
+  <content>Document.УниверсальнаяОперация</content>
+  <content>InformationRegister.ПараметрыГрафикаПогашенияДолгов</content>
+  <content>Enum.ТипыДолгов</content>
+  <content>Report.ОтчетПоДолгам</content>
+  <content>CommonPicture.ИзменениеОстатка16</content>
+  <content>CommonPicture.УниверсальнаяОперация16</content>
+  <content>CommonPicture.ВыданныйЗаем48</content>
+  <content>CommonPicture.ВыданныйЗаем32</content>
+  <content>CommonPicture.ВыданныйЗаем16</content>
+  <content>CommonPicture.ПроцентыПоВыданнымЗаймам16</content>
+  <content>CommonPicture.ПроцентыПоВыданнымЗаймам32</content>
+  <content>CommonPicture.ПолученныйКредит48</content>
+  <content>CommonPicture.ПолученныйКредит16</content>
+  <content>CommonPicture.ПолученныйКредит32</content>
+  <content>CommonPicture.ПроцентыПоПолученнымКредитам16</content>
+  <content>CommonPicture.ПроцентыПоПолученнымКредитам32</content>
+  <content>CommonPicture.ВозвратВыданногоЗайма16</content>
+  <content>CommonPicture.ВыдачаЗайма16</content>
+  <content>CommonPicture.ПогашениеПолученногоКредита16</content>
+  <content>CommonPicture.МыВзялиВДолг16</content>
+  <content>DataProcessor.ПомощникСозданияДолга</content>
+  <content>CommonForm.РедакторГрафикаПогашенияДолга</content>
+  <content>Catalog.ДополнительныеЗначенияВидовАналитик</content>
+  <content>Enum.СпособыПогашенияКредита</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

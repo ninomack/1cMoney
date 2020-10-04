@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="896186bd-86f7-48bf-8639-67323bf529b4">
+  <producedTypes>
+    <refType typeId="bfd75f23-0e82-400a-82a1-d710ba4ab1c3" valueTypeId="a03dcd29-e054-4625-8440-acfa61acdd20"/>
+    <listType typeId="504e5593-610e-4612-bf19-2477a13928cb" valueTypeId="d203a556-72f8-42a8-817f-a621b142139e"/>
+    <managerType typeId="cddaefa7-fb74-4f17-bcb6-0d86195f76bf" valueTypeId="f4ca5b67-7c6e-40f0-b7e0-03930b7e6f43"/>
+  </producedTypes>
+  <name>СостоянияРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния расписания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1fe321c4-d6f3-49d1-8217-be0ba85bdb7e">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7189f7fd-940e-4b92-a8d1-ca0e826e5a3c">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31e85564-23c6-4372-afe1-b771e05c2ace">
+    <name>Пропущено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропущено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

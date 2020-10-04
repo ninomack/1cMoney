@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80a26da1-70aa-49e3-8403-3a137411a26e">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаСправочники</picture>
+  </picture>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Имущество</content>
+  <content>Catalog.Контакты</content>
+  <content>Catalog.КошелькиИСчета</content>
+  <content>Catalog.СтатьиДоходов</content>
+  <content>Catalog.Долги</content>
+  <content>ChartOfCharacteristicTypes.ВидыАналитик</content>
+  <content>Catalog.ВариантыБюджетов</content>
+  <content>Catalog.ФинансовыеЦели</content>
+  <content>Catalog.СтатьиРасходов</content>
+  <content>CommonPicture.ПодсистемаПланирование</content>
+  <content>CommonPicture.ПодсистемаСправочники</content>
+  <content>Catalog.ПрикрепленныеФайлы</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+</mdclass:Subsystem>

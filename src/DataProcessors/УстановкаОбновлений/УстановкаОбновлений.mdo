@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33aa149a-8910-4515-a5d8-928c882edcb7">
+  <producedTypes>
+    <objectType typeId="86246011-dac8-4d83-8418-03f85d450eff" valueTypeId="8cfc4249-f751-486d-8280-99ce03f2aec0"/>
+    <managerType typeId="1ede9755-11c1-48c2-a62e-327a2d84c241" valueTypeId="ea65beba-b348-48b8-b2fa-b2390d0af456"/>
+  </producedTypes>
+  <name>УстановкаОбновлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка обновлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаОбновлений.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c130ebc2-c352-4ee8-9c71-0e1686d7d3e6">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес электронной почты для отправки отчета об обновлении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8afa9a0e-04c1-4cac-82bb-6767cc0594d9">
+    <name>ВосстанавливатьИнформационнуюБазу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстанавливать информационную базу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требуется восстанавливать информационную базу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7ed8c3b6-82aa-433d-b90f-73157d136540">
+    <name>ВыслатьОтчетНаПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выслать отчет на почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включите для  отправки отчета на почту</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="199ddad5-fd4a-4432-85d9-e303319ada89">
+    <name>ДатаВремяОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата и время запланированного обновления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="912c05c0-9dca-4ad7-b6e1-1ca46ce32342">
+    <name>ИмяКаталогаРезервнойКопииИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога резервной копии ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя каталога резервной копии программы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="03aa5104-0689-46d3-afb2-12dc426ae014">
+    <name>ИмяФайлаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла с обновлением</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="630792e4-670b-4e69-bd1c-dd9f2588768d">
+    <name>КодЗадачиПланировщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код задачи планировщика</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Внутренний код задачи планировщика</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a35d65d-38ae-48bf-b89a-9d7eb41556c4">
+    <name>РежимОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ установки обновления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="345f04c0-0274-4e79-b523-f1fa3cf0d92a">
+    <name>РезультатОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат обновления</value>
+    </synonym>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Информация о результате обновления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="92ca9b59-4511-4485-a659-407cff3ec55c">
+    <name>СоздаватьРезервнуюКопию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать резервную копию</value>
+    </synonym>
+    <comment>0 - не создавать; 1 - временную; 2 - в указанный каталог</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требуется ли создавать резервную копию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="73b27233-e7ce-4386-a182-fc934df0e9a0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="622e8a46-8a5c-409a-bd74-e595c8679791">
+    <name>НастройкаРезервнойКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка резервной копии</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9c0862c-34a2-41a3-ae46-b6a8e1ad1b08">
+    <name>ОбновлениеНеПодходит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление не подходит</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9dd415d7-d724-4821-891c-c43c7313d552">
+    <name>МакетФайлаОбновленияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет файла обновления конфигурации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="62999249-e05b-4b53-a4aa-4b4c5fc444bf">
+    <name>ДопФайлОбновленияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп файл обновления конфигурации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="cd9db31b-db90-4fa8-a22f-26278d8f8967">
+    <name>ЗаставкаОбновленияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заставка обновления конфигурации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="69c114b8-aa21-44e7-9c56-6f6efbc65499">
+    <name>НеинтерактивноеОбновлениеКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неинтерактивное обновление конфигурации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="bd0f9ec3-156a-4a6f-a52b-1213ec825bc0">
+    <name>СкриптСозданияЗадачиПланировщикаЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт создания задачи планировщика задач</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="71e52f63-04db-4336-ace6-b143d0a7d250">
+    <name>СкриптУдаленияПатчей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт удаления патчей</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

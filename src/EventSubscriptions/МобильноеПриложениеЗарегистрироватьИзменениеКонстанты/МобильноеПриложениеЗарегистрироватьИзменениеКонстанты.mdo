@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0db4fde-7ca3-481b-9392-83197c09bf73">
+  <name>МобильноеПриложениеЗарегистрироватьИзменениеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение зарегистрировать изменение константы</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ОсновнойВариантБюджета</types>
+    <types>ConstantValueManager.ВалютаУчета</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменМобильноеПриложение.МобильноеПриложениеЗарегистрироватьИзменениеКонстантыПередЗаписью</handler>
+</mdclass:EventSubscription>

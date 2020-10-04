@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c7fb866-3d02-470f-a509-f674bb2e646f">
+  <producedTypes>
+    <selectionType typeId="216a5b34-74e5-4ec4-95a8-28b45bc4cbc7" valueTypeId="94b7e78b-e307-4a08-a589-f96f6c8909e2"/>
+    <listType typeId="00def7cf-d067-4ca8-86e9-1d8ccea931f6" valueTypeId="57fd4c90-a082-4529-9418-fbbf56e9f6b6"/>
+    <managerType typeId="e9d640b5-bda9-4cbd-8cae-75868a4b843f" valueTypeId="88a19f3c-2338-46fc-b2e0-8d345af85c87"/>
+    <recordSetType typeId="8daab6cb-48ce-4daa-b41f-070850bfec5b" valueTypeId="38b5f7dc-0bb0-4989-99f6-0d3735fe0fb2"/>
+    <recordKeyType typeId="ce3fe144-4ecf-48dc-b493-4e73a1c0f5bb" valueTypeId="4467a63a-4152-4ba9-9d40-5960261ef85d"/>
+    <recordType typeId="a8347693-1fb7-4f39-aff4-9399502f5a55" valueTypeId="6abd6db6-1d73-418f-8595-69f21f622ccc"/>
+  </producedTypes>
+  <name>КоличественныеОборотыПоСтатьямРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественные обороты по статьям расходов</value>
+  </synonym>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="788499e4-484a-4de5-a3b4-d9396c9ca96e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ba70e5f5-4f08-4647-bf0c-5fe98ca95810">
+    <name>ВалютнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8eb0f0c8-ce8e-4754-893f-ebde2492435c">
+    <name>ВалютнаяСуммаСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="6fe47064-efc8-4208-aab3-7fac79170e03">
+    <name>НомерСтрокиЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки журнала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="7ee393a0-94f4-4c21-b0be-14a4f4981156">
+    <name>СтатьяРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расхода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="290d6048-1d3b-4f36-a4ad-e577dbb6c53f">
+    <name>АналитикаСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика статьи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияСубконтоАналитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d46fa54b-4eee-4d08-8708-d2bbd2f8f1e4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

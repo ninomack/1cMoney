@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccdf1b9a-4404-4945-9506-64b498a6478a">
+  <name>ПрикрепленныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прикрепленные файлы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.СпособОткрытияПрикрепленногоФайла</content>
+  <content>Catalog.ПрикрепленныеФайлы</content>
+  <content>InformationRegister.ПринадлежностьФайлов</content>
+  <content>SessionParameter.ПредставленияФайлов</content>
+  <content>CommonPicture.ПредставлениеФайлаАудио</content>
+  <content>CommonPicture.Микрофон48</content>
+  <content>CommonPicture.Камера48</content>
+  <content>CommonPicture.ДобавитьЭлементВЯчейку16</content>
+  <content>DefinedType.ВладелецПрикрепленногоФайла</content>
+  <content>CommonModule.ПрикрепленныеФайлыКлиент</content>
+  <content>CommonModule.ПрикрепленныеФайлыКлиентСервер</content>
+  <content>CommonModule.ПрикрепленныеФайлыСервер</content>
+  <content>CommonPicture.ПредставлениеФайлаТекст</content>
+  <content>CommonPicture.ПредставлениеФайлаДокументОфиса</content>
+  <content>CommonPicture.ПредставлениеФайлаАрхив</content>
+  <content>CommonPicture.ПредставлениеФайлаHTML</content>
+  <content>CommonPicture.ПредставлениеФайлаВидео</content>
+  <content>CommonPicture.ПредставлениеФайлаПлатформы</content>
+  <content>CommonPicture.ПредставлениеФайлаПрочее</content>
+  <content>CommonPicture.ПредставлениеФайлаИзображение</content>
+  <content>CommonPicture.ПереходВперед</content>
+  <content>CommonPicture.ПереходНазад</content>
+  <content>CommonPicture.ПредставлениеФайлаТекст16</content>
+  <content>CommonPicture.ПредставлениеФайлаДокументОфиса16</content>
+  <content>CommonPicture.ПредставлениеФайлаАрхив16</content>
+  <content>CommonPicture.ПредставлениеФайлаHTML16</content>
+  <content>CommonPicture.ПредставлениеФайлаВидео16</content>
+  <content>CommonPicture.ПредставлениеФайлаПлатформы16</content>
+  <content>CommonPicture.ПредставлениеФайлаПрочее16</content>
+  <content>CommonPicture.ПредставлениеФайлаПусто</content>
+  <content>CommonPicture.ПредставлениеФайлаПусто16</content>
+  <content>CommonPicture.ПредставлениеФайлаАудио16</content>
+  <content>CommonPicture.ПредставлениеФайлаИзображение16</content>
+  <content>f67def70-3beb-44f4-b6fc-7036eb573e55</content>
+  <content>CommonPicture.ЗагрузитьФайлСДиска</content>
+  <content>CommonPicture.ДобавитьЭлементВЯчейку</content>
+  <content>CommonModule.ПрикрепленныеФайлыВызовСервера</content>
+  <parentSubsystem>Subsystem.ФункционалКонфигурацииДеньги</parentSubsystem>
+</mdclass:Subsystem>

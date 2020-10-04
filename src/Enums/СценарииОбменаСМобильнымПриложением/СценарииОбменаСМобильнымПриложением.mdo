@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cebd347e-764e-4a5b-bbbc-f626598da028">
+  <producedTypes>
+    <refType typeId="50c0ee51-d5f0-43ad-adef-6f34a2958030" valueTypeId="40593cea-4dfc-49aa-8a47-2d5d912e11bb"/>
+    <listType typeId="99d28e4b-d3fb-4754-bba9-2c0e1eb60d48" valueTypeId="3cb6a1ed-82e4-464e-9562-b79b8a155b85"/>
+    <managerType typeId="6e339b8e-4457-4b56-a76e-5009c21b342b" valueTypeId="601eba85-0502-4073-985a-e48c1714a52f"/>
+  </producedTypes>
+  <name>СценарииОбменаСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии обмена с мобильным приложением</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0e4872e-9202-4ce0-bd8e-763d90c62206">
+    <name>ОбъединениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединить данные настольного и мобильного приложений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb0fe1e1-3bfd-4f9c-9aba-718542364f5e">
+    <name>НастольныеЗаменитьМобильными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменить данные в насольном приложении данными с мобильнго устройства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86608063-f713-41be-b38c-ebb632ca3c1a">
+    <name>МобильныеЗаменитьНастольными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменить данные на мобильном устройстве данными настольного приложения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91b3ce6d-ce13-4f1e-bf04-0015d7d3a169">
+  <producedTypes>
+    <refType typeId="78eddd3a-3a31-4313-b6a3-bfe613bccfbe" valueTypeId="00b7150a-d25a-4315-8eac-2286539fd23a"/>
+    <listType typeId="a23bac94-ca3e-4a2c-a588-2bdf44b87009" valueTypeId="5f3f0649-92ce-4cf1-87d6-33f1669f7b3c"/>
+    <managerType typeId="c667d826-198b-413b-bbb7-57473ec96d1b" valueTypeId="4d356f70-a41a-445f-b013-9970db3a2091"/>
+  </producedTypes>
+  <name>СпособыПогашенияКредита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы погашения кредита</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a369165f-7284-4e8d-9f8f-4f81d085b9b4">
+    <name>РазовыйПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разовый платеж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09f44e0a-acbe-44f7-ba5f-25fd92c81b44">
+    <name>Аннуитет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннуитетные платежи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b0c11b3-3697-41af-beab-4cfaa3356b25">
+    <name>ДифференцированныеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дифференцированные платежи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57140137-b451-4b51-95c6-b7ae5c0f4bb9">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольные платежи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

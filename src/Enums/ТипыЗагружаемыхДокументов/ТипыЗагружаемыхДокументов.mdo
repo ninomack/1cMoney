@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ac6d8d5-01a8-43d0-bc25-0bfee8991e4f">
+  <producedTypes>
+    <refType typeId="f201c31c-9522-4251-b234-999b65bc1e54" valueTypeId="811a96d5-1e5c-4eae-b6dd-9d0526f0ef9d"/>
+    <listType typeId="aa7ab83a-9fa5-42dd-b8f1-8add1583fe62" valueTypeId="7e0e483d-8fe5-446c-8b40-2e1ce176b4c9"/>
+    <managerType typeId="66a3c35a-f1c3-4476-a0c1-0fa191c8de5f" valueTypeId="ee250534-5473-4802-8bf3-7b4d54176c76"/>
+  </producedTypes>
+  <name>ТипыЗагружаемыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы загружаемых документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d2f57cd3-b878-41ff-89c1-c127a4364a4b">
+    <name>ВыпискаБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка банка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

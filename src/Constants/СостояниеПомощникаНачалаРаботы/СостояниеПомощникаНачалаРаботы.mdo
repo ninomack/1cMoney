@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b2327a-f310-48da-9e13-a774a82a2b67">
+  <producedTypes>
+    <managerType typeId="06e5b275-c16d-49e2-afb3-e9e4d0aeb555" valueTypeId="b8e6fe13-a1eb-4057-a453-38dde84c409e"/>
+    <valueManagerType typeId="e0279aad-9d0d-4225-8124-d224ab9a9b60" valueTypeId="08d4e098-8b4b-4893-a3af-07269202eab4"/>
+    <valueKeyType typeId="0cde7b97-eb45-5ce7-a414-b451f9dc3cc0" valueTypeId="f542ed84-ca71-5b05-9260-348215ea9b3d"/>
+  </producedTypes>
+  <name>СостояниеПомощникаНачалаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние помощника начала работы</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

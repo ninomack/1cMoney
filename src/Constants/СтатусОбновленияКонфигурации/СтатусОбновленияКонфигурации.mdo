@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ed292bb-e80a-4f90-a8d4-64100d97af31">
+  <producedTypes>
+    <managerType typeId="498cbb19-2f99-4c46-9124-6e73506c20a6" valueTypeId="bcb561b3-9f3e-45f2-bc70-2de8c9f9a92a"/>
+    <valueManagerType typeId="bcba8724-a203-46c4-a238-40dc6d8425c4" valueTypeId="89a0f31b-848d-431b-989b-863143ad3874"/>
+    <valueKeyType typeId="413ee6c5-3dcf-5dfc-8f2a-bc2a444ee1e3" valueTypeId="10b8fa71-037e-5069-9ae7-49e6a4b38d2a"/>
+  </producedTypes>
+  <name>СтатусОбновленияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус обновления конфигурации</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

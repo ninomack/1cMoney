@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f4f8a0e-efd1-49cc-afca-3079ea071e9c">
+  <producedTypes>
+    <objectType typeId="a54e5302-75b1-492a-bad4-e5148577c7e7" valueTypeId="52437a00-7543-437b-b42a-c6faccc0a36f"/>
+    <refType typeId="ecb65c8d-1070-4cd2-830b-7adac39227be" valueTypeId="3232fd57-ab2c-4afd-8744-db0bc3512491"/>
+    <selectionType typeId="d30aaaec-11e9-4dd6-8cba-593102892469" valueTypeId="fa2dd675-9205-4fa3-b640-0557624aa946"/>
+    <listType typeId="f516f44c-86a0-49be-8260-3a8e4db4196e" valueTypeId="56083dd8-95ea-49f1-9709-5188a1e794bc"/>
+    <managerType typeId="77797d45-81df-4f34-b5cb-5aa992a82265" valueTypeId="ff3bfa40-b00f-4d49-9018-13c7ff402b14"/>
+  </producedTypes>
+  <name>ГрафыБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графы бюджета</value>
+  </synonym>
+  <inputByString>Catalog.ГрафыБюджета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Графа бюджета</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e35cd1bc-721b-46e2-aede-53ee61e6e166">
+      <name>ВозвратВыданногоЗайма</name>
+      <description>Возврат выданного займа</description>
+      <code xsi:type="core:StringValue">
+        <value>10.2.</value>
+      </code>
+    </items>
+    <items id="09438d02-01c2-44af-9b3c-05c5d887559c">
+      <name>ФинЦельВозвратИзНакопления</name>
+      <description>Возврат из накопления (-)</description>
+      <code xsi:type="core:StringValue">
+        <value>05.2.</value>
+      </code>
+    </items>
+    <items id="c65fdedc-2c8c-4427-9ee3-0d6597e0036b">
+      <name>СвободныеДеньгиВозвратИзНакопления</name>
+      <description>Возврат из накопления (+)</description>
+      <code xsi:type="core:StringValue">
+        <value>10.6.</value>
+      </code>
+    </items>
+    <items id="0a77c46f-df8a-4943-9137-e1e8f96d5171">
+      <name>ВыдачаВзаймы</name>
+      <description>Выдача взаймы</description>
+      <code xsi:type="core:StringValue">
+        <value>20.2.</value>
+      </code>
+    </items>
+    <items id="cebf0876-4278-4845-a1f0-32f12057edcb">
+      <name>ВыручкаЗаИмущество</name>
+      <description>Выручка за имущество</description>
+      <code xsi:type="core:StringValue">
+        <value>10.5.</value>
+      </code>
+    </items>
+    <items id="813c67c8-e2bb-4e9e-a9c1-4dfa4f62b5d0">
+      <name>Доходы</name>
+      <description>Доходы (+)</description>
+      <code xsi:type="core:StringValue">
+        <value>10.1.</value>
+      </code>
+    </items>
+    <items id="352dfeb2-b02c-4be0-9a13-e76add1b2cd4">
+      <name>ИспользованиеКредитнойКарты</name>
+      <description>Оплата кредиткой</description>
+      <code xsi:type="core:StringValue">
+        <value>10.3.</value>
+      </code>
+    </items>
+    <items id="c7b7989d-89f5-49fd-80ed-4f9ea01a3438">
+      <name>СвободныеДеньгиПереводВНакопление</name>
+      <description>Перевод в накопление (-)</description>
+      <code xsi:type="core:StringValue">
+        <value>30.1.</value>
+      </code>
+    </items>
+    <items id="39a5b769-fc13-4618-ba0e-47feab1f07c5">
+      <name>ФинЦельПереводВНакопление</name>
+      <description>Перевод в накопление (+)</description>
+      <code xsi:type="core:StringValue">
+        <value>10.7.</value>
+      </code>
+    </items>
+    <items id="caecbdac-28f6-45db-af4a-f3f480f66853">
+      <name>ПереводНаКредитнуюКарту</name>
+      <description>Перевод на кредитную карту</description>
+      <code xsi:type="core:StringValue">
+        <value>20.3.</value>
+      </code>
+    </items>
+    <items id="8bb25a9b-4f6a-4a87-9089-0694bc7391a9">
+      <name>ПогашениеКредита</name>
+      <description>Погашение кредита</description>
+      <code xsi:type="core:StringValue">
+        <value>20.4.</value>
+      </code>
+    </items>
+    <items id="95446fd7-6ee9-48be-acac-fc06b4c9cffd">
+      <name>ПокупкаИмущества</name>
+      <description>Покупка имущества</description>
+      <code xsi:type="core:StringValue">
+        <value>20.2.1.</value>
+      </code>
+    </items>
+    <items id="b4328e91-8f87-42ee-a4b8-c562148f5d8a">
+      <name>ПолучениеКредита</name>
+      <description>Получение кредита</description>
+      <code xsi:type="core:StringValue">
+        <value>10.3.</value>
+      </code>
+    </items>
+    <items id="2e0ff99c-b648-45a1-9f7b-a0efcb9af495">
+      <name>ПрочиеДоходы</name>
+      <description>Прочие доходы (+)</description>
+      <code xsi:type="core:StringValue">
+        <value>10.</value>
+      </code>
+    </items>
+    <items id="3d6f7bfb-4e31-422f-90a1-22c24c2476b9">
+      <name>ПрочиеРасходы</name>
+      <description>Прочие расходы (-)</description>
+      <code xsi:type="core:StringValue">
+        <value>20.</value>
+      </code>
+    </items>
+    <items id="0303b48c-44d2-4bef-aa4b-626622d50ded">
+      <name>Расходы</name>
+      <description>Расходы (-)</description>
+      <code xsi:type="core:StringValue">
+        <value>20.1.</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.ГрафыБюджета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГрафыБюджета.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГрафыБюджета.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="a02386df-3fb9-43b1-9673-ab08415e9552">
+    <name>ДляФинансовыхЦелей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для финансовых целей</value>
+    </synonym>
+    <comment>(Инф.)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="960ea6d5-861f-400d-b175-bcaf162ec5cd">
+    <name>ДляСвободныхДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для свободных денег</value>
+    </synonym>
+    <comment>(Инф.)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81630d34-3b86-4d26-a736-d149adf7cfac">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыБюджетныхПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa5522bc-9fdf-4fd0-a26d-9508a9752fa3">
+    <name>ПорядокПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6aeba82a-8a74-4d6e-aafd-f2ff44d34567">
+    <name>ТипСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип статьи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0004c7b8-9d56-42e3-bf30-ca57c6d5648b">
+    <name>ОтношениеКНакоплениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение к накоплениям</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c5764f11-b596-485d-9e86-8e2a6757b39a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bae381c2-33af-4634-8618-5e29e94efbdd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

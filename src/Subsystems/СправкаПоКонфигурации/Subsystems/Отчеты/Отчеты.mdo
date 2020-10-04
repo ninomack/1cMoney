@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994c4455-93a1-471a-9194-147cc077329b">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Report.ДинамикаДоходовИРасходов</content>
+  <content>Report.ОтчетОбИзмененииФинансовогоСостояния</content>
+  <content>Report.ОтчетПоДолгам</content>
+  <content>Report.ОтчетПоИмуществу</content>
+  <content>Report.ОтчетПоКошелькам</content>
+  <content>Report.ОтчетПоПоступлениямДенег</content>
+  <content>Report.ОтчетПоСписаниямДенег</content>
+  <content>Report.ОтчетПоФинансовымЦелям</content>
+  <content>Report.СверкаСВыпискойБанка</content>
+  <content>Report.СравнениеДоходовИРасходовЗа2Периода</content>
+  <content>Report.СтруктураДоходов</content>
+  <content>Report.СтруктураРасходов</content>
+  <content>Report.ОтчетПоСкидкам</content>
+  <parentSubsystem>Subsystem.СправкаПоКонфигурации</parentSubsystem>
+</mdclass:Subsystem>

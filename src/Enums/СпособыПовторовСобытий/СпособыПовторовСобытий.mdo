@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c22e3ce8-25c8-48ce-b617-20ddbd805ca4">
+  <producedTypes>
+    <refType typeId="ff757612-1796-4785-85bc-e682183c46d9" valueTypeId="5cb42e48-a53e-4a08-83f6-c4a94034afea"/>
+    <listType typeId="c2c7c2f6-c374-498d-a8c1-ab5fec5aaf73" valueTypeId="fb8c509d-5f0c-4530-9d0f-40a6aa6a71c1"/>
+    <managerType typeId="16fbd13d-af11-4c68-9f45-95979617ae3d" valueTypeId="7b4a5fbe-3b74-4353-8b09-d6297bdae10a"/>
+  </producedTypes>
+  <name>СпособыПовторовСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы повторов событий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ff432e0-ba79-433b-a908-7a037285af87">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df84ea02-c30d-451d-992b-180e34377672">
+    <name>Ежедневно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежедневно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a2073d2-dbaf-4536-a072-7e9c22fd3c85">
+    <name>Еженедельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c72edb1a-79e7-40dd-88c9-39f19ea8d3e1">
+    <name>ЕжемесячноПоЧислам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно по числам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3f4997c-3ce8-44cd-8f9c-51363cc9fb15">
+    <name>ЕжемесячноПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно по дням недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60feadc2-43d0-4faf-8a6a-cff37a4d6044">
+    <name>ЕжегодноПоЧислам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодно по числам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a962014-da25-4e51-9c57-5dbb5d1569b4">
+    <name>ЕжегодноПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодно по дням недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad1665fa-058d-4dbb-af3b-5897fb42765f">
+    <name>ВУказанныеДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>В указанные даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a186772-a59e-4947-b6fc-3fddf0fd3d4c">
+  <producedTypes>
+    <objectType typeId="1d331fc3-5296-4fcc-9af2-2bda4a4c7236" valueTypeId="0ef4e792-3d2a-40c1-8ee6-57eeb345af90"/>
+    <managerType typeId="819b8677-c1ba-4454-a763-4a77a9fdaab6" valueTypeId="78289272-5d78-428e-9a16-ed34eb48eec9"/>
+  </producedTypes>
+  <name>РазделБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <defaultForm>DataProcessor.РазделБюджет.Form.ФормаРаздела</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="6761e6f9-0935-4d87-8355-67165815462a">
+    <name>ФормаРаздела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма раздела</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d380bcc-dd4c-4358-b648-fc1767ba9c3d">
+    <name>ВыборПериодовБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор периодов бюджета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c13cc18f-1c30-43bd-90d9-78c979700d84">
+    <name>ВыборСтатистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор статистики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12a08e55-1b76-4ab9-b897-271f0c371c81">
+    <name>РедакторПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор показателя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6815e70e-3e17-48ab-8399-9dc21fdd6813">
+    <name>РедакторСоставаСтатей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор состава статей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8e28c34a-80d6-46fb-be92-28aa70d86194">
+    <name>СписокПлановыхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список плановых операций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58cb2439-8a39-495b-8c61-6b7d802c4913">
+    <name>КопированиеПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копирование показателей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="840d64bf-7a4d-4af5-beea-5f514cd51e5f">
+    <name>Бюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

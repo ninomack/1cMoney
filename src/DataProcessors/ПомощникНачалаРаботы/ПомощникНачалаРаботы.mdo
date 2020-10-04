@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdfffc3b-e376-400d-8d38-b2e8fa1ef2fa">
+  <producedTypes>
+    <objectType typeId="af59b6dc-dd12-4edd-a12b-aa5951e256c3" valueTypeId="f49e5f11-8734-48f5-bda7-83f674a90549"/>
+    <managerType typeId="b8a57985-3a40-4c84-8a0c-9d1a18c66879" valueTypeId="0e759bb0-c0c9-4615-80c2-1fd064a37891"/>
+  </producedTypes>
+  <name>ПомощникНачалаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник начала работы</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникНачалаРаботы.Form.Помощник</defaultForm>
+  <forms uuid="a70c519b-7ac8-4a16-9be6-4436ae5ecb68">
+    <name>Помощник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2fc89d3-9c32-426a-87f0-d69263dae7b1">
+    <name>ПараметрыКошелька</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры кошелька</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

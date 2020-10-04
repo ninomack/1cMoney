@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cdbdd97-c312-4f60-8375-d3078e44b793">
+  <name>РедакторГрафикаПогашенияДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор графика погашения долга</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

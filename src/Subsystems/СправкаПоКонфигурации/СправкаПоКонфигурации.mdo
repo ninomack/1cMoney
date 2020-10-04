@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90c14b09-8224-4889-b319-6249c37f2b5d">
+  <name>СправкаПоКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Деньги 8, редакция 2.0</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <subsystems>ОсновныеСведения</subsystems>
+  <subsystems>Операции</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Сервис</subsystems>
+</mdclass:Subsystem>

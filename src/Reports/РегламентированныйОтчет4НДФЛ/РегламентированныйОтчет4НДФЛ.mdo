@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e58e095d-5340-489f-b3bf-ca0127214bc8">
+  <producedTypes>
+    <objectType typeId="42cc72a4-f983-443e-a94f-3b0066b4fb56" valueTypeId="c07f94e6-e8b1-4e8e-8ed2-a78c5664e9b0"/>
+    <managerType typeId="2e056e86-70c7-459c-9ca3-dd3530b6e2e1" valueTypeId="8edcc2d4-27e5-476d-8e7f-d23189806d95"/>
+  </producedTypes>
+  <name>РегламентированныйОтчет4НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декларация 4-НДФЛ</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчет4НДФЛ.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="aa9aec39-68ec-47b0-b71e-d05c52712c53">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 4-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="437507ac-cf46-4c04-b156-b4e0b2d8cdcc">
+    <name>ФормаОтчета2011кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 3-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4bfceef-a4cd-44d1-8780-84cd9797d8ac">
+    <name>ФормаОтчета2014кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация 4-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a9d38d0a-8e86-4554-bd9c-2f0ee8fe3a77">
+    <name>МБ_1151021_5_01000_01_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151021_5.01000_01.tif</value>
+    </synonym>
+    <comment>Шаблон печати машиночитаемой формы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1261ba4a-dd66-495c-b30c-251897a8e878">
+    <name>МБ_1151021_5_02000_01_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151021_5.02000_01.tif</value>
+    </synonym>
+    <comment>Шаблон печати машиночитаемой формы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="66a7db58-ff32-44d6-a7c8-0af15e6dbac5">
+    <name>МБ_1151021_5_02000_02_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151021_5.02000_02.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2cda74f9-b67e-4fb6-bcdb-6ff476717c7c">
+    <name>МЧБ_2011</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2011</value>
+    </synonym>
+  </templates>
+  <templates uuid="bb883371-c557-43b4-bde3-59582812c407">
+    <name>МЧБ_2014</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧБ 2014</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c82710c-2f3a-49e8-8db4-c229f249d7ed">
+    <name>Списки2011Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2011</value>
+    </synonym>
+  </templates>
+  <templates uuid="b18ebb65-72c0-4a17-a967-73b604c2ee90">
+    <name>Списки2014Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки 2014</value>
+    </synonym>
+  </templates>
+  <templates uuid="12f8e147-b8a0-4585-b1b3-a738b030bc01">
+    <name>СтруктураXML501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML501</value>
+    </synonym>
+  </templates>
+  <templates uuid="8d40d5bb-81b6-4547-9a12-c7b40a354fed">
+    <name>СтруктураXML502</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура XML502</value>
+    </synonym>
+  </templates>
+  <templates uuid="59d65837-b08e-4837-8c07-70b5dc8e365e">
+    <name>ФормаОтчета2011кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2011кв1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="f50e1506-2578-45d8-a99e-168f2f293738">
+    <name>ФормаОтчета2014кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2014кв1 титульный</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

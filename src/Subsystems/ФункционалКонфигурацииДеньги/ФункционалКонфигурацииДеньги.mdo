@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b299b25b-ad79-44b5-abbd-c711860b5e36">
+  <name>ФункционалКонфигурацииДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функционал конфигурации 1С:Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Sequence.ВводИзменениеОстатков</content>
+  <subsystems>БазовыйФункционалУчетаДенег</subsystems>
+  <subsystems>Бюджетирование</subsystems>
+  <subsystems>ВспомогательныйФункционал</subsystems>
+  <subsystems>ДополнительнаяАналитика</subsystems>
+  <subsystems>ИнтеграцияСБанками</subsystems>
+  <subsystems>ОбменОбщийФункционал</subsystems>
+  <subsystems>ОбменСМобильнымПриложением</subsystems>
+  <subsystems>ОтчетностьНДФЛ</subsystems>
+  <subsystems>ОтчетыКонфигурации</subsystems>
+  <subsystems>ПоддержкаПользователейДеньги</subsystems>
+  <subsystems>ПрикрепленныеФайлы</subsystems>
+  <subsystems>СервисыХраненияФайлов</subsystems>
+  <subsystems>УчетДолгов</subsystems>
+  <subsystems>УчетДоходовРасходовИАналитика</subsystems>
+  <subsystems>УчетИмущества</subsystems>
+  <subsystems>ФинансовыеЦелиИНакопления</subsystems>
+  <subsystems>ШаблоныОперацийИКалендарь</subsystems>
+  <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="132aa93a-dc19-489b-8cfe-3a2396e2bb40">
+  <name>ВыделенныйМодульБРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выделенный модуль БРО</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

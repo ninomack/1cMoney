@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc464a7a-0eee-4d4a-8fb0-0abef689929e">
+  <name>ВалютаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта учета</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+</mdclass:SessionParameter>

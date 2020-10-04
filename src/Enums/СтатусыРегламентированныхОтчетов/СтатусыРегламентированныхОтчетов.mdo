@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95fefa62-433c-46a5-a549-74b20621ad63">
+  <producedTypes>
+    <refType typeId="b85e820e-fd2f-4f0b-a818-0a1bd6121ad4" valueTypeId="a8237ec5-8b71-4473-97d8-7b6ebdb17efe"/>
+    <listType typeId="5986f2fe-0735-4e73-8c15-645a226366e1" valueTypeId="eb73870b-4aad-4abc-9fad-79abf0ecfa49"/>
+    <managerType typeId="a045e2a5-99de-4071-be8a-c09f7f7de07b" valueTypeId="5c55dbe9-c2d3-4f7a-b48a-4aec6245062b"/>
+  </producedTypes>
+  <name>СтатусыРегламентированныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы регламентированных отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f7ab8e33-fc90-4a5b-860a-866af008667f">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e499e4bf-76dd-459a-b0db-758a3772c8aa">
+    <name>Подготовлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91a08cd3-d5e6-409b-9989-96a1e3fd4ed6">
+    <name>Сдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

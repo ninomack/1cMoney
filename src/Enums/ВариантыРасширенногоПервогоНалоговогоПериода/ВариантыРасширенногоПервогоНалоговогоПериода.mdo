@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b4aa650-84cb-4102-90d8-724c19ced58e">
+  <producedTypes>
+    <refType typeId="76c02a65-f774-40e0-af10-692b2b8edaff" valueTypeId="3fb4f1a1-a48c-46e9-84a5-245ae8579c94"/>
+    <listType typeId="0041949b-2298-4339-a16c-e620cafc4dcd" valueTypeId="996dc6d6-66a9-4db4-a9eb-60f3e1e3a46e"/>
+    <managerType typeId="d4bfc4b3-bcd0-47b3-b327-3744d91a9cd0" valueTypeId="b8c04a52-19a6-4c70-8b7f-94cf6c493b98"/>
+  </producedTypes>
+  <name>ВариантыРасширенногоПервогоНалоговогоПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расширенного первого налогового периода</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="09414ed9-d08e-4f46-aeeb-e8be49c7f38e">
+    <name>НеПредусмотрен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не предусмотрен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20ca56cb-96db-4cbd-9baf-a17163943340">
+    <name>РегистрацияВДекабре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация в декабре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5df89150-271b-4d7d-9a7a-3ada9eed8a21">
+    <name>РегистрацияВПоследние10ДнейКвартала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация в последние 10 дней квартала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99e8d48b-0c5c-4908-9dfa-6eef6c0545e6">
+    <name>РегистрацияВПоследнемКвартале</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация в последнем квартале</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0aa478e-f4a2-414f-9f1c-63166f00a6b4">
+    <name>МесяцПостановкиНаУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц постановки на учет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

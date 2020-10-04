@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27138c6b-4dbe-438b-8c9b-3ec7c7444394">
+  <producedTypes>
+    <objectType typeId="17674ae2-200f-4a4a-b6a6-6ddb2b1173a3" valueTypeId="f31dc09d-7849-4f65-8da6-158aa115ae31"/>
+    <managerType typeId="f0a55fa6-6836-4e6b-b428-a124cac25493" valueTypeId="87c20483-6585-4cc7-9d88-3ffd32f5ee29"/>
+  </producedTypes>
+  <name>НачальнаяСтраница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальная страница</value>
+  </synonym>
+  <defaultForm>DataProcessor.НачальнаяСтраница.Form.Обзор</defaultForm>
+  <forms uuid="cf6ebda0-8ea0-4037-bc56-8f8b32535a20">
+    <name>Обзор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обзор</value>
+    </synonym>
+    <comment>Обзор финансовой ситуации на начальной странице</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c104319f-b6ea-4085-9e5a-3ce4305783dd">
+    <name>НастройкаОбзора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обзора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de468923-f815-40f6-886e-344f2b434e87">
+    <name>НастройкаАналитическогоИндикатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка аналитического индикатора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9cba6195-0f4e-46af-aafa-7c0173e96d0b">
+    <name>НастройкаИндикатораОстатка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка индикатора остатка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

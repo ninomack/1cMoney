@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b18e2d39-98c3-41b1-b3e7-b3c95bf50c07">
+  <producedTypes>
+    <objectType typeId="84fc2565-5242-407a-9a39-0ee2d81b7ed3" valueTypeId="121aab45-41cf-49cf-9cb1-e3fc12ea87f5"/>
+    <managerType typeId="67f13677-0298-45ba-aaf5-027b08e6394c" valueTypeId="ad6911c9-02c2-4e59-ba67-82e8533f947a"/>
+  </producedTypes>
+  <name>ОтчетПоИмуществу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по имуществу</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоИмуществу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="375f8991-89b0-4316-a0b7-31b5ac319ec2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fd2d5986-559a-4003-ba4f-8aab2b9d9bd9">
+    <name>СтоимостьИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость имущества</value>
+    </synonym>
+    <group>CommandGroup.ПанельДействийОтчетыПоОстаткам</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="cf4322b0-7811-489e-b298-62e8f4990d30">
+    <name>ОперацииСИмуществом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции с имуществом</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Имущество</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Report</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86312719-e1cd-4658-b1c0-cf224f6cc731">
+  <producedTypes>
+    <refType typeId="6b7760d4-05b6-4132-853c-965d9af85bfd" valueTypeId="1a333b3c-0fd3-4e71-997f-7d6ba8394cee"/>
+    <listType typeId="aa286b15-d6e5-4f27-a89c-4b8100ad5c93" valueTypeId="68023aca-ceb8-45a1-b2ae-200c898732b2"/>
+    <managerType typeId="4243d559-4a97-4006-a0a9-45258f3740ea" valueTypeId="94428329-9081-4f1c-b792-0b45db6f943f"/>
+  </producedTypes>
+  <name>ВариантыПериодичностиМГ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты периодичности (для месяца, года)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="fea0f9e7-4f7f-43ea-8bab-1963e636f756">
+    <name>ЧислоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4f21541-f8db-4f2b-ab96-baa7daf2ffaf">
+    <name>ДеньМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>День месяца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

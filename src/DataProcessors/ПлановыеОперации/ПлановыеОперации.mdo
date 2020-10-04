@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff0d8e61-34cb-45db-8974-b5ead58104fe">
+  <producedTypes>
+    <objectType typeId="b5697ee5-28f9-48b8-9503-25f4f85df523" valueTypeId="ba7f1483-80fb-405c-a894-5b6b494b9127"/>
+    <managerType typeId="3d4b9b2a-4160-4463-b54f-1237851e8762" valueTypeId="77a38d83-738e-418b-ab36-e36fe4e722f3"/>
+  </producedTypes>
+  <name>ПлановыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПлановыеОперации.Form.ФормаКалендаря</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="19daacc8-29e6-46eb-b75b-0b1a1cec8d45">
+    <name>ФормаВыбораМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора месяца</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a245c5f7-5d2f-4a9f-a9b4-8de987b0eac3">
+    <name>ФормаКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма календаря</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e1786e6-33c7-4d40-807e-c8c306a5b57b">
+    <name>ФормаВыбораКошельков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора кошельков</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2701e084-9ade-4e56-9342-3210939d3827">
+    <name>ОперацииЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции за период</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bab1bf8f-8696-4f6f-81da-5a94f56f1130">
+    <name>СписокНевыполненныхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список невыполненных операций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

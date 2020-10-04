@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f3d6d04-135b-4a21-bd73-294106705cc3">
+  <name>СинхронизацияАвтономныхКопийЭтоЦентральнаяБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация автономных копий это центральная база</value>
+  </synonym>
+  <location>Constant.СинхронизацияАвтономныхКопийЭтоЦентральнаяБаза</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

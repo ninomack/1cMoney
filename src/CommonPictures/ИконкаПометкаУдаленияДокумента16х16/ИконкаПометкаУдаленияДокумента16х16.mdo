@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec13688-fbae-4082-b1af-80196bf69bf2">
+  <name>ИконкаПометкаУдаленияДокумента16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иконка пометка удаления (документа)</value>
+  </synonym>
+</mdclass:CommonPicture>

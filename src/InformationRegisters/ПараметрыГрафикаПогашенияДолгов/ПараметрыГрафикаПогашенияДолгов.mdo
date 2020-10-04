@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced3b669-48a3-49ff-b702-2d0de64c37f3">
+  <producedTypes>
+    <selectionType typeId="81263028-1e1c-4438-a29e-1ca7671fe413" valueTypeId="1ca58cd9-6c41-4c55-b4b6-90471b6dc9dc"/>
+    <listType typeId="5e3b900f-3489-4c84-9bdc-ae3d803a01ff" valueTypeId="8d3d515e-421e-43c0-8274-d963cf3f09c3"/>
+    <managerType typeId="64bd6435-0d9e-4270-8494-17ee7c347869" valueTypeId="7f78be44-6868-4a29-b154-0adff85e6dc6"/>
+    <recordSetType typeId="4469a0e1-6657-4941-8b1c-ca6c69080152" valueTypeId="f6bdb3e6-fdd9-49d9-a285-a14d0dcceebc"/>
+    <recordKeyType typeId="5af202cc-2490-4a52-b4ff-382957a5b261" valueTypeId="993d17e9-a7ce-4943-a59f-4a42aeebd5c5"/>
+    <recordType typeId="e564e6a5-df68-42c6-82e8-b17316acfc71" valueTypeId="22a6021d-0320-43e7-b67c-713716e681bb"/>
+    <recordManagerType typeId="5f7a555a-69f9-47d1-9f7a-6ab256287fa0" valueTypeId="ed17bdc5-5851-4114-b5ee-f43217c1640e"/>
+  </producedTypes>
+  <name>ПараметрыГрафикаПогашенияДолгов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры графика погашения долгов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="29ea1f95-8126-4b5c-9c74-74f2cc084577">
+    <name>ДатаВозникновенияДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата возникновения долга</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2b4db9a1-c0a8-4a96-8522-166afae648c8">
+    <name>СуммаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма долга</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12a2ab73-6bcf-4eba-a35c-aa7bc4c97479">
+    <name>ПроцентнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="09ca0b8a-1c74-48bf-bbbc-2e9ed600af12">
+    <name>СуммаЕдиноразовойКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единоразовая комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4d55b5f-897c-4e42-b914-9f689f2e238b">
+    <name>СуммаЕжемесячнойКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячная комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="96d3e251-61c7-4624-87d4-e59393410e74">
+    <name>СпособПогашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ погашения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПогашенияКредита</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8ea457d1-b41b-4144-ba8e-4c0767759d34">
+    <name>СрокМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок (месяцев)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e6f79c6-b640-4aee-897f-f35020be473c">
+    <name>ПлановаяДатаПогашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата погашения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a3c9af74-8237-43ce-8faf-fbf4a303b17f">
+    <name>ДнейВГоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней в году</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5129e403-41b0-446a-8487-656972852988">
+    <name>ДеньМесяцаДляРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>День месяца для расчетов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bd0348ee-5330-4e81-8754-7fc9fe501f73">
+    <name>ДатаЗакрытияДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия долга</value>
+    </synonym>
+    <comment>С этой даты отменяются все плановые операции</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5550b335-916a-4c02-a3cf-6990bd10331a">
+    <name>НеПересчитыватьПриРедактировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не пересчитывать при редактировании</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1b72736b-0c92-44a1-ba4a-5c847ad014f0">
+    <name>ШаблонОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон операции</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.МыВернулиДолг</types>
+      <types>DocumentRef.НамВернулиДолг</types>
+      <types>DocumentRef.УниверсальнаяОперация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0cdac2a8-61e6-4259-8db1-6001ccce9241">
+    <name>КошелекДляПогашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошелек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КошелькиИСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Валюта</name>
+      <field>0:b9b3d5d1-1b42-4292-9042-2b2ff4b930dd</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="364c1c4d-12ff-4b3c-8c93-f677ee747c28">
+    <name>ФинансоваяЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансовая цель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФинансовыеЦели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ФинансовыеЦели.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="fe876391-e083-4ce3-aa26-b88b8e92513b">
+    <name>СтатьяДляУчетаПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья учета процентов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2108d78f-c92f-4075-b58c-5c8481a681d8">
+    <name>СтатьяЕдиноразовойКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья единоразовой комисии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eac252df-3c98-493c-9e9c-0184751ea917">
+    <name>СтатьяЕжемесячнойКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья ежемесячной комиссии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиРасходов</types>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a2a182e5-cf46-4132-9bd3-7348d5e88c48">
+    <name>Долг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Долги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

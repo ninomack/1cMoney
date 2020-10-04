@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="357e63dc-3be9-4c60-8598-fe3f045b4071">
+  <producedTypes>
+    <managerType typeId="247e32d9-54a9-4494-b167-150a2e65a521" valueTypeId="b667c336-7da0-4c82-a730-7e0f82258731"/>
+    <valueManagerType typeId="571eb514-6e27-4e55-99b9-cde1b12b8a51" valueTypeId="0c9fa8a7-6783-455a-a091-0771d5eae5ac"/>
+    <valueKeyType typeId="bb3af64f-62b3-55d0-964f-adfaa0aa8981" valueTypeId="e719e489-791a-5060-96c9-2396b79c31f7"/>
+  </producedTypes>
+  <name>ДеньгиВыбранныйСпособСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги выбранный способ синхронизации</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыСинхронизацииДанных</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

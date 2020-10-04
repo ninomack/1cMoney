@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c147eac-d7a4-4ebd-b429-dc11299303d9">
+  <name>СинхронизацияДомашняяСеть24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация домашняя сеть24</value>
+  </synonym>
+</mdclass:CommonPicture>

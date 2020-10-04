@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f9d1f19-5b0e-4fdc-af4a-86b3587a7645">
+  <name>ПосмотретьДвижения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посмотреть записи в учете</value>
+  </synonym>
+  <comment>Посмотреть записи в учете</comment>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.ОбменВалюты</types>
+    <types>DocumentRef.ВводИзменениеОстатка</types>
+    <types>DocumentRef.Доход</types>
+    <types>DocumentRef.МыВзялиВДолг</types>
+    <types>DocumentRef.МыВернулиДолг</types>
+    <types>DocumentRef.НамВернулиДолг</types>
+    <types>DocumentRef.МыДалиВДолг</types>
+    <types>DocumentRef.Перемещение</types>
+    <types>DocumentRef.Расход</types>
+    <types>DocumentRef.УниверсальнаяОперация</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.AccumulationRegister</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

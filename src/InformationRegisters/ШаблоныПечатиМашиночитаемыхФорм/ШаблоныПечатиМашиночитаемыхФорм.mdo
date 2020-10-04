@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe5d55d5-d751-4564-bba2-f23501045f36">
+  <producedTypes>
+    <selectionType typeId="ef8d6dc9-42fb-4323-9fbc-e9d4907caf11" valueTypeId="27ec0283-5984-48d5-8fcf-240d5f42ab57"/>
+    <listType typeId="76f98a77-9994-4e0e-a963-76effa787f2d" valueTypeId="f753c35d-0e16-4fa5-bed3-30e409ef632e"/>
+    <managerType typeId="54fbcda8-7501-47e0-8a68-0e373830dec7" valueTypeId="52d67e9f-0ba8-4caf-a1c6-d6832b860090"/>
+    <recordSetType typeId="70300b37-1235-43d0-9f61-e9e7af718759" valueTypeId="480640b6-edc6-4389-b243-8f15b992b67d"/>
+    <recordKeyType typeId="cc9256ad-290b-4472-88ac-49cb707129c6" valueTypeId="d6fc875d-277e-4505-b288-9af1283be8f8"/>
+    <recordType typeId="af0b0827-1abc-4cd3-9061-ef35b49843ba" valueTypeId="8ac66d7b-cf13-4390-bbfe-c26a1c64e491"/>
+    <recordManagerType typeId="0bf47a13-d004-489e-8872-53d7303d2a1d" valueTypeId="75290f89-ff74-4b44-9a98-551aa64c516f"/>
+  </producedTypes>
+  <name>ШаблоныПечатиМашиночитаемыхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны печати машиночитаемых форм</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ШаблоныПечатиМашиночитаемыхФорм.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="7e43c6f4-dbe7-4dde-9ebc-0d0b186d977e">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="dd867eb0-b0dc-453e-9bbd-4bc7bde4db49">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfca962f-55f8-4961-837a-5c8714934480">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="935b25c7-9514-493b-b4f7-dac3a1c95909">
+    <name>ИмяФайлаШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла шаблона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="55e58992-8992-4910-b273-bffa18722f8d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
