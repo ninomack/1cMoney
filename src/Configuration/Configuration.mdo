@@ -19,8 +19,8 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>2.0.35.38</version>
+  <vendor>Ушаков М.А</vendor>
+  <version>1.0</version>
   <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
   <help>
     <pages>
